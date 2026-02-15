@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base frame -->
+  <line x1="60" y1="215" x2="340" y2="215" stroke="#2563eb" stroke-width="3"/>
+  <!-- Main support columns -->
+  <line x1="140" y1="80" x2="140" y2="215" stroke="#2563eb" stroke-width="4"/>
+  <line x1="260" y1="80" x2="260" y2="215" stroke="#2563eb" stroke-width="4"/>
+  <!-- Top connecting bar -->
+  <line x1="140" y1="80" x2="260" y2="80" stroke="#2563eb" stroke-width="3"/>
+  <!-- Guided rails (vertical movement) -->
+  <line x1="165" y1="90" x2="165" y2="180" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <line x1="235" y1="90" x2="235" y2="180" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <!-- Handles (start position - mid thigh) -->
+  <rect x="155" y="155" width="10" height="20" rx="3" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <rect x="235" y="155" width="10" height="20" rx="3" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <!-- Connecting bar between handles -->
+  <line x1="165" y1="165" x2="235" y2="165" stroke="#2563eb" stroke-width="3"/>
+  <!-- Weight stack connection -->
+  <rect x="185" y="150" width="30" height="20" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Cable to weight -->
+  <line x1="200" y1="170" x2="200" y2="190" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,2"/>
+  <!-- Weight stack -->
+  <rect x="180" y="190" width="40" height="20" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="180" y1="200" x2="220" y2="200" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Chest pad (for stability) -->
+  <rect x="185" y="125" width="30" height="25" rx="4" stroke="#2563eb" stroke-width="2.5" fill="#2563eb" opacity="0.15"/>
+  <!-- Simple stick figure (standing, hands on handles) -->
+  <circle cx="200" cy="100" r="8" stroke="#64748b" stroke-width="2" fill="none"/>
+  <line x1="200" y1="108" x2="200" y2="140" stroke="#64748b" stroke-width="2"/>
+  <line x1="200" y1="115" x2="165" y2="160" stroke="#64748b" stroke-width="2"/>
+  <line x1="200" y1="115" x2="235" y2="160" stroke="#64748b" stroke-width="2"/>
+  <line x1="200" y1="140" x2="185" y2="170" stroke="#64748b" stroke-width="2"/>
+  <line x1="200" y1="140" x2="215" y2="170" stroke="#64748b" stroke-width="2"/>
+  <!-- Base support -->
+  <line x1="100" y1="200" x2="100" y2="215" stroke="#2563eb" stroke-width="3"/>
+  <line x1="300" y1="200" x2="300" y2="215" stroke="#2563eb" stroke-width="3"/>
+</svg>

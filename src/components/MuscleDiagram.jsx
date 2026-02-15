@@ -2,57 +2,107 @@ import { useState, useMemo } from 'react';
 import './MuscleDiagram.css';
 
 // Muscle name mapping to SVG path IDs
+// Reference: MUSCLE_NAMING_GLOSSARY.md for standardized terminology
 const MUSCLE_MAP = {
-  // Chest
+  // ========== STANDARDIZED NAMES (v1.0) ==========
+  // Format: "Common Name (Anatomical Clarification)"
+
+  // Legs - Standardized
+  'Quadriceps (Front Thighs)': ['quads'],
+  'Hamstrings (Back Thighs)': ['hamstrings'],
+  'Glutes (Buttocks)': ['glutes'],
+  'Calves (Gastrocnemius & Soleus)': ['calves'],
+  'Hip Adductors (Inner Thighs)': ['hip-adductors'],
+  'Hip Abductors (Outer Thighs)': ['hip-abductors'],
+
+  // Chest - Standardized
+  'Chest (Pectoralis Major)': ['chest'],
+  'Upper Chest (Upper Pectorals)': ['chest-upper'],
+  'Lower Chest (Lower Pectorals)': ['chest-lower'],
+
+  // Back - Standardized
+  'Lats (Latissimus Dorsi)': ['lats'],
+  'Middle Back (Rhomboids & Traps)': ['rhomboids', 'traps-middle'],
+  'Lower Back (Erector Spinae)': ['lower-back'],
+  'Traps (Trapezius)': ['traps-upper', 'traps-middle'],
+
+  // Shoulders - Standardized
+  'Front Shoulders (Anterior Deltoids)': ['deltoids-front'],
+  'Side Shoulders (Lateral Deltoids)': ['deltoids-side'],
+  'Rear Shoulders (Posterior Deltoids)': ['deltoids-rear'],
+  'Rotator Cuff (Shoulder Stabilizers)': ['rotator-cuff'],
+
+  // Arms - Standardized
+  'Biceps (Front of Upper Arm)': ['biceps'],
+  'Triceps (Back of Upper Arm)': ['triceps'],
+  'Forearms (Brachioradialis & Wrist Flexors)': ['forearms'],
+  'Brachialis (Elbow Flexor)': ['biceps'],
+
+  // Core - Standardized
+  'Abs (Rectus Abdominis)': ['abs'],
+  'Obliques (Side Abs)': ['obliques'],
+  'Deep Core (Transverse Abdominis)': ['abs'],
+  'Hip Flexors (Iliopsoas)': ['hip-flexors'],
+
+  // Cardio - Standardized
+  'Cardiovascular System (Heart & Lungs)': [],
+
+  // ========== LEGACY NAMES (Backward Compatibility) ==========
+  // Keep these for existing machine data during migration
+  // Will be removed once all machines are updated
+
+  // Chest - Legacy
   'Chest (Pectorals)': ['chest'],
-  'Upper Chest (Pectorals)': ['chest-upper'],
-  'Lower Chest (Pectorals)': ['chest-lower'],
   'Chest': ['chest'],
 
-  // Back
+  // Back - Legacy
   'Latissimus Dorsi': ['lats'],
   'Middle Back (Rhomboids)': ['rhomboids'],
   'Rhomboids': ['rhomboids'],
-  'Lower Back (Erector Spinae)': ['lower-back'],
   'Erector Spinae (Lower Back)': ['lower-back'],
   'Erector Spinae': ['lower-back'],
 
-  // Shoulders
+  // Shoulders - Legacy
   'Deltoids (Shoulders)': ['deltoids'],
   'Front Deltoids': ['deltoids-front'],
   'Lateral Deltoids (Side Shoulders)': ['deltoids-side'],
   'Rear Deltoids': ['deltoids-rear'],
   'Upper Trapezius': ['traps-upper'],
   'Middle Trapezius': ['traps-middle'],
-  'Rotator Cuff': ['rotator-cuff'],
+  'Trapezius': ['traps-upper', 'traps-middle'],
 
-  // Arms
+  // Arms - Legacy
   'Biceps': ['biceps'],
   'Brachialis': ['biceps'],
+  'Brachioradialis': ['forearms'],
   'Triceps': ['triceps'],
   'Triceps (Long Head)': ['triceps'],
   'Triceps (Medial Head)': ['triceps'],
   'Forearms': ['forearms'],
 
-  // Core
+  // Core - Legacy
   'Rectus Abdominis (Six-Pack Muscles)': ['abs'],
+  'Rectus Abdominis': ['abs'],
+  'Rectus Abdominis (Lower Abs)': ['abs'],
   'Obliques': ['obliques'],
   'Transverse Abdominis': ['abs'],
   'Core Stabilizers': ['abs', 'obliques'],
+  'Core': ['abs', 'obliques'],
 
-  // Legs
+  // Legs - Legacy
   'Quadriceps': ['quads'],
   'Hamstrings': ['hamstrings'],
   'Glutes': ['glutes'],
   'Gluteus Medius': ['glutes'],
   'Calves': ['calves'],
-  'Hip Abductors (Outer Thighs)': ['hip-abductors'],
-  'Hip Adductors (Inner Thighs)': ['hip-adductors'],
+  'Calves (Gastrocnemius)': ['calves'],
   'Gracilis': ['hip-adductors'],
 
-  // Generic/Full Body
+  // Generic/Full Body - Legacy (only for cardio machines)
   'Legs': ['quads', 'hamstrings', 'glutes', 'calves'],
   'Arms': ['biceps', 'triceps'],
+  'Back': ['lats', 'rhomboids', 'lower-back'],
+  'Shoulders': ['deltoids-front', 'deltoids-side', 'deltoids-rear'],
   'Heart & Lungs (Cardio)': []
 };
 

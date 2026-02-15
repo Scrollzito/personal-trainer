@@ -7,37 +7,52 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/leg-press.svg",
       "shortDescription": "Strengthens your thighs and glutes by pushing a weighted platform away with your feet. Great for building leg strength without needing to balance a barbell.",
-      "musclesWorked": ["Quadriceps", "Glutes", "Hamstrings"],
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Sit down in the machine and place your back flat against the padded seat. Put your feet on the platform about shoulder-width apart.",
-          "tip": "Your feet should be flat on the platform, not just your toes."
+          "text": "Sit down in the machine and place your entire back flat against the padded seat. Position your feet on the platform shoulder-width apart with toes pointing slightly outward (10-15 degrees).",
+          "tip": "Your feet should be flat on the platform, not just your toes. Higher foot placement emphasizes glutes more, lower placement targets quads."
         },
         {
           "number": 2,
-          "text": "Grip the side handles and release the safety locks by pushing the platform slightly and turning the handles.",
-          "tip": "Make sure you know where the safety locks are before you start."
+          "text": "Grip the side handles firmly and release the safety locks by pushing the platform slightly and turning the handles outward.",
+          "tip": "Make sure you know where the safety locks are before you start. Keep your hands on the handles throughout the exercise."
         },
         {
           "number": 3,
-          "text": "Slowly bend your knees and lower the platform toward your chest. Stop when your knees are at about a 90-degree angle.",
-          "tip": "Don't let your lower back lift off the seat."
+          "text": "Slowly bend your knees and lower the platform toward your chest in a controlled motion. Stop when your knees reach about 90 degrees or just before your lower back starts to round off the pad.",
+          "tip": "Don't let your lower back lift off the seat - this is critical for spine safety. Your knees should track in line with your toes, not caving inward."
         },
         {
           "number": 4,
-          "text": "Push the platform back up by straightening your legs. Don't lock your knees completely at the top.",
-          "tip": "Breathe out as you push up, breathe in as you lower."
+          "text": "Push through your heels to drive the platform back up by straightening your legs. Keep a slight bend in your knees at the top - never lock them out completely.",
+          "tip": "Breathe out as you push up, breathe in as you lower. You should feel this working your front thighs and glutes, not your lower back."
         }
       ],
       "safetyWarnings": [
-        "Never lock your knees fully straight — this can cause injury.",
-        "Start with a light weight until you feel comfortable with the movement.",
-        "Always engage the safety locks when you're done."
+        "Never lock your knees fully straight at the top - this puts dangerous stress on your knee joints and can cause hyperextension injuries.",
+        "Stop lowering immediately if your lower back starts to round or lift off the pad - this indicates you've gone too deep for your hip mobility and risks lower back injury.",
+        "If you have knee pain, lower back issues, or hip problems, consult a trainer or physical therapist before using this machine.",
+        "Start with light weight until you feel comfortable with the movement. Your form should never break down to move heavier weight.",
+        "Always re-engage the safety locks before getting off the machine. Never step away from a loaded leg press without locks engaged.",
+        "Keep your head and shoulders pressed against the backrest throughout - don't crane your neck forward to watch your legs."
       ],
       "youtubeVideoId": "IZxyjW7MPJQ",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["legs", "lower body", "quad", "glute", "thighs", "beginner-friendly"]
+      "tags": [
+        "legs",
+        "lower body",
+        "quad",
+        "glute",
+        "thighs",
+        "beginner-friendly",
+        "compound"
+      ]
     },
     {
       "id": "lat-pulldown",
@@ -46,37 +61,52 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/lat-pulldown.svg",
       "shortDescription": "Builds the large muscles in your back by pulling a bar down toward your chest. It's like doing a pull-up, but the machine helps you control the weight.",
-      "musclesWorked": ["Latissimus Dorsi", "Biceps", "Rear Deltoids"],
+      "musclesWorked": [
+        "Lats (Latissimus Dorsi)",
+        "Biceps (Front of Upper Arm)",
+        "Middle Back (Rhomboids & Traps)",
+        "Rear Shoulders (Posterior Deltoids)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Sit down and adjust the thigh pad so it fits snugly over your legs to keep you from lifting up.",
-          "tip": "You should be able to sit comfortably without sliding around."
+          "text": "Sit down and adjust the thigh pad so it fits snugly over your legs. Your knees should be at about a 90-degree angle when seated.",
+          "tip": "The pad prevents you from lifting up during the pull. Test it by trying to stand - you shouldn't be able to."
         },
         {
           "number": 2,
-          "text": "Reach up and grab the wide bar with both hands, slightly wider than shoulder-width apart. Your palms should face away from you.",
-          "tip": "Don't grip too wide — your hands should be just outside your shoulders."
+          "text": "Reach up and grab the wide bar with both hands, palms facing away, hands positioned just outside shoulder-width. Sit back with your chest up and a slight lean back (about 10-15 degrees).",
+          "tip": "Imagine trying to show off a logo on your chest - this position helps target your lats. Don't grip excessively wide; hands should be just beyond your shoulders."
         },
         {
           "number": 3,
-          "text": "Pull the bar down smoothly toward the top of your chest while squeezing your shoulder blades together.",
-          "tip": "Imagine you're trying to put your shoulder blades in your back pockets."
+          "text": "Pull the bar down smoothly toward your upper chest while driving your elbows down and back. Squeeze your shoulder blades together at the bottom.",
+          "tip": "Think about pulling your elbows into your back pockets, not just bending your arms. You should feel this in the sides of your back, not just your arms."
         },
         {
           "number": 4,
-          "text": "Slowly let the bar go back up with control. Don't let it snap back.",
-          "tip": "The slow return is just as important as the pull."
+          "text": "Slowly release the bar back up with control until your arms are fully extended overhead. Keep tension in your lats - don't let your shoulders shrug up.",
+          "tip": "Take 2-3 seconds to lower back up. The slow return builds strength just as much as the pull. Breathe in as you extend, out as you pull."
         }
       ],
       "safetyWarnings": [
-        "Don't pull the bar behind your neck — always pull to the front of your chest.",
-        "Avoid leaning too far back; a slight lean is okay.",
-        "Start light to learn proper form."
+        "Never pull the bar behind your neck - this puts dangerous stress on your shoulder joints. Always pull to the front of your chest.",
+        "Avoid leaning too far back (beyond 15 degrees) - excessive lean reduces lat activation and stresses the lower back.",
+        "If you have shoulder impingement or rotator cuff issues, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your shoulders or elbows - dull muscle fatigue is normal, sharp joint pain is not.",
+        "Start with light weight to learn proper form. You should be able to complete all reps without swinging or using momentum.",
+        "Don't let the weight stack slam down between reps - maintain control to protect your shoulder joints."
       ],
       "youtubeVideoId": "CAwf7n6Luuc",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["back", "upper body", "lats", "pull", "beginner-friendly"]
+      "tags": [
+        "back",
+        "upper body",
+        "lats",
+        "pull",
+        "beginner-friendly",
+        "compound"
+      ]
     },
     {
       "id": "chest-press",
@@ -85,37 +115,52 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/chest-press.svg",
       "shortDescription": "Strengthens your chest, shoulders, and arms by pushing handles away from your body. Much safer than a bench press for beginners because the machine guides the movement.",
-      "musclesWorked": ["Chest (Pectorals)", "Triceps", "Front Deltoids"],
+      "musclesWorked": [
+        "Chest (Pectoralis Major)",
+        "Front Shoulders (Anterior Deltoids)",
+        "Triceps (Back of Upper Arm)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Adjust the seat height so the handles are at chest level. Sit with your back flat against the pad.",
-          "tip": "The handles should line up with the middle of your chest."
+          "text": "Adjust the seat height so the handles align with the middle of your chest (nipple line). Sit with your entire back and head flat against the pad, feet flat on the floor.",
+          "tip": "The handles should be at chest level, not at your shoulders or stomach. Test the height without weight first."
         },
         {
           "number": 2,
-          "text": "Grab the handles with both hands. Your elbows should be out to the sides, roughly level with your shoulders.",
-          "tip": "If you have to reach too far back, the seat might be too far forward."
+          "text": "Grab the handles with both hands using an overhand grip, hands slightly wider than shoulder-width. Your elbows should be out to the sides at shoulder height, forming a 90-degree angle.",
+          "tip": "If you have to reach too far back or your elbows are behind your shoulders, move the seat closer to the handles."
         },
         {
           "number": 3,
-          "text": "Push the handles forward until your arms are almost straight. Don't lock your elbows.",
-          "tip": "Breathe out as you push, breathe in as you return."
+          "text": "Push the handles forward in a straight line until your arms are almost fully extended. Stop just before your elbows lock out completely.",
+          "tip": "Breathe out as you push. Focus on squeezing your chest muscles together. You should feel this working your chest, not your shoulders or neck."
         },
         {
           "number": 4,
-          "text": "Slowly bring the handles back toward your chest with control.",
-          "tip": "Don't let the weight stack slam — keep it smooth."
+          "text": "Slowly bring the handles back toward your chest with control, taking 2-3 seconds for the return. Stop when your hands are in line with your chest.",
+          "tip": "Breathe in as you return. Don't let the weight stack slam or crash - this protects your shoulder joints and keeps tension on the muscles."
         }
       ],
       "safetyWarnings": [
-        "Adjust the seat before adding weight.",
-        "Don't arch your back off the pad while pushing.",
-        "Start with a low weight to get the feel of the machine."
+        "Always adjust the seat height before adding weight - the handles must align with mid-chest level to protect your shoulders from injury.",
+        "Never arch your lower back off the pad while pushing - this puts dangerous stress on your spine and reduces chest activation.",
+        "If you have shoulder impingement, rotator cuff issues, or recent shoulder injuries, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your shoulders or elbows - muscle fatigue is normal, joint pain is not.",
+        "Don't lock your elbows at full extension - maintain a slight bend to protect your elbow joints.",
+        "Start with light weight to master the movement pattern. Proper form is more important than heavy weight."
       ],
       "youtubeVideoId": "xUm0BiZCWlQ",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["chest", "upper body", "push", "pecs", "triceps", "beginner-friendly"]
+      "tags": [
+        "chest",
+        "upper body",
+        "push",
+        "pecs",
+        "triceps",
+        "beginner-friendly",
+        "compound"
+      ]
     },
     {
       "id": "seated-cable-row",
@@ -124,37 +169,52 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/seated-cable-row.svg",
       "shortDescription": "Works your back muscles by pulling a handle toward your stomach while seated. Great for improving posture and building a strong back.",
-      "musclesWorked": ["Middle Back (Rhomboids)", "Latissimus Dorsi", "Biceps"],
+      "musclesWorked": [
+        "Lats (Latissimus Dorsi)",
+        "Middle Back (Rhomboids & Traps)",
+        "Biceps (Front of Upper Arm)",
+        "Rear Shoulders (Posterior Deltoids)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Sit on the bench and place your feet on the foot platforms. Grab the handle with both hands.",
-          "tip": "Keep a slight bend in your knees — don't lock them out."
+          "text": "Sit on the bench with your feet firmly planted on the foot platforms, knees slightly bent (not locked). Reach forward and grab the handle with both hands using an overhand, neutral, or underhand grip depending on the attachment.",
+          "tip": "Your legs should be nearly straight with a slight bend at the knees. This stable base prevents you from rocking excessively during the movement."
         },
         {
           "number": 2,
-          "text": "Sit up tall with your chest out and shoulders back. This is your starting position.",
-          "tip": "Think about sitting up proud, like someone is taking your photo."
+          "text": "Sit up tall with your chest up, shoulders back, and spine neutral. Your torso should be nearly vertical (or leaning back slightly 10-15 degrees). This is your starting position.",
+          "tip": "Think about sitting up proud with your chest out, like someone is taking your photo. Engage your core to keep your torso stable."
         },
         {
           "number": 3,
-          "text": "Pull the handle toward your belly button, squeezing your shoulder blades together as you pull.",
-          "tip": "Keep your elbows close to your body."
+          "text": "Pull the handle toward your lower chest or upper abdomen by driving your elbows straight back. Focus on squeezing your shoulder blades together hard at the end of the pull.",
+          "tip": "Breathe out as you pull. Think about pulling your elbows into your back pockets. You should feel this working your mid-back and lats, not just your arms."
         },
         {
           "number": 4,
-          "text": "Slowly extend your arms back out to the starting position without rounding your back.",
-          "tip": "Don't lean forward to chase the weight — stay upright."
+          "text": "Slowly extend your arms back out to the starting position, taking 2-3 seconds. Allow a slight forward lean (10-15 degrees) to get a full stretch, but keep your spine neutral - don't round your lower back.",
+          "tip": "Breathe in as you extend. Don't let the weight stack slam down. Maintain control and tension on your back muscles throughout."
         }
       ],
       "safetyWarnings": [
-        "Keep your back straight throughout the movement — don't hunch forward.",
-        "Don't use momentum or rock your body to pull the weight.",
-        "Start with a light weight and focus on feeling your back muscles work."
+        "Keep your torso upright and spine neutral throughout - avoid rounding your lower back forward, which puts dangerous stress on your spine.",
+        "Don't use momentum or rock your body excessively to pull the weight - a slight lean forward (10-15 degrees) at the start is okay, but avoid excessive rocking.",
+        "If you have lower back problems, shoulder impingement, or recent back injuries, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your lower back or shoulders - muscle fatigue in your back is normal, spinal or joint pain is not.",
+        "Pull the handle to your torso, not your neck or face - pulling too high can cause shoulder impingement.",
+        "Start with light weight to master the scapular retraction (squeezing shoulder blades together). Form matters more than weight."
       ],
       "youtubeVideoId": "GZbfZ033f74",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["back", "upper body", "row", "posture", "rhomboids", "beginner-friendly"]
+      "tags": [
+        "back",
+        "upper body",
+        "row",
+        "posture",
+        "rhomboids",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "leg-curl",
@@ -163,37 +223,49 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/leg-curl.svg",
       "shortDescription": "Targets the back of your thighs (hamstrings) by curling your legs toward your glutes. Simple movement that's easy to learn.",
-      "musclesWorked": ["Hamstrings", "Calves"],
+      "musclesWorked": [
+        "Hamstrings (Back Thighs)",
+        "Calves (Gastrocnemius & Soleus)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Lie face down on the machine (or sit, depending on the type). Adjust the pad so it rests on the back of your ankles, just above your heels.",
-          "tip": "The pad should NOT rest on your calves — it should be at your ankles."
+          "text": "Lie face down on the machine (or sit, depending on the type). Adjust the leg pad so it rests comfortably on the back of your lower legs, just above your heels (Achilles tendon area).",
+          "tip": "The pad should NOT rest on your calves - it should be at the lower part of your legs near your ankles. Your knees should align with the machine's pivot point."
         },
         {
           "number": 2,
-          "text": "Hold onto the handles to keep yourself steady.",
-          "tip": "Keep your hips pressed down against the bench."
+          "text": "Hold onto the handles to keep yourself steady. Keep your hips, torso, and chest pressed firmly against the bench throughout the entire movement.",
+          "tip": "Your body should stay flat and stable on the bench. Any lifting of your hips means the weight is too heavy or you're using momentum instead of muscle."
         },
         {
           "number": 3,
-          "text": "Curl your legs up toward your glutes by bending your knees. Squeeze at the top.",
-          "tip": "Go slowly and feel the muscles on the back of your thighs working."
+          "text": "Curl your legs up toward your glutes by bending your knees, aiming to bring your heels as close to your buttocks as comfortable. Squeeze your hamstrings hard at the top for 1 second.",
+          "tip": "Breathe out as you curl up. You should feel this working the back of your thighs, not your lower back. Move smoothly without jerking."
         },
         {
           "number": 4,
-          "text": "Slowly lower your legs back to the starting position.",
-          "tip": "Don't let the weight drop — control the movement on the way down."
+          "text": "Slowly lower your legs back to the starting position, taking 2-3 seconds for the descent. Return to legs straight but not locked.",
+          "tip": "Breathe in as you lower. Control the weight all the way down - don't let it crash. The lowering phase builds strength and helps prevent hamstring injuries."
         }
       ],
       "safetyWarnings": [
-        "Don't use a weight so heavy that your hips lift off the bench.",
-        "Keep the movement smooth — no jerking.",
-        "If you feel pain in your knees, stop and lower the weight."
+        "Never let your hips lift off the bench during the curl - this shifts stress to your lower back and reduces hamstring activation.",
+        "Avoid jerking or using momentum to swing the weight up - this can cause hamstring strains. Use smooth, controlled movements.",
+        "If you have hamstring injuries, lower back problems, or knee pain, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your hamstrings or knees - muscle fatigue is normal, sudden sharp pain may indicate a strain.",
+        "Keep your torso flat against the bench throughout - don't arch your back or lift your chest to help move the weight.",
+        "Start with light weight to learn proper form. Hamstrings are prone to injury when overloaded with poor technique."
       ],
       "youtubeVideoId": "1Tq3QdYUuHs",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["legs", "lower body", "hamstrings", "isolation", "beginner-friendly"]
+      "tags": [
+        "legs",
+        "lower body",
+        "hamstrings",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "leg-extension",
@@ -202,37 +274,49 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/leg-extension.svg",
       "shortDescription": "Targets the front of your thighs (quadriceps) by straightening your legs against resistance. One of the simplest gym machines to use.",
-      "musclesWorked": ["Quadriceps"],
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Sit on the machine with your back against the pad. Adjust the leg pad so it sits on top of your ankles (the front of your lower legs).",
-          "tip": "Your knees should be at the edge of the seat, bent at about 90 degrees."
+          "text": "Sit on the machine with your back fully against the pad. Adjust the back pad if needed, then position the leg pad so it rests comfortably on your shins, just above your ankles.",
+          "tip": "Your knees should align with the machine's pivot point and be at the edge of the seat, bent at about 90 degrees. If the pad is too high on your shins or too low on your feet, readjust before starting."
         },
         {
           "number": 2,
-          "text": "Hold the side handles for stability.",
-          "tip": "Keep your back pressed against the seat throughout."
+          "text": "Grip the side handles firmly for stability. Keep your entire back pressed against the backrest, maintaining contact throughout the movement.",
+          "tip": "Avoid gripping the seat or lifting your hips - this shifts the work away from your quads and can strain your lower back."
         },
         {
           "number": 3,
-          "text": "Straighten your legs by lifting the pad upward. Squeeze the front of your thighs at the top.",
-          "tip": "Don't swing or use momentum — use your muscles to lift."
+          "text": "Straighten your legs by lifting the pad upward in a smooth, controlled motion. Stop just before your knees fully lock out. Squeeze the front of your thighs at the top for 1 second.",
+          "tip": "Breathe out as you lift. You should feel this working the front of your thighs, not your knees. Avoid swinging or kicking the weight up explosively."
         },
         {
           "number": 4,
-          "text": "Slowly lower the weight back down to the starting position.",
-          "tip": "Go slow on the way down — that's where a lot of the benefit comes from."
+          "text": "Slowly lower the weight back down to the starting position, taking 2-3 seconds for the descent. Return to the 90-degree knee bend position.",
+          "tip": "Breathe in as you lower. The lowering phase (eccentric) is where much of the muscle building happens. Don't let the weight stack slam down."
         }
       ],
       "safetyWarnings": [
-        "Use a moderate weight — this exercise puts stress on your knees.",
-        "Don't kick the weight up explosively.",
-        "If you have knee problems, ask a trainer before using this machine."
+        "This exercise creates significant stress on the knee joint, particularly the anterior cruciate ligament (ACL) and patellar tendon. Use moderate weight and smooth movements.",
+        "Never lock your knees fully straight at the top - stop just before full extension to protect your knee joints.",
+        "If you have any knee pain, patellar tendonitis, ACL/MCL injuries, or meniscus issues, consult a physical therapist before using this machine.",
+        "Stop immediately if you feel sharp pain, clicking, or grinding in your knees - muscle fatigue in your thighs is normal, knee joint pain is not.",
+        "Avoid explosive or kicking movements - use a controlled 2-second lift and 2-3 second lower to minimize joint stress.",
+        "Align the machine's pivot point with your knee joint (the axis of rotation should match). Poor alignment increases knee stress significantly."
       ],
       "youtubeVideoId": "YyvSfVjQeL0",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["legs", "lower body", "quads", "quadriceps", "isolation", "beginner-friendly"]
+      "tags": [
+        "legs",
+        "lower body",
+        "quads",
+        "quadriceps",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "shoulder-press",
@@ -241,37 +325,52 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/shoulder-press.svg",
       "shortDescription": "Builds your shoulder muscles by pressing handles upward above your head. The machine guides the path so you don't have to worry about balance.",
-      "musclesWorked": ["Deltoids (Shoulders)", "Triceps", "Upper Trapezius"],
+      "musclesWorked": [
+        "Front Shoulders (Anterior Deltoids)",
+        "Side Shoulders (Lateral Deltoids)",
+        "Triceps (Back of Upper Arm)",
+        "Upper Chest (Upper Pectorals)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Adjust the seat so the handles are at shoulder height. Sit with your back firmly against the pad.",
-          "tip": "When you grab the handles, your elbows should be at about 90 degrees."
+          "text": "Adjust the seat so the handles are at shoulder height when seated. Sit with your entire back, head, and buttocks firmly against the pad, feet flat on the floor.",
+          "tip": "When you grab the handles, your elbows should be at about 90 degrees and level with your shoulders. Test the height without weight first."
         },
         {
           "number": 2,
-          "text": "Grab the handles with both hands, palms facing forward.",
-          "tip": "Make sure you're sitting evenly — don't lean to one side."
+          "text": "Grab the handles with both hands using a neutral or pronated grip (palms forward or facing each other, depending on machine design). Your wrists should be straight, not bent.",
+          "tip": "Make sure you're sitting evenly with equal weight on both sides. Engage your core lightly to stabilize your torso."
         },
         {
           "number": 3,
-          "text": "Press the handles upward until your arms are almost fully extended. Don't lock your elbows.",
-          "tip": "Breathe out as you push up."
+          "text": "Press the handles upward in a controlled motion until your arms are almost fully extended. Stop just before your elbows lock out completely.",
+          "tip": "Breathe out as you push up. You should feel this working your shoulders, particularly the front and sides. Keep your core tight throughout."
         },
         {
           "number": 4,
-          "text": "Slowly lower the handles back to the starting position at shoulder height.",
-          "tip": "Keep the movement controlled — don't let the weight drop."
+          "text": "Slowly lower the handles back to the starting position at shoulder height, taking 2-3 seconds for the descent.",
+          "tip": "Breathe in as you lower. Don't let the weight stack slam or crash - maintain tension on your shoulders throughout the entire movement."
         }
       ],
       "safetyWarnings": [
-        "Don't arch your lower back — keep it against the pad.",
-        "If you feel pain in your shoulders, stop and reduce the weight.",
-        "Start light and increase weight gradually."
+        "Never arch your lower back off the pad while pressing - this puts dangerous stress on your spine and shifts work away from your shoulders.",
+        "Avoid locking your elbows at the top of the movement - maintain a slight bend to protect your elbow joints from hyperextension.",
+        "If you have shoulder impingement, rotator cuff issues, or neck problems, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your shoulders, elbows, or neck - muscle fatigue is normal, joint pain is not.",
+        "Don't let your head jut forward during the press - keep your head back against the pad to avoid neck strain.",
+        "Start with light weight to master the movement pattern. You should be able to complete all reps with strict form."
       ],
       "youtubeVideoId": "Wqq43dKoG2Q",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["shoulders", "upper body", "press", "deltoids", "overhead", "beginner-friendly"]
+      "tags": [
+        "shoulders",
+        "upper body",
+        "press",
+        "deltoids",
+        "overhead",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "pec-deck",
@@ -280,37 +379,50 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/pec-deck.svg",
       "shortDescription": "Works your chest muscles by bringing your arms together in front of you, like giving a big hug. Great for shaping the chest.",
-      "musclesWorked": ["Chest (Pectorals)", "Front Deltoids"],
+      "musclesWorked": [
+        "Chest (Pectoralis Major)",
+        "Front Shoulders (Anterior Deltoids)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Adjust the seat so the handles or arm pads are at chest level. Sit with your back against the pad.",
-          "tip": "Your arms should be roughly parallel with the floor when you grab the handles."
+          "text": "Adjust the seat height so the handles or arm pads align with the middle of your chest when seated. Sit with your entire back firmly pressed against the backrest, feet flat on the floor.",
+          "tip": "When your arms are on the pads, they should be roughly parallel to the floor at shoulder height. Test the height before adding weight."
         },
         {
           "number": 2,
-          "text": "Place your forearms against the pads (or grab the handles, depending on the machine type). Your arms should be open wide to the sides.",
-          "tip": "Keep a slight bend in your elbows throughout."
+          "text": "Place your forearms against the vertical pads (or grab the handles if it's a handle-style machine). Position your upper arms parallel to the floor with a 90-degree bend at your elbows. Your arms should be comfortably open to the sides.",
+          "tip": "Maintain a slight bend in your elbows throughout the entire movement - never lock your elbows straight. This protects your elbow joints and keeps tension on your chest."
         },
         {
           "number": 3,
-          "text": "Bring your arms together in front of you by squeezing your chest muscles. Think about hugging a big tree.",
-          "tip": "Focus on squeezing your chest, not pushing with your arms."
+          "text": "Bring your arms together in front of you in a smooth arc by contracting your chest muscles. Bring the pads or handles to meet in front of your chest. Squeeze your chest hard for 1 second at the end.",
+          "tip": "Breathe out as you bring your arms together. Think about hugging a big tree or squeezing your chest muscles together. You should feel this working your chest, not your shoulders or arms."
         },
         {
           "number": 4,
-          "text": "Slowly open your arms back to the starting position.",
-          "tip": "Don't let the weight pull your arms back too far — stop when you feel a comfortable stretch."
+          "text": "Slowly open your arms back to the starting position with control, taking 2-3 seconds. Stop when your hands are in line with your shoulders - don't let the weight pull your arms behind your body.",
+          "tip": "Breathe in as you open your arms. You should feel a gentle stretch across your chest. If you feel pain in the front of your shoulders, you're going too far back."
         }
       ],
       "safetyWarnings": [
-        "Don't open your arms too wide — this can strain your shoulders.",
-        "Keep the movement slow and controlled.",
-        "Use a light weight to learn the motion first."
+        "Never open your arms beyond the point where your hands are in line with your shoulders - going too far back can cause shoulder impingement or anterior shoulder strain.",
+        "Adjust seat height so arm pads are at chest level - incorrect height shifts stress to your shoulders instead of your chest.",
+        "If you have shoulder impingement, rotator cuff injuries, or shoulder instability, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in the front of your shoulders - this indicates excessive range of motion or improper form.",
+        "Keep the movement slow and controlled - jerking or using momentum reduces chest activation and can strain shoulder joints.",
+        "Start with light weight to learn the motion and proper range of motion. Focus on the chest squeeze, not moving heavy weight."
       ],
       "youtubeVideoId": "Z57CtFmRMxA",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["chest", "upper body", "fly", "pecs", "isolation", "beginner-friendly"]
+      "tags": [
+        "chest",
+        "upper body",
+        "fly",
+        "pecs",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "treadmill",
@@ -319,38 +431,53 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/treadmill.svg",
       "shortDescription": "A walking and running machine that helps you do cardio indoors. You control the speed and incline. Start slow and work your way up.",
-      "musclesWorked": ["Legs", "Heart & Lungs (Cardio)"],
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Hamstrings (Back Thighs)",
+        "Glutes (Buttocks)",
+        "Calves (Gastrocnemius & Soleus)",
+        "Cardiovascular System (Heart & Lungs)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Step onto the side rails of the treadmill (the non-moving parts on each side of the belt). Clip the safety key to your clothing.",
-          "tip": "The safety key will stop the belt if you fall — always use it."
+          "text": "Step onto the side rails (the stationary platforms on each side of the belt, not the moving belt itself). Attach the safety clip cord to your clothing at waist level or clip it to your waistband.",
+          "tip": "The safety key is a magnetic clip that stops the belt immediately if it detaches - always use it. Test it by gently pulling before starting."
         },
         {
           "number": 2,
-          "text": "Press the Start button. The belt will begin moving slowly. Step onto the belt carefully and start walking.",
-          "tip": "Hold onto the handrails until you feel steady."
+          "text": "Press the Start or Quick Start button. The belt will begin moving at a slow speed (typically 1-2 mph). Carefully step onto the moving belt one foot at a time and begin walking naturally.",
+          "tip": "Hold the handrails lightly for balance as you step on, but try to let go once you're steady - holding on constantly can create poor posture and reduce calorie burn."
         },
         {
           "number": 3,
-          "text": "Use the speed buttons to slowly increase to a comfortable walking pace. If you want more challenge, increase the incline.",
-          "tip": "A good starting speed for walking is around 3.0-3.5 mph (5-6 km/h)."
+          "text": "Use the speed up/down buttons to gradually increase to a comfortable walking or jogging pace. For added challenge, use the incline buttons to simulate uphill walking (start with 1-3% incline).",
+          "tip": "Good starting speeds: 2.5-3.5 mph for walking, 4.5-6.0 mph for jogging, 6.5+ mph for running. Increase incline for more intensity without increasing impact on joints."
         },
         {
           "number": 4,
-          "text": "When you're done, gradually decrease the speed. Don't jump off while the belt is moving. Wait until it stops completely.",
-          "tip": "Cool down by walking slowly for 2-3 minutes before stopping."
+          "text": "When finished, gradually decrease the speed over 2-3 minutes to cool down. Bring the speed down to 2.0-2.5 mph for walking, then press Stop. Never jump off while the belt is moving - wait until it stops completely before stepping onto the side rails.",
+          "tip": "A proper cool-down helps your heart rate return to normal gradually and reduces dizziness. Stay on the belt walking slowly for at least 2 minutes before stopping."
         }
       ],
       "safetyWarnings": [
-        "Always attach the safety clip to your clothing before starting.",
-        "Don't look at your phone while the belt is moving at higher speeds.",
-        "Start slow — you can always speed up once you feel comfortable.",
-        "If you feel dizzy, grab the handrails and slow down immediately."
+        "Always attach the safety clip to your clothing before starting - this emergency stop will shut off the belt if you fall or lose balance.",
+        "Never jump onto a moving belt - always start from the side rails with the belt at slow speed, then step on carefully.",
+        "Avoid looking down at your phone or controls while running at higher speeds - this can cause loss of balance and falls.",
+        "If you have heart conditions, joint problems, or balance issues, consult a doctor before using a treadmill, especially for running.",
+        "Stop immediately if you feel chest pain, severe shortness of breath, dizziness, or joint pain - grab the handrails and press the emergency stop button.",
+        "Start at a slow walking pace (2.5-3.0 mph) and increase speed gradually. Never start at a running pace if you're not warmed up."
       ],
       "youtubeVideoId": "njeZ29umqVE",
       "suggestedSets": "20-30 minutes at a comfortable pace",
-      "tags": ["cardio", "walking", "running", "heart", "endurance", "beginner-friendly"]
+      "tags": [
+        "cardio",
+        "walking",
+        "running",
+        "heart",
+        "endurance",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "cable-bicep-curl",
@@ -359,7 +486,10 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/cable-bicep-curl.svg",
       "shortDescription": "Builds your biceps (the front of your upper arms) by curling a handle upward using a cable machine. The cable keeps tension on your muscles the whole time.",
-      "musclesWorked": ["Biceps", "Forearms"],
+      "musclesWorked": [
+        "Biceps",
+        "Forearms"
+      ],
       "steps": [
         {
           "number": 1,
@@ -389,7 +519,15 @@
       ],
       "youtubeVideoId": "NFzTWp2qpiE",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["arms", "upper body", "biceps", "curl", "cable", "isolation", "beginner-friendly"]
+      "tags": [
+        "arms",
+        "upper body",
+        "biceps",
+        "curl",
+        "cable",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "hack-squat",
@@ -398,27 +536,32 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/hack-squat.svg",
       "shortDescription": "A squat machine where you lean back against a padded sled and push a platform with your feet. It lets you squat heavy without worrying about balancing a bar on your back.",
-      "musclesWorked": ["Quadriceps", "Glutes", "Hamstrings", "Calves"],
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)",
+        "Calves (Gastrocnemius & Soleus)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Step into the machine, placing your back against the padded backrest and your shoulders under the shoulder pads. Place your feet about shoulder-width apart on the platform.",
-          "tip": "Position your feet in the middle of the platform to start — you can adjust higher or lower once you're comfortable."
+          "text": "Step into the machine and lean back against the padded backrest with your shoulders firmly under the shoulder pads. Place your feet shoulder-width apart in the middle of the platform, toes pointing slightly outward.",
+          "tip": "Your entire back and head should be pressed against the pad. Foot placement can be adjusted: higher on platform emphasizes glutes/hamstrings, lower emphasizes quads."
         },
         {
           "number": 2,
-          "text": "Stand up to lift the weight slightly and release the safety handles by turning them outward.",
-          "tip": "Make sure both safety handles are fully disengaged before you start your reps."
+          "text": "Push up through your feet to lift the sled slightly, then rotate the safety handles outward to disengage them. Keep your core engaged and back pressed against the pad.",
+          "tip": "Make sure both safety handles are fully disengaged and you have full control of the weight before starting your reps. The sled should move smoothly up and down the rails."
         },
         {
           "number": 3,
-          "text": "Slowly bend your knees and lower yourself down until your thighs are roughly parallel with the platform. Keep your back flat against the pad the whole time.",
-          "tip": "Don't let your heels come off the platform — press through your whole foot."
+          "text": "Breathe in and slowly bend your knees to lower yourself down until your thighs are roughly parallel with the platform (or as deep as you can go while keeping your back flat against the pad). Your knees should track over your toes.",
+          "tip": "Don't let your heels lift off the platform - press through your whole foot. If your lower back starts to round or lift off the pad, you've gone too deep."
         },
         {
           "number": 4,
-          "text": "Push through your feet to drive the sled back up to the starting position. Don't lock your knees at the top.",
-          "tip": "Breathe out as you push up and breathe in as you lower down."
+          "text": "Push through your heels and midfoot to drive the sled back up to the starting position. Stop just before your knees fully lock out.",
+          "tip": "Breathe out as you push up. You should feel this working your quads and glutes. Keep your back pressed against the pad throughout the entire movement."
         },
         {
           "number": 5,
@@ -427,13 +570,24 @@
         }
       ],
       "safetyWarnings": [
-        "Always use the safety locks when loading or unloading weight and when you're done.",
-        "Don't go so deep that your lower back rounds off the pad.",
-        "Start with no added plates to learn the movement pattern."
+        "Always engage the safety handles before loading/unloading weight plates and when finished - never leave the sled unsupported.",
+        "Never descend so deep that your lower back rounds or lifts off the backpad - this indicates you've exceeded your hip mobility and risks spinal injury.",
+        "If you have knee problems, lower back issues, or ankle mobility limitations, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your knees or lower back - the angled back position can stress joints differently than vertical squats.",
+        "Keep your entire back pressed against the pad throughout - don't allow your hips to tuck under or your back to round at the bottom.",
+        "Start with just the sled weight (no added plates) to learn the movement pattern. Add weight gradually only after mastering form."
       ],
       "youtubeVideoId": "63tboDKQksc",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["legs", "lower body", "squat", "quads", "glutes", "compound", "intermediate"]
+      "tags": [
+        "legs",
+        "lower body",
+        "squat",
+        "quads",
+        "glutes",
+        "compound",
+        "intermediate"
+      ]
     },
     {
       "id": "calf-raise",
@@ -442,7 +596,10 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/calf-raise.svg",
       "shortDescription": "Strengthens your calf muscles (the back of your lower legs) by raising your heels against a weighted pad while seated. Simple and effective for building lower leg strength.",
-      "musclesWorked": ["Calves (Gastrocnemius)", "Soleus"],
+      "musclesWorked": [
+        "Calves (Gastrocnemius)",
+        "Soleus"
+      ],
       "steps": [
         {
           "number": 1,
@@ -472,7 +629,13 @@
       ],
       "youtubeVideoId": "JbyjNymZOt0",
       "suggestedSets": "3 sets of 15-20 reps",
-      "tags": ["legs", "lower body", "calves", "isolation", "beginner-friendly"]
+      "tags": [
+        "legs",
+        "lower body",
+        "calves",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "hip-abductor",
@@ -481,7 +644,10 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/hip-abductor.svg",
       "shortDescription": "Works the muscles on the outside of your hips and thighs by pushing your legs apart against padded resistance. Great for strengthening the outer hip area.",
-      "musclesWorked": ["Hip Abductors (Outer Thighs)", "Gluteus Medius"],
+      "musclesWorked": [
+        "Hip Abductors (Outer Thighs)",
+        "Gluteus Medius"
+      ],
       "steps": [
         {
           "number": 1,
@@ -511,7 +677,15 @@
       ],
       "youtubeVideoId": "UUJmBXiIgnM",
       "suggestedSets": "3 sets of 15-20 reps",
-      "tags": ["legs", "lower body", "hips", "abductor", "outer thigh", "glutes", "beginner-friendly"]
+      "tags": [
+        "legs",
+        "lower body",
+        "hips",
+        "abductor",
+        "outer thigh",
+        "glutes",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "hip-adductor",
@@ -520,7 +694,10 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/hip-adductor.svg",
       "shortDescription": "Strengthens the muscles on the inside of your thighs by squeezing your legs together against padded resistance. Helps with hip stability and inner thigh toning.",
-      "musclesWorked": ["Hip Adductors (Inner Thighs)", "Gracilis"],
+      "musclesWorked": [
+        "Hip Adductors (Inner Thighs)",
+        "Gracilis"
+      ],
       "steps": [
         {
           "number": 1,
@@ -550,7 +727,14 @@
       ],
       "youtubeVideoId": "b-cxonq03vQ",
       "suggestedSets": "3 sets of 15-20 reps",
-      "tags": ["legs", "lower body", "hips", "adductor", "inner thigh", "beginner-friendly"]
+      "tags": [
+        "legs",
+        "lower body",
+        "hips",
+        "adductor",
+        "inner thigh",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "smith-machine-squat",
@@ -559,27 +743,32 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/smith-machine-squat.svg",
       "shortDescription": "A squat performed on a barbell that's attached to vertical rails, so it only moves straight up and down. Lets you practice squatting with added safety since the bar can't tip over.",
-      "musclesWorked": ["Quadriceps", "Glutes", "Hamstrings", "Core"],
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)",
+        "Lower Back (Erector Spinae)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Step under the bar and position it across your upper back (on your trapezius muscles, not on your neck). Place your feet about shoulder-width apart, slightly in front of the bar.",
-          "tip": "The bar should rest on the meaty part of your upper back — never directly on your spine or neck bones."
+          "text": "Step under the bar and position it across your upper back on your trapezius muscles (the meaty shelf below your neck), not on your neck bones. Place your feet shoulder-width apart and 6-12 inches forward of the bar.",
+          "tip": "The bar should rest comfortably on your upper back muscle, never on your spine or neck vertebrae. The forward foot position is crucial - Smith machines require different stance than free squats."
         },
         {
           "number": 2,
-          "text": "Grip the bar with both hands, rotate it to unhook it from the safety catches, and stand up straight.",
-          "tip": "Practice the unhooking motion with no weight first so you know how the twist-and-lift mechanism works."
+          "text": "Grip the bar with both hands slightly wider than shoulder-width. Rotate the bar to unhook it from the safety catches (usually twisting forward or backward depending on the machine), then stand fully upright.",
+          "tip": "Practice the unhooking motion with no weight first so you understand the twist-and-lift mechanism. Keep your core engaged and chest up as you unhook."
         },
         {
           "number": 3,
-          "text": "Slowly bend your knees and lower your hips as if sitting into a chair. Go down until your thighs are parallel to the floor or as low as comfortable.",
-          "tip": "Keep your chest up and look straight ahead — don't round your back."
+          "text": "Breathe in and slowly bend your knees and hips, lowering straight down as if sitting into a chair. Descend until your thighs are parallel to the floor (or as deep as you can go while keeping your back flat).",
+          "tip": "Keep your chest up, core tight, and eyes looking straight ahead. Your knees should track over your toes. If your lower back starts to round, you've gone too deep for your current mobility."
         },
         {
           "number": 4,
-          "text": "Push through your heels to stand back up to the starting position.",
-          "tip": "Drive up with your legs, not your back. Breathe out as you stand."
+          "text": "Push through your heels (and midfoot) to drive yourself back up to the starting position. Keep your chest up and core braced throughout the ascent.",
+          "tip": "Breathe out as you push up. Drive with your legs, not your back. You should feel this working your thighs and glutes primarily."
         },
         {
           "number": 5,
@@ -588,13 +777,25 @@
         }
       ],
       "safetyWarnings": [
-        "Learn how the twist-lock safety mechanism works before loading any weight.",
-        "Don't place your feet directly under the bar — keep them slightly forward to protect your knees.",
-        "Start with just the bar (no added weight) to practice the movement."
+        "Learn how the twist-lock safety mechanism works before loading any weight - practice hooking and unhooking the bar several times with no weight.",
+        "Position your feet 6-12 inches forward of the bar (not directly underneath) - the fixed bar path requires different foot placement than free squats to protect your knees.",
+        "If you have knee problems, lower back issues, or hip mobility limitations, consult a trainer before using this machine - the fixed bar path may not suit all body types.",
+        "Stop immediately if you feel sharp pain in your knees or lower back - the Smith machine's vertical path can stress joints if your stance isn't right for your body.",
+        "Never lower beyond the depth where your lower back starts to round - this indicates you've exceeded your hip mobility and risks spinal injury.",
+        "Start with just the bar (typically 15-45 lbs depending on machine) to master the movement. If you get stuck, simply twist the bar to lock it onto the safety catches."
       ],
       "youtubeVideoId": "BtfMX4WqUBo",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["legs", "lower body", "squat", "smith machine", "quads", "glutes", "compound", "intermediate"]
+      "tags": [
+        "legs",
+        "lower body",
+        "squat",
+        "smith machine",
+        "quads",
+        "glutes",
+        "compound",
+        "intermediate"
+      ]
     },
     {
       "id": "incline-chest-press",
@@ -603,7 +804,11 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/incline-chest-press.svg",
       "shortDescription": "Similar to the regular chest press, but the seat is angled so you push upward at an angle. This targets the upper part of your chest more than a flat press does.",
-      "musclesWorked": ["Upper Chest (Pectorals)", "Front Deltoids", "Triceps"],
+      "musclesWorked": [
+        "Upper Chest (Pectorals)",
+        "Front Deltoids",
+        "Triceps"
+      ],
       "steps": [
         {
           "number": 1,
@@ -633,7 +838,15 @@
       ],
       "youtubeVideoId": "bLWdsESOazs",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["chest", "upper body", "upper chest", "incline", "push", "pecs", "intermediate"]
+      "tags": [
+        "chest",
+        "upper body",
+        "upper chest",
+        "incline",
+        "push",
+        "pecs",
+        "intermediate"
+      ]
     },
     {
       "id": "decline-chest-press",
@@ -642,7 +855,11 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/decline-chest-press.svg",
       "shortDescription": "A chest press where you push at a downward angle, which focuses on the lower portion of your chest. Great for building a well-rounded chest when combined with flat and incline pressing.",
-      "musclesWorked": ["Lower Chest (Pectorals)", "Triceps", "Front Deltoids"],
+      "musclesWorked": [
+        "Lower Chest (Pectorals)",
+        "Triceps",
+        "Front Deltoids"
+      ],
       "steps": [
         {
           "number": 1,
@@ -672,7 +889,15 @@
       ],
       "youtubeVideoId": "VaxyxzmFZ6I",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["chest", "upper body", "lower chest", "decline", "push", "pecs", "intermediate"]
+      "tags": [
+        "chest",
+        "upper body",
+        "lower chest",
+        "decline",
+        "push",
+        "pecs",
+        "intermediate"
+      ]
     },
     {
       "id": "cable-crossover",
@@ -681,7 +906,11 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/cable-crossover.svg",
       "shortDescription": "A chest exercise where you stand between two cable towers and bring your hands together in front of you. It gives your chest a great squeeze and stretch that machines can't replicate.",
-      "musclesWorked": ["Chest (Pectorals)", "Front Deltoids", "Biceps"],
+      "musclesWorked": [
+        "Chest (Pectorals)",
+        "Front Deltoids",
+        "Biceps"
+      ],
       "steps": [
         {
           "number": 1,
@@ -711,7 +940,15 @@
       ],
       "youtubeVideoId": "taI4XduLpTk",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["chest", "upper body", "cable", "fly", "pecs", "crossover", "intermediate"]
+      "tags": [
+        "chest",
+        "upper body",
+        "cable",
+        "fly",
+        "pecs",
+        "crossover",
+        "intermediate"
+      ]
     },
     {
       "id": "t-bar-row",
@@ -720,7 +957,12 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/t-bar-row.svg",
       "shortDescription": "A rowing exercise where you pull a bar anchored at one end toward your chest while leaning forward. Builds thick, strong back muscles and is a staple in many workout routines.",
-      "musclesWorked": ["Latissimus Dorsi", "Rhomboids", "Rear Deltoids", "Biceps"],
+      "musclesWorked": [
+        "Latissimus Dorsi",
+        "Rhomboids",
+        "Rear Deltoids",
+        "Biceps"
+      ],
       "steps": [
         {
           "number": 1,
@@ -750,7 +992,15 @@
       ],
       "youtubeVideoId": "kHW23afzaUs",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["back", "upper body", "row", "lats", "rhomboids", "compound", "intermediate"]
+      "tags": [
+        "back",
+        "upper body",
+        "row",
+        "lats",
+        "rhomboids",
+        "compound",
+        "intermediate"
+      ]
     },
     {
       "id": "back-extension",
@@ -759,37 +1009,52 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/back-extension.svg",
       "shortDescription": "Strengthens your lower back by bending forward over a padded support and lifting your torso back up. Also works your glutes and hamstrings. Uses your body weight so there's no complicated setup.",
-      "musclesWorked": ["Lower Back (Erector Spinae)", "Glutes", "Hamstrings"],
+      "musclesWorked": [
+        "Lower Back (Erector Spinae)",
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Adjust the pad so it sits right at your hip bones. Step onto the foot platforms and lean forward over the pad, hooking your ankles under the lower pads.",
-          "tip": "The top pad should be low enough that you can bend freely at the waist without it digging into your stomach."
+          "text": "Adjust the thigh pad so it sits at your hip crease (where your legs meet your torso), not on your stomach or upper thighs. Step onto the foot platform and position yourself face-down with the pad supporting your hips. Hook your heels under the lower ankle pads.",
+          "tip": "Proper pad placement is critical - too high (on stomach) restricts movement, too low (on thighs) shifts stress away from lower back. You should be able to bend freely at the hips."
         },
         {
           "number": 2,
-          "text": "Cross your arms over your chest (or place your hands lightly behind your head). Let your upper body hang down toward the floor — this is your starting position.",
-          "tip": "Crossing your arms over your chest is easiest; behind the head is slightly harder."
+          "text": "Cross your arms over your chest (beginners) or place your hands lightly behind your head (more advanced). Allow your upper body to hang down toward the floor at about a 90-degree angle. Keep your spine neutral, not rounded.",
+          "tip": "Arms crossed over chest is easiest and recommended for beginners. Hands behind head increases difficulty by adding leverage. Never interlace fingers behind your neck as this can strain your neck."
         },
         {
           "number": 3,
-          "text": "Slowly raise your torso up by squeezing your lower back and glutes until your body forms a straight line. Don't go higher than straight.",
-          "tip": "Think about lifting your chest, not throwing your head back."
+          "text": "Slowly raise your torso up by contracting your lower back and squeezing your glutes. Stop when your body forms a straight line from head to heels - do NOT arch past horizontal. Hold briefly at the top.",
+          "tip": "Breathe out as you lift. Think about lifting your chest up, not throwing your head back. Squeeze your glutes to protect your lower back and increase activation."
         },
         {
           "number": 4,
-          "text": "Lower yourself back down with control to the starting position.",
-          "tip": "Go slowly on the way down — don't just drop."
+          "text": "Slowly lower yourself back down with control to the starting position, taking 2-3 seconds for the descent. Return to the 90-degree bent position.",
+          "tip": "Breathe in as you lower. Control the descent - don't just drop. The eccentric (lowering) phase builds strength and helps prevent lower back injuries."
         }
       ],
       "safetyWarnings": [
-        "Don't hyperextend (arch) your back past a straight line — this can compress your spine.",
-        "If you have lower back problems, consult a trainer before using this machine.",
-        "Start with bodyweight only before adding any extra resistance."
+        "Never hyperextend (arch) your back past a straight horizontal line - this compresses your lumbar spine and can cause disc problems or nerve irritation.",
+        "Stop at a neutral spine position (body forms straight line from head to hips) - going higher provides no additional benefit and increases injury risk.",
+        "If you have lower back pain, disc issues, sciatica, or spinal problems, consult a physical therapist before using this machine.",
+        "Stop immediately if you feel sharp pain in your lower back - muscle fatigue is normal, spinal pain indicates you may be hyperextending or using poor form.",
+        "Keep the movement slow and controlled - jerking or using momentum can strain your lower back muscles and ligaments.",
+        "Start with bodyweight only (no added weight plates) to master proper form. Only add external resistance after you can do 15-20 reps with perfect form."
       ],
       "youtubeVideoId": "ph3pddpKzzw",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["back", "lower back", "glutes", "hamstrings", "bodyweight", "hyperextension", "beginner-friendly"]
+      "tags": [
+        "back",
+        "lower back",
+        "glutes",
+        "hamstrings",
+        "bodyweight",
+        "hyperextension",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "assisted-pull-up",
@@ -798,37 +1063,53 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/assisted-pull-up.svg",
       "shortDescription": "Helps you do pull-ups by supporting some of your body weight with a counterweight. Perfect if you can't do a pull-up on your own yet — the machine makes it easier while you build strength.",
-      "musclesWorked": ["Latissimus Dorsi", "Biceps", "Rear Deltoids", "Core"],
+      "musclesWorked": [
+        "Lats (Latissimus Dorsi)",
+        "Biceps (Front of Upper Arm)",
+        "Rear Shoulders (Posterior Deltoids)",
+        "Middle Back (Rhomboids & Traps)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Set the weight pin to a heavy weight (higher weight means MORE assistance, making the exercise easier). Climb up and kneel on the padded platform or stand on the foot bars.",
-          "tip": "This is the opposite of most machines — more weight means easier, less weight means harder."
+          "text": "Set the weight pin to a heavy assistance weight (higher weight = MORE assistance = easier pull-ups). Use the steps to climb up, then carefully kneel on the padded platform or stand on the footrests, depending on your machine type.",
+          "tip": "CRITICAL: This machine is reversed from normal - selecting 100 lbs means the machine supports 100 lbs of your body weight, making it easier. Start with enough assistance that you can complete 8-10 reps with good form."
         },
         {
           "number": 2,
-          "text": "Grab the pull-up handles above you with an overhand grip (palms facing away), hands slightly wider than shoulder-width apart.",
-          "tip": "For an easier variation, use the handles where your palms face each other (neutral grip)."
+          "text": "Reach up and grab the pull-up handles with an overhand grip (palms facing away from you), hands positioned slightly wider than shoulder-width apart. Hang with your arms fully extended.",
+          "tip": "Grip width options: shoulder-width targets lats evenly, wider emphasizes outer lats, neutral grip (palms facing each other) is easier on shoulders and great for beginners."
         },
         {
           "number": 3,
-          "text": "Pull yourself up by driving your elbows down toward your hips. Keep going until your chin is above or level with the handles.",
-          "tip": "Focus on pulling with your back, not just your arms. Imagine pulling your elbows into your back pockets."
+          "text": "Pull yourself up by driving your elbows straight down toward your hips. Continue pulling until your chin is level with or just above the bar. Keep your chest up and shoulders back.",
+          "tip": "Breathe out as you pull up. Focus on using your back muscles, not just your arms - imagine pulling your elbows into your back pockets. You should feel this working your lats (sides of your back)."
         },
         {
           "number": 4,
-          "text": "Slowly lower yourself back down until your arms are fully extended. That's one rep.",
-          "tip": "Fight gravity on the way down — the slow lowering phase builds a lot of strength."
+          "text": "Slowly lower yourself back down with control, taking 2-3 seconds to return to the starting position with arms fully extended. That's one complete rep.",
+          "tip": "Breathe in as you lower. Resist gravity on the way down - the eccentric (lowering) phase builds significant strength and muscle. Don't let yourself drop quickly."
         }
       ],
       "safetyWarnings": [
-        "Step on and off the platform carefully — it moves under your weight.",
-        "Remember: more weight on the pin means more help. Start with a lot of assistance.",
-        "Don't jump off the platform — dismount slowly so the weight stack doesn't slam."
+        "Step on and off the platform/knee pad carefully - it moves under your weight and can cause falls if you step on carelessly.",
+        "Understand the counterweight system: MORE weight selected means MORE assistance (easier), LESS weight means LESS assistance (harder). Start with high assistance weight.",
+        "If you have shoulder impingement, rotator cuff injuries, or elbow problems, consult a trainer before using this machine.",
+        "Stop immediately if you feel sharp pain in your shoulders, elbows, or back - muscle fatigue is normal, joint pain indicates a problem.",
+        "Avoid excessive grip width (wider than 1.5x shoulder width) - this can cause shoulder impingement and reduces lat activation.",
+        "Never jump off the platform abruptly - step down slowly to prevent the counterweight from slamming and potentially causing injury to yourself or damage to the machine."
       ],
       "youtubeVideoId": "wFj808u2HWU",
       "suggestedSets": "3 sets of 8-10 reps",
-      "tags": ["back", "upper body", "pull-up", "lats", "assisted", "bodyweight", "beginner-friendly"]
+      "tags": [
+        "back",
+        "upper body",
+        "pull-up",
+        "lats",
+        "assisted",
+        "bodyweight",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "lateral-raise-machine",
@@ -837,7 +1118,10 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/lateral-raise-machine.svg",
       "shortDescription": "Targets the side of your shoulders by lifting padded arms out to your sides. Easier than using dumbbells because the machine keeps you in the right position.",
-      "musclesWorked": ["Lateral Deltoids (Side Shoulders)", "Upper Trapezius"],
+      "musclesWorked": [
+        "Lateral Deltoids (Side Shoulders)",
+        "Upper Trapezius"
+      ],
       "steps": [
         {
           "number": 1,
@@ -867,7 +1151,15 @@
       ],
       "youtubeVideoId": "tavibkNpZLI",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["shoulders", "upper body", "lateral raise", "side delts", "deltoids", "isolation", "beginner-friendly"]
+      "tags": [
+        "shoulders",
+        "upper body",
+        "lateral raise",
+        "side delts",
+        "deltoids",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "reverse-fly-machine",
@@ -876,7 +1168,11 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/reverse-fly-machine.svg",
       "shortDescription": "Works the back of your shoulders and upper back by opening your arms outward against resistance. It's like a pec deck in reverse and is great for improving posture.",
-      "musclesWorked": ["Rear Deltoids", "Rhomboids", "Middle Trapezius"],
+      "musclesWorked": [
+        "Rear Deltoids",
+        "Rhomboids",
+        "Middle Trapezius"
+      ],
       "steps": [
         {
           "number": 1,
@@ -906,7 +1202,15 @@
       ],
       "youtubeVideoId": "5YK4bgzXDp0",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["shoulders", "upper body", "rear delts", "reverse fly", "posture", "rhomboids", "beginner-friendly"]
+      "tags": [
+        "shoulders",
+        "upper body",
+        "rear delts",
+        "reverse fly",
+        "posture",
+        "rhomboids",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "cable-face-pull",
@@ -915,7 +1219,12 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/cable-face-pull.svg",
       "shortDescription": "A cable exercise where you pull a rope attachment toward your face, targeting the rear shoulders and upper back. One of the best exercises for shoulder health and posture.",
-      "musclesWorked": ["Rear Deltoids", "Rhomboids", "Rotator Cuff", "Middle Trapezius"],
+      "musclesWorked": [
+        "Rear Deltoids",
+        "Rhomboids",
+        "Rotator Cuff",
+        "Middle Trapezius"
+      ],
       "steps": [
         {
           "number": 1,
@@ -945,7 +1254,16 @@
       ],
       "youtubeVideoId": "rep-qVOkqgk",
       "suggestedSets": "3 sets of 15-20 reps",
-      "tags": ["shoulders", "upper body", "face pull", "rear delts", "rotator cuff", "posture", "cable", "intermediate"]
+      "tags": [
+        "shoulders",
+        "upper body",
+        "face pull",
+        "rear delts",
+        "rotator cuff",
+        "posture",
+        "cable",
+        "intermediate"
+      ]
     },
     {
       "id": "tricep-pushdown",
@@ -954,7 +1272,9 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/tricep-pushdown.svg",
       "shortDescription": "Builds the back of your upper arms (triceps) by pushing a cable attachment downward. Simple and effective — one of the most popular arm exercises in any gym.",
-      "musclesWorked": ["Triceps"],
+      "musclesWorked": [
+        "Triceps"
+      ],
       "steps": [
         {
           "number": 1,
@@ -984,7 +1304,15 @@
       ],
       "youtubeVideoId": "LzwgB15UdO8",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["arms", "upper body", "triceps", "pushdown", "cable", "isolation", "beginner-friendly"]
+      "tags": [
+        "arms",
+        "upper body",
+        "triceps",
+        "pushdown",
+        "cable",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "preacher-curl",
@@ -993,7 +1321,11 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/preacher-curl.svg",
       "shortDescription": "Isolates your biceps by curling against a padded arm rest that prevents you from cheating or swinging. Your upper arms stay locked in place so your biceps do all the work.",
-      "musclesWorked": ["Biceps", "Brachialis", "Forearms"],
+      "musclesWorked": [
+        "Biceps",
+        "Brachialis",
+        "Forearms"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1023,7 +1355,15 @@
       ],
       "youtubeVideoId": "fIWP-FRFNU0",
       "suggestedSets": "3 sets of 10-12 reps",
-      "tags": ["arms", "upper body", "biceps", "curl", "preacher", "isolation", "beginner-friendly"]
+      "tags": [
+        "arms",
+        "upper body",
+        "biceps",
+        "curl",
+        "preacher",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "cable-tricep-extension",
@@ -1032,7 +1372,10 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/cable-tricep-extension.svg",
       "shortDescription": "Works the back of your upper arms by extending a rope overhead using a cable machine. The overhead position gives your triceps a deep stretch that other exercises miss.",
-      "musclesWorked": ["Triceps (Long Head)", "Triceps (Medial Head)"],
+      "musclesWorked": [
+        "Triceps (Long Head)",
+        "Triceps (Medial Head)"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1062,7 +1405,16 @@
       ],
       "youtubeVideoId": "kiuVA0gs3EI",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["arms", "upper body", "triceps", "extension", "overhead", "cable", "isolation", "intermediate"]
+      "tags": [
+        "arms",
+        "upper body",
+        "triceps",
+        "extension",
+        "overhead",
+        "cable",
+        "isolation",
+        "intermediate"
+      ]
     },
     {
       "id": "ab-crunch-machine",
@@ -1071,37 +1423,51 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/ab-crunch-machine.svg",
       "shortDescription": "Strengthens your abdominal muscles by curling your torso forward against resistance. Easier to learn than floor crunches because the machine guides your movement and lets you add weight.",
-      "musclesWorked": ["Rectus Abdominis (Six-Pack Muscles)", "Obliques"],
+      "musclesWorked": [
+        "Abs (Rectus Abdominis)",
+        "Obliques (Side Abs)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Adjust the seat and select a light weight. Sit down and place your feet under the foot pads. Grab the handles above (or place your chest against the upper pad, depending on the machine type).",
-          "tip": "Every ab crunch machine is slightly different — take a moment to look at the diagram on the machine."
+          "text": "Select a light weight to start (5-20 lbs maximum for beginners). Adjust the seat if needed, then sit down and secure your feet under the foot pads or foot bar. Grab the handles above your head or place your chest against the chest pad, depending on your machine design.",
+          "tip": "Ab crunch machines vary significantly in design - some have handles above, some have chest pads. Take a moment to read the diagram on the machine to understand the specific model."
         },
         {
           "number": 2,
-          "text": "Start with your torso upright and your abs relaxed.",
-          "tip": "Don't start with your body already crunched forward — begin from a tall position."
+          "text": "Sit upright with your torso vertical and your core engaged but not yet crunching. Your lower back should be pressed against the backrest. This is your starting position.",
+          "tip": "Don't start with your body already crunched forward - begin from a tall, upright position with your chest up. This ensures full range of motion."
         },
         {
           "number": 3,
-          "text": "Crunch your torso forward by tightening your abs, curling your ribcage toward your hips. Squeeze your abs hard at the bottom of the crunch.",
-          "tip": "Think about curling your spine, not just bending at the hips."
+          "text": "Contract your abs to crunch your torso forward, curling your ribcage down toward your hips in a smooth motion. Continue until you feel a strong contraction, then squeeze your abs hard for 1 second at the peak.",
+          "tip": "Breathe out as you crunch. Think about curling your spine and bringing your ribs to your pelvis, not just bending at the hips. You should feel this burning in your abs, not pulling in your neck or hip flexors."
         },
         {
           "number": 4,
-          "text": "Slowly return to the upright starting position with control.",
-          "tip": "Don't let the weight stack slam — keep tension on your abs the entire time."
+          "text": "Slowly return to the upright starting position with control, taking 2-3 seconds to reverse the motion. Don't let the weight pull you back quickly.",
+          "tip": "Breathe in as you return. Don't let the weight stack slam down - maintain constant tension on your abs throughout the entire range of motion. The controlled return is just as important as the crunch."
         }
       ],
       "safetyWarnings": [
-        "Use a light weight — your abs don't need heavy resistance to get a good workout.",
-        "Don't pull with your arms or hip flexors; focus on using your abs.",
-        "If you feel lower back pain, stop and check your form or reduce the weight."
+        "Start with very light weight - your abs don't need heavy resistance to get an effective workout. Higher reps with light weight are safer and more effective than heavy weight.",
+        "Never pull with your neck or jerk the weight down with momentum - this can strain your neck and reduces abdominal activation.",
+        "Focus on curling your spine with your abs, not bending at the hips with hip flexors - if you feel this primarily in your hip flexors, you're using incorrect form.",
+        "If you feel sharp lower back pain, stop immediately - this indicates you may be arching your back or using too much weight.",
+        "Keep your lower back pressed against the pad throughout - don't allow your back to arch or hyperextend during the movement.",
+        "Breathe properly: exhale as you crunch forward, inhale as you return to starting position. Never hold your breath, as this increases intra-abdominal pressure."
       ],
       "youtubeVideoId": "fuPFq2EYswE",
       "suggestedSets": "3 sets of 15-20 reps",
-      "tags": ["core", "abs", "abdominals", "crunch", "six-pack", "isolation", "beginner-friendly"]
+      "tags": [
+        "core",
+        "abs",
+        "abdominals",
+        "crunch",
+        "six-pack",
+        "isolation",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "cable-woodchop",
@@ -1110,7 +1476,12 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/cable-woodchop.svg",
       "shortDescription": "A rotational core exercise where you pull a cable diagonally across your body, like swinging an axe. Builds the twisting strength your abs need for sports and everyday movements.",
-      "musclesWorked": ["Obliques", "Rectus Abdominis", "Transverse Abdominis", "Shoulders"],
+      "musclesWorked": [
+        "Obliques",
+        "Rectus Abdominis",
+        "Transverse Abdominis",
+        "Shoulders"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1140,7 +1511,16 @@
       ],
       "youtubeVideoId": "pAplQXk3dkU",
       "suggestedSets": "3 sets of 12 reps per side",
-      "tags": ["core", "abs", "obliques", "rotation", "cable", "functional", "woodchop", "intermediate"]
+      "tags": [
+        "core",
+        "abs",
+        "obliques",
+        "rotation",
+        "cable",
+        "functional",
+        "woodchop",
+        "intermediate"
+      ]
     },
     {
       "id": "captains-chair",
@@ -1149,7 +1529,11 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/captains-chair.svg",
       "shortDescription": "A frame with arm rests and a back pad where you hang and lift your legs to work your abs. One of the most effective ab exercises — you use your body weight with no complicated settings.",
-      "musclesWorked": ["Rectus Abdominis (Lower Abs)", "Hip Flexors", "Obliques"],
+      "musclesWorked": [
+        "Rectus Abdominis (Lower Abs)",
+        "Hip Flexors",
+        "Obliques"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1179,7 +1563,16 @@
       ],
       "youtubeVideoId": "hdng3Nm1x_E",
       "suggestedSets": "3 sets of 10-15 reps",
-      "tags": ["core", "abs", "lower abs", "hanging", "leg raise", "bodyweight", "captain's chair", "intermediate"]
+      "tags": [
+        "core",
+        "abs",
+        "lower abs",
+        "hanging",
+        "leg raise",
+        "bodyweight",
+        "captain's chair",
+        "intermediate"
+      ]
     },
     {
       "id": "core-back-extension",
@@ -1188,7 +1581,11 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/core-back-extension.svg",
       "shortDescription": "Uses the hyperextension bench to strengthen the muscles along your spine. Think of it as an ab exercise for your back — important for balanced core strength and preventing back pain.",
-      "musclesWorked": ["Erector Spinae (Lower Back)", "Glutes", "Core Stabilizers"],
+      "musclesWorked": [
+        "Erector Spinae (Lower Back)",
+        "Glutes",
+        "Core Stabilizers"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1218,7 +1615,15 @@
       ],
       "youtubeVideoId": "ph3pddpKzzw",
       "suggestedSets": "3 sets of 12-15 reps",
-      "tags": ["core", "lower back", "erector spinae", "glutes", "back extension", "bodyweight", "beginner-friendly"]
+      "tags": [
+        "core",
+        "lower back",
+        "erector spinae",
+        "glutes",
+        "back extension",
+        "bodyweight",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "elliptical",
@@ -1227,7 +1632,12 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/elliptical.svg",
       "shortDescription": "A low-impact cardio machine where your feet glide in an oval motion while you push and pull moving handles. It gives you a full-body workout without the joint pounding of running.",
-      "musclesWorked": ["Legs", "Glutes", "Arms", "Heart & Lungs (Cardio)"],
+      "musclesWorked": [
+        "Legs",
+        "Glutes",
+        "Arms",
+        "Heart & Lungs (Cardio)"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1257,7 +1667,15 @@
       ],
       "youtubeVideoId": "NkbfC4zDdVI",
       "suggestedSets": "20-30 minutes at a moderate pace",
-      "tags": ["cardio", "elliptical", "low impact", "full body", "endurance", "heart", "beginner-friendly"]
+      "tags": [
+        "cardio",
+        "elliptical",
+        "low impact",
+        "full body",
+        "endurance",
+        "heart",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "stationary-bike",
@@ -1266,37 +1684,53 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/stationary-bike.svg",
       "shortDescription": "An indoor bicycle that lets you get a great cardio workout while seated. Easy on your joints, simple to use, and you can read or watch TV while pedaling.",
-      "musclesWorked": ["Quadriceps", "Hamstrings", "Calves", "Heart & Lungs (Cardio)"],
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Hamstrings (Back Thighs)",
+        "Calves (Gastrocnemius & Soleus)",
+        "Cardiovascular System (Heart & Lungs)"
+      ],
       "steps": [
         {
           "number": 1,
-          "text": "Adjust the seat height so that when you sit on the bike and place your foot on the lowest pedal, your leg is almost straight with a slight bend in the knee.",
-          "tip": "If your hips rock side to side while pedaling, the seat is too high."
+          "text": "Adjust the seat height so that when you sit on the bike with your foot on the pedal at its lowest point (bottom of the stroke), your knee has a slight bend (25-30 degrees). Also adjust the seat forward/backward position so your knee is directly over the pedal axle when the pedals are level.",
+          "tip": "If your hips rock side to side while pedaling, the seat is too high. If your knees feel cramped or you can't extend fully, the seat is too low."
         },
         {
           "number": 2,
-          "text": "Sit on the seat, place your feet on the pedals (use the straps if available), and grab the handlebars.",
-          "tip": "Tighten the foot straps snugly — they keep your feet from slipping off."
+          "text": "Sit on the seat with your weight centered. Place the balls of your feet on the pedals (not your arches or heels) and secure the foot straps if available. Grip the handlebars lightly with relaxed shoulders.",
+          "tip": "Tighten foot straps snugly to keep your feet from slipping and to engage your hamstrings on the upward pedal stroke. Your upper body should be relaxed, not rigid."
         },
         {
           "number": 3,
-          "text": "Start pedaling at an easy pace. Press Quick Start or choose a program on the display. Increase the resistance to a level that feels moderately challenging.",
-          "tip": "You should be able to pedal smoothly — if you're bouncing on the seat, lower the resistance."
+          "text": "Start pedaling at an easy pace (60-80 RPM for beginners). Press Quick Start or select a program on the display. Gradually increase resistance to a level that feels moderately challenging but allows you to maintain a smooth, circular pedal stroke.",
+          "tip": "You should be able to pedal smoothly in circles without bouncing in the seat or your knees wobbling inward. If you're bouncing or straining, lower the resistance."
         },
         {
           "number": 4,
-          "text": "When finished, gradually reduce your pace and resistance for a 2-3 minute cool down before stopping.",
-          "tip": "Don't stop pedaling abruptly — wind down gently."
+          "text": "When finished, gradually reduce both your pedaling speed and resistance over 2-3 minutes for a proper cool-down. Pedal at an easy pace with low resistance before stopping completely.",
+          "tip": "Don't stop pedaling abruptly - a gradual cool-down helps your heart rate return to normal safely and reduces muscle soreness. Keep moving at low intensity for at least 2 minutes."
         }
       ],
       "safetyWarnings": [
-        "Set the seat height correctly to avoid knee pain.",
-        "Don't hunch over the handlebars — sit upright with a relaxed posture.",
-        "Stay hydrated — bring a water bottle."
+        "Adjust seat height properly before starting - when your foot is at the bottom of the pedal stroke, your knee should have a 25-30 degree bend (nearly straight but not locked).",
+        "Avoid hunching over the handlebars - maintain an upright posture with relaxed shoulders to prevent lower back and neck strain.",
+        "If you have knee problems, heart conditions, or hip issues, consult a doctor before using a stationary bike at high resistance levels.",
+        "Stop immediately if you feel sharp knee pain, chest pain, or severe shortness of breath - muscle fatigue is normal, but joint or cardiac symptoms require attention.",
+        "Don't pedal with resistance so high that your knees track inward or you're bouncing in the seat - this indicates excessive resistance that can damage your knees.",
+        "Stay hydrated throughout your workout - bring a water bottle and drink every 10-15 minutes, especially during longer sessions."
       ],
       "youtubeVideoId": "jhPqTyejY_0",
       "suggestedSets": "20-30 minutes at a moderate pace",
-      "tags": ["cardio", "bike", "cycling", "low impact", "endurance", "heart", "beginner-friendly"]
+      "tags": [
+        "cardio",
+        "bike",
+        "cycling",
+        "low impact",
+        "endurance",
+        "heart",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "rowing-machine",
@@ -1305,7 +1739,14 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/rowing-machine.svg",
       "shortDescription": "Simulates the motion of rowing a boat and works almost every muscle in your body. One of the best machines for a complete workout — it builds strength and cardio fitness at the same time.",
-      "musclesWorked": ["Back", "Legs", "Arms", "Core", "Shoulders", "Heart & Lungs (Cardio)"],
+      "musclesWorked": [
+        "Back",
+        "Legs",
+        "Arms",
+        "Core",
+        "Shoulders",
+        "Heart & Lungs (Cardio)"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1335,7 +1776,16 @@
       ],
       "youtubeVideoId": "bqVgDaMsK8w",
       "suggestedSets": "15-20 minutes or 2000 meters for beginners",
-      "tags": ["cardio", "rowing", "full body", "endurance", "erg", "ergometer", "heart", "intermediate"]
+      "tags": [
+        "cardio",
+        "rowing",
+        "full body",
+        "endurance",
+        "erg",
+        "ergometer",
+        "heart",
+        "intermediate"
+      ]
     },
     {
       "id": "stair-climber",
@@ -1344,7 +1794,13 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/stair-climber.svg",
       "shortDescription": "A machine with a revolving set of stairs that you walk up continuously. It's like climbing real stairs that never end — great for your legs, glutes, and heart.",
-      "musclesWorked": ["Quadriceps", "Glutes", "Calves", "Hamstrings", "Heart & Lungs (Cardio)"],
+      "musclesWorked": [
+        "Quadriceps",
+        "Glutes",
+        "Calves",
+        "Hamstrings",
+        "Heart & Lungs (Cardio)"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1374,7 +1830,17 @@
       ],
       "youtubeVideoId": "Zn1O9LcKW9E",
       "suggestedSets": "10-20 minutes at a comfortable pace",
-      "tags": ["cardio", "stairs", "stairmill", "stepmill", "glutes", "legs", "endurance", "heart", "beginner-friendly"]
+      "tags": [
+        "cardio",
+        "stairs",
+        "stairmill",
+        "stepmill",
+        "glutes",
+        "legs",
+        "endurance",
+        "heart",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "smith-machine",
@@ -1383,7 +1849,14 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/smith-machine.svg",
       "shortDescription": "A barbell fixed to vertical rails that can be used for dozens of exercises including squats, bench press, rows, and shoulder press. The bar only moves straight up and down and has built-in safety hooks.",
-      "musclesWorked": ["Quadriceps", "Glutes", "Chest", "Shoulders", "Back", "Triceps"],
+      "musclesWorked": [
+        "Quadriceps",
+        "Glutes",
+        "Chest",
+        "Shoulders",
+        "Back",
+        "Triceps"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1413,7 +1886,23 @@
       ],
       "youtubeVideoId": "HPXa3HdJQnc",
       "suggestedSets": "Varies by exercise — typically 3 sets of 10-12 reps",
-      "tags": ["legs", "chest", "back", "shoulders", "arms", "full body", "smith machine", "barbell", "squat", "bench press", "shoulder press", "row", "compound", "multi-use", "intermediate"]
+      "tags": [
+        "legs",
+        "chest",
+        "back",
+        "shoulders",
+        "arms",
+        "full body",
+        "smith machine",
+        "barbell",
+        "squat",
+        "bench press",
+        "shoulder press",
+        "row",
+        "compound",
+        "multi-use",
+        "intermediate"
+      ]
     },
     {
       "id": "cable-machine",
@@ -1422,7 +1911,14 @@
       "difficulty": "beginner",
       "thumbnail": "/images/machines/cable-machine.svg",
       "shortDescription": "A versatile machine with adjustable pulleys and interchangeable handles that can be used for hundreds of exercises targeting every muscle group. If you only learn one machine, this is a great choice.",
-      "musclesWorked": ["Chest", "Back", "Shoulders", "Arms", "Core", "Legs"],
+      "musclesWorked": [
+        "Chest",
+        "Back",
+        "Shoulders",
+        "Arms",
+        "Core",
+        "Legs"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1452,7 +1948,25 @@
       ],
       "youtubeVideoId": "22AFyTaVs5g",
       "suggestedSets": "Varies by exercise — typically 3 sets of 12-15 reps",
-      "tags": ["arms", "chest", "back", "shoulders", "core", "legs", "cable", "pulley", "versatile", "multi-use", "biceps", "triceps", "fly", "row", "pushdown", "curl", "beginner-friendly"]
+      "tags": [
+        "arms",
+        "chest",
+        "back",
+        "shoulders",
+        "core",
+        "legs",
+        "cable",
+        "pulley",
+        "versatile",
+        "multi-use",
+        "biceps",
+        "triceps",
+        "fly",
+        "row",
+        "pushdown",
+        "curl",
+        "beginner-friendly"
+      ]
     },
     {
       "id": "functional-trainer",
@@ -1461,7 +1975,14 @@
       "difficulty": "intermediate",
       "thumbnail": "/images/machines/functional-trainer.svg",
       "shortDescription": "A machine with two independent cable columns that can be set to any height. It lets you do exercises that move in natural, real-world patterns — great for sports training, rehab, and building balanced strength.",
-      "musclesWorked": ["Chest", "Back", "Shoulders", "Arms", "Core", "Legs"],
+      "musclesWorked": [
+        "Chest",
+        "Back",
+        "Shoulders",
+        "Arms",
+        "Core",
+        "Legs"
+      ],
       "steps": [
         {
           "number": 1,
@@ -1491,7 +2012,642 @@
       ],
       "youtubeVideoId": "s8WXOVPMc60",
       "suggestedSets": "Varies by exercise — typically 3 sets of 12-15 reps",
-      "tags": ["chest", "back", "shoulders", "arms", "core", "legs", "cable", "dual cable", "functional", "multi-use", "crossover", "fly", "press", "pull", "rotation", "intermediate"]
+      "tags": [
+        "chest",
+        "back",
+        "shoulders",
+        "arms",
+        "core",
+        "legs",
+        "cable",
+        "dual cable",
+        "functional",
+        "multi-use",
+        "crossover",
+        "fly",
+        "press",
+        "pull",
+        "rotation",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "lying-leg-curl",
+      "name": "Lying Leg Curl",
+      "category": "legs",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/lying-leg-curl.svg",
+      "shortDescription": "Isolates the hamstrings from a prone position, allowing for a full range of motion and maximum muscle contraction.",
+      "musclesWorked": [
+        "Hamstrings",
+        "Calves"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Lie face down on the machine with your legs straight. Position the padded lever just above your heels.",
+          "tip": "Make sure the pivot point of the machine aligns with your knee joints."
+        },
+        {
+          "number": 2,
+          "text": "Grip the handles for stability and ensure your hips are pressed firmly against the bench.",
+          "tip": "Your body should be completely flat from head to hips."
+        },
+        {
+          "number": 3,
+          "text": "Curl your legs up by bending your knees, bringing the pad toward your glutes as far as comfortable.",
+          "tip": "Focus on squeezing your hamstrings at the top of the movement."
+        },
+        {
+          "number": 4,
+          "text": "Slowly lower the weight back down to the starting position with control.",
+          "tip": "Don't let the weight stack crash down — maintain tension throughout."
+        }
+      ],
+      "safetyWarnings": [
+        "Keep your hips pressed against the pad throughout the movement - don't lift them up",
+        "Use controlled motion, avoid jerky movements or swinging",
+        "Start with light weight to master the form before progressing",
+        "Don't hyperextend your knees at the bottom position"
+      ],
+      "youtubeVideoId": "ELOCsVUlZ1I",
+      "suggestedSets": "3 sets of 10-15 reps",
+      "tags": [
+        "legs",
+        "hamstrings",
+        "isolation",
+        "machine",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "leg-press-45",
+      "name": "45-Degree Leg Press",
+      "category": "legs",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/leg-press-45.svg",
+      "shortDescription": "Angled leg press that targets quads, glutes, and hamstrings with reduced spinal loading compared to squats.",
+      "musclesWorked": [
+        "Quadriceps",
+        "Glutes",
+        "Hamstrings"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit in the angled seat and place your feet on the platform shoulder-width apart, toes slightly pointed out.",
+          "tip": "Your entire back should be flat against the backrest."
+        },
+        {
+          "number": 2,
+          "text": "Push the platform up and release the safety handles to the sides.",
+          "tip": "Keep your hands on the safety release handles throughout the set."
+        },
+        {
+          "number": 3,
+          "text": "Lower the platform by bending your knees until they're at about 90 degrees.",
+          "tip": "Don't let your lower back round or lift off the pad."
+        },
+        {
+          "number": 4,
+          "text": "Push through your heels to extend your legs back to the starting position.",
+          "tip": "Keep a slight bend in your knees at the top — don't lock them out completely."
+        }
+      ],
+      "safetyWarnings": [
+        "Keep your lower back flat against the pad - don't let it round",
+        "Don't lock out your knees at the top - maintain slight bend",
+        "Start with moderate weight - this machine feels easier than it is",
+        "Keep feet shoulder-width apart with toes slightly pointed out"
+      ],
+      "youtubeVideoId": "yP_IG1vNrD0",
+      "suggestedSets": "3 sets of 8-12 reps",
+      "tags": [
+        "legs",
+        "compound",
+        "quads",
+        "glutes",
+        "machine",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "glute-kickback",
+      "name": "Glute Kickback Machine",
+      "category": "legs",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/glute-kickback.svg",
+      "shortDescription": "Dedicated glute isolation machine that targets the gluteus maximus through hip extension movement.",
+      "musclesWorked": [
+        "Glutes",
+        "Hamstrings"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Position yourself on the machine with your knee or thigh on the pad and hands gripping the handles.",
+          "tip": "Adjust the machine so your working leg can move through a full range of motion."
+        },
+        {
+          "number": 2,
+          "text": "Engage your core and keep your back neutral as you prepare to push.",
+          "tip": "Don't lean too far forward or arch your back excessively."
+        },
+        {
+          "number": 3,
+          "text": "Push the pad back and up by extending your hip, squeezing your glute at the top.",
+          "tip": "Really focus on feeling the glute muscle contract at the peak."
+        },
+        {
+          "number": 4,
+          "text": "Return to the starting position with control. Complete all reps on one leg before switching.",
+          "tip": "Keep the movement smooth and controlled — don't use momentum."
+        }
+      ],
+      "safetyWarnings": [
+        "Keep your core engaged and back neutral throughout the movement",
+        "Don't arch your lower back excessively at the top",
+        "Control the weight on the way down - don't let it slam",
+        "Start light to develop mind-muscle connection with glutes"
+      ],
+      "youtubeVideoId": "4DmyWcd45kQ",
+      "suggestedSets": "3 sets of 12-15 reps per leg",
+      "tags": [
+        "legs",
+        "glutes",
+        "isolation",
+        "unilateral",
+        "machine",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "pendulum-squat",
+      "name": "Pendulum Squat",
+      "category": "legs",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/pendulum-squat.svg",
+      "shortDescription": "Advanced squat machine with a unique arc motion that deeply targets quads while minimizing spinal loading.",
+      "musclesWorked": [
+        "Quadriceps",
+        "Glutes",
+        "Hamstrings"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Step onto the platform and position your shoulders under the pads. Grip the handles for stability.",
+          "tip": "Feet should be shoulder-width apart in the center of the platform."
+        },
+        {
+          "number": 2,
+          "text": "Release the safety mechanism and stand with your weight distributed evenly.",
+          "tip": "Keep your chest up and core tight before beginning."
+        },
+        {
+          "number": 3,
+          "text": "Lower yourself by bending your knees, following the machine's natural arc path.",
+          "tip": "Go as deep as comfortable while keeping your heels flat."
+        },
+        {
+          "number": 4,
+          "text": "Drive through your heels to push back up to the starting position.",
+          "tip": "Exhale as you push up, keeping your knees tracking over your toes."
+        },
+        {
+          "number": 5,
+          "text": "When finished, re-engage the safety mechanism before stepping off.",
+          "tip": "This machine allows for very deep squats — control is key."
+        }
+      ],
+      "safetyWarnings": [
+        "Position yourself correctly on the shoulder pads before adding weight",
+        "Keep your chest up and core braced throughout the movement",
+        "Don't let your knees cave inward - push them out",
+        "This machine can be deceptively challenging - start lighter than you think"
+      ],
+      "youtubeVideoId": "YjJkEcr2HzM",
+      "suggestedSets": "3 sets of 8-12 reps",
+      "tags": [
+        "legs",
+        "compound",
+        "quads",
+        "advanced-machine",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "lat-pulldown-close",
+      "name": "Close-Grip Lat Pulldown",
+      "category": "back",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/lat-pulldown-close.svg",
+      "shortDescription": "Lat pulldown variation using a narrow grip for increased range of motion and bicep involvement.",
+      "musclesWorked": [
+        "Latissimus Dorsi",
+        "Biceps",
+        "Middle Back"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit at the lat pulldown machine and secure your thighs under the pad. Grab the close-grip attachment with palms facing each other.",
+          "tip": "Hands should be about 6-8 inches apart on a V-bar or close-grip handle."
+        },
+        {
+          "number": 2,
+          "text": "Start with arms fully extended overhead, chest up, and slight lean back (about 10-15 degrees).",
+          "tip": "Engage your shoulder blades by pulling them down and together slightly."
+        },
+        {
+          "number": 3,
+          "text": "Pull the handle down toward your upper chest by driving your elbows down and back.",
+          "tip": "Focus on pulling with your back muscles, not just your arms."
+        },
+        {
+          "number": 4,
+          "text": "Slowly extend your arms back to the starting position with control.",
+          "tip": "Don't let the weight stack slam down — keep tension in your lats."
+        }
+      ],
+      "safetyWarnings": [
+        "Keep your chest up and shoulders pulled back throughout",
+        "Don't lean too far back - maintain mostly upright posture",
+        "Control the weight on the way up - don't let it pull you",
+        "Pull your elbows down and back, not just with your arms"
+      ],
+      "youtubeVideoId": "sP_4vybjfRs",
+      "suggestedSets": "3 sets of 10-12 reps",
+      "tags": [
+        "back",
+        "lats",
+        "biceps",
+        "cable",
+        "machine",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "lat-pulldown-wide",
+      "name": "Wide-Grip Lat Pulldown",
+      "category": "back",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/lat-pulldown-wide.svg",
+      "shortDescription": "Classic back builder using a wide grip to maximize lat width development and create a V-taper.",
+      "musclesWorked": [
+        "Latissimus Dorsi",
+        "Rear Deltoids",
+        "Middle Back"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit at the lat pulldown station and grab the bar with a wide overhand grip (hands wider than shoulder-width).",
+          "tip": "Your grip should be wide, but not at the extreme ends of the bar."
+        },
+        {
+          "number": 2,
+          "text": "Secure your thighs under the pad and sit upright with your chest up and shoulders back.",
+          "tip": "Start with your arms fully extended and shoulders slightly elevated."
+        },
+        {
+          "number": 3,
+          "text": "Pull the bar down to your upper chest by driving your elbows down and slightly back.",
+          "tip": "Think about pulling your elbows to your sides, not pulling with your hands."
+        },
+        {
+          "number": 4,
+          "text": "Slowly return the bar to the starting position, fully extending your arms.",
+          "tip": "Keep constant tension — don't let your shoulders shrug up at the top."
+        }
+      ],
+      "safetyWarnings": [
+        "Use a grip slightly wider than shoulder-width - not excessively wide",
+        "Pull the bar to your upper chest, not behind your neck",
+        "Keep shoulders depressed - don't shrug them up",
+        "Engage your lats before pulling with your arms"
+      ],
+      "youtubeVideoId": "lueEJGjTuPQ",
+      "suggestedSets": "3 sets of 10-12 reps",
+      "tags": [
+        "back",
+        "lats",
+        "width",
+        "cable",
+        "machine",
+        "beginner-friendly",
+        "classic"
+      ]
+    },
+    {
+      "id": "cable-row-single",
+      "name": "Single-Arm Cable Row",
+      "category": "back",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/cable-row-single.svg",
+      "shortDescription": "Unilateral rowing exercise that builds back thickness while improving muscle balance and core stability.",
+      "musclesWorked": [
+        "Latissimus Dorsi",
+        "Rhomboids",
+        "Biceps",
+        "Core"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Set a cable to low or mid height and attach a single handle. Stand or sit facing the machine.",
+          "tip": "You can do this standing with a staggered stance or seated on a bench."
+        },
+        {
+          "number": 2,
+          "text": "Grab the handle with one hand and position yourself with arm fully extended.",
+          "tip": "Use your opposite hand on your thigh or the machine for support."
+        },
+        {
+          "number": 3,
+          "text": "Pull the handle toward your torso by driving your elbow back and up toward your hip.",
+          "tip": "Keep your torso stable — don't rotate excessively during the pull."
+        },
+        {
+          "number": 4,
+          "text": "Squeeze your shoulder blade back at the end of the movement, then slowly extend your arm.",
+          "tip": "Control the weight on the way back — resist the cable's pull."
+        },
+        {
+          "number": 5,
+          "text": "Complete all reps on one side before switching to the other arm.",
+          "tip": "Match the reps on both sides to maintain balance."
+        }
+      ],
+      "safetyWarnings": [
+        "Brace your core to prevent torso rotation during the pull",
+        "Keep your pulling shoulder down and back - don't shrug",
+        "Use your non-working hand for support and stability",
+        "Pull your elbow back and up toward your hip, not straight back"
+      ],
+      "youtubeVideoId": "QBiRJg-F7rw",
+      "suggestedSets": "3 sets of 10-12 reps per arm",
+      "tags": [
+        "back",
+        "unilateral",
+        "cable",
+        "thickness",
+        "intermediate",
+        "core-stability"
+      ]
+    },
+    {
+      "id": "upright-row-machine",
+      "name": "Upright Row Machine",
+      "category": "shoulders",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/upright-row-machine.svg",
+      "shortDescription": "Guided upright row movement that builds shoulder width and upper trap development with reduced injury risk.",
+      "musclesWorked": [
+        "Deltoids (Shoulders)",
+        "Trapezius",
+        "Biceps"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Stand facing the machine and adjust the seat or platform height so the handles are at mid-thigh level.",
+          "tip": "Some machines have you sit, others have you stand — adjust accordingly."
+        },
+        {
+          "number": 2,
+          "text": "Grab the handles with an overhand grip, hands shoulder-width apart or slightly closer.",
+          "tip": "Keep your chest up and shoulders back before beginning."
+        },
+        {
+          "number": 3,
+          "text": "Pull the handles straight up toward your chin by lifting your elbows out to the sides.",
+          "tip": "Your elbows should lead the movement — they go higher than your hands."
+        },
+        {
+          "number": 4,
+          "text": "Raise the handles to mid-chest height, pause briefly, then lower with control.",
+          "tip": "Don't pull higher than mid-chest to protect your shoulders."
+        }
+      ],
+      "safetyWarnings": [
+        "Don't pull the handles higher than mid-chest level to protect shoulders",
+        "Keep the weight close to your body throughout the movement",
+        "Lead with your elbows, not your hands",
+        "If you feel shoulder pain, reduce weight or stop - this isn't for everyone"
+      ],
+      "youtubeVideoId": "9wGhsZ-vH08",
+      "suggestedSets": "3 sets of 10-12 reps",
+      "tags": [
+        "shoulders",
+        "traps",
+        "machine",
+        "medial-delts",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "dumbbell-shoulder-press",
+      "name": "Seated Dumbbell Shoulder Press Machine",
+      "category": "shoulders",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/dumbbell-shoulder-press.svg",
+      "shortDescription": "Machine that mimics dumbbell pressing, allowing independent arm movement for balanced shoulder development.",
+      "musclesWorked": [
+        "Deltoids (Shoulders)",
+        "Triceps",
+        "Upper Chest"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Adjust the seat so the handles are at shoulder height when you're seated.",
+          "tip": "Your feet should be flat on the floor with your back against the pad."
+        },
+        {
+          "number": 2,
+          "text": "Grip the handles with palms facing forward and elbows bent at 90 degrees.",
+          "tip": "Engage your core and keep your lower back supported."
+        },
+        {
+          "number": 3,
+          "text": "Press the handles straight up overhead until your arms are nearly fully extended.",
+          "tip": "Don't lock out your elbows completely at the top."
+        },
+        {
+          "number": 4,
+          "text": "Lower the handles back down to shoulder level with control.",
+          "tip": "Keep the movement smooth — don't let the weight crash down."
+        }
+      ],
+      "safetyWarnings": [
+        "Adjust seat height so handles are at shoulder level",
+        "Press straight up, not forward or backward",
+        "Don't lock out elbows completely at the top",
+        "Keep your back supported against the pad throughout"
+      ],
+      "youtubeVideoId": "qEwKCR5JCog",
+      "suggestedSets": "3 sets of 8-12 reps",
+      "tags": [
+        "shoulders",
+        "pressing",
+        "compound",
+        "machine",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "decline-situp-bench",
+      "name": "Decline Sit-Up Bench",
+      "category": "core",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/decline-situp-bench.svg",
+      "shortDescription": "Adjustable bench for weighted ab training with progressive difficulty through angle adjustment.",
+      "musclesWorked": [
+        "Rectus Abdominis",
+        "Hip Flexors",
+        "Obliques"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Adjust the bench to your desired decline angle (start with the lowest setting if you're new).",
+          "tip": "Steeper angles make the exercise significantly harder."
+        },
+        {
+          "number": 2,
+          "text": "Sit on the bench and hook your feet under the padded rollers. Lie back with hands behind your head or across your chest.",
+          "tip": "Keep your hands lightly touching your head — don't pull on your neck."
+        },
+        {
+          "number": 3,
+          "text": "Engage your core and curl your torso up toward your knees using your ab muscles.",
+          "tip": "Lead with your chest, not your head — imagine rolling up like a carpet."
+        },
+        {
+          "number": 4,
+          "text": "Lower yourself back down with control until your shoulder blades touch the bench.",
+          "tip": "Don't crash down — maintain tension in your abs throughout."
+        }
+      ],
+      "safetyWarnings": [
+        "Start at the lowest decline angle and progress gradually",
+        "Keep movements controlled - don't use momentum to swing up",
+        "Support your neck with your hands but don't pull on it",
+        "If adding weight, hold it across your chest, not behind your head"
+      ],
+      "youtubeVideoId": "FrqiFfQ6E6I",
+      "suggestedSets": "3 sets of 12-20 reps",
+      "tags": [
+        "core",
+        "abs",
+        "bodyweight",
+        "progressive",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "torso-rotation",
+      "name": "Torso Rotation Machine",
+      "category": "core",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/torso-rotation.svg",
+      "shortDescription": "Seated rotation machine that isolates the obliques and develops rotational core strength.",
+      "musclesWorked": [
+        "Obliques",
+        "Transverse Abdominis",
+        "Lower Back"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit in the machine with your back against the pad. Adjust the chest pad so it's snug against your torso.",
+          "tip": "Your feet should be flat on the platform for stability."
+        },
+        {
+          "number": 2,
+          "text": "Grip the handles and engage your core. The machine will have you rotate to one side.",
+          "tip": "Start with very light weight — this exercise is easy to overload."
+        },
+        {
+          "number": 3,
+          "text": "Rotate your torso slowly to one side as far as comfortable, using your oblique muscles.",
+          "tip": "The rotation should come from your core, not from pulling with your arms."
+        },
+        {
+          "number": 4,
+          "text": "Return to the center position with control, then repeat for all reps before switching sides.",
+          "tip": "Keep the tempo smooth — no jerky or explosive movements."
+        }
+      ],
+      "safetyWarnings": [
+        "Use very light weight - this machine is easy to overload",
+        "Keep rotation controlled and within comfortable range of motion",
+        "Don't twist explosively - maintain smooth tempo",
+        "Brace your core before each rotation"
+      ],
+      "youtubeVideoId": "PguQ3wNbZrQ",
+      "suggestedSets": "3 sets of 12-15 reps per side",
+      "tags": [
+        "core",
+        "obliques",
+        "rotation",
+        "isolation",
+        "machine",
+        "beginner-friendly"
+      ]
+    },
+    {
+      "id": "cable-hammer-curl",
+      "name": "Cable Rope Hammer Curl",
+      "category": "arms",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/cable-hammer-curl.svg",
+      "shortDescription": "Cable curl variation with neutral grip that targets the brachialis for arm thickness and forearm development.",
+      "musclesWorked": [
+        "Brachialis",
+        "Brachioradialis",
+        "Biceps"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Attach a rope to the low pulley of a cable machine. Stand facing the machine and grab the rope with both hands, palms facing each other.",
+          "tip": "Stand with feet shoulder-width apart for a stable base."
+        },
+        {
+          "number": 2,
+          "text": "Keep your elbows pinned to your sides and your shoulders back. Start with arms fully extended.",
+          "tip": "Your wrists should stay neutral (thumbs up) throughout the movement."
+        },
+        {
+          "number": 3,
+          "text": "Curl the rope up toward your shoulders by bending your elbows. Keep your upper arms stationary.",
+          "tip": "Squeeze your biceps and forearms at the top of the movement."
+        },
+        {
+          "number": 4,
+          "text": "Slowly lower the rope back to the starting position with control.",
+          "tip": "Resist the weight on the way down — don't let it pull your arms quickly."
+        }
+      ],
+      "safetyWarnings": [
+        "Keep elbows pinned to your sides - don't let them drift forward",
+        "Maintain neutral wrist position throughout the movement",
+        "Control the negative - don't let cable pull your arms down quickly",
+        "Keep shoulders back and chest up - don't round forward"
+      ],
+      "youtubeVideoId": "TwD-YGVP4Bk",
+      "suggestedSets": "3 sets of 10-15 reps",
+      "tags": [
+        "arms",
+        "biceps",
+        "brachialis",
+        "forearms",
+        "cable",
+        "beginner-friendly",
+        "isolation"
+      ]
     }
   ]
 }

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base frame -->
+  <line x1="60" y1="215" x2="340" y2="215" stroke="#2563eb" stroke-width="3"/>
+  <!-- Main central column -->
+  <line x1="200" y1="80" x2="200" y2="215" stroke="#2563eb" stroke-width="5"/>
+  <!-- Seat -->
+  <rect x="165" y="160" width="70" height="20" rx="4" stroke="#2563eb" stroke-width="3" fill="#2563eb" opacity="0.15"/>
+  <!-- Seat support -->
+  <line x1="200" y1="180" x2="200" y2="215" stroke="#2563eb" stroke-width="3"/>
+  <!-- Backrest -->
+  <rect x="190" y="105" width="20" height="60" rx="5" stroke="#2563eb" stroke-width="3" fill="#2563eb" opacity="0.15"/>
+  <!-- Chest/torso pad (rotating part) -->
+  <rect x="175" y="115" width="50" height="30" rx="4" stroke="#2563eb" stroke-width="2.5" fill="#2563eb" opacity="0.2"/>
+  <!-- Rotating mechanism (pivot point) -->
+  <circle cx="200" cy="130" r="8" stroke="#2563eb" stroke-width="2.5" fill="#f1f5f9"/>
+  <!-- Handle arms (showing rotation capability) -->
+  <line x1="200" y1="130" x2="145" y2="130" stroke="#2563eb" stroke-width="3"/>
+  <line x1="200" y1="130" x2="255" y2="130" stroke="#2563eb" stroke-width="3"/>
+  <!-- Handle grips -->
+  <rect x="130" y="122" width="12" height="16" rx="3" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <rect x="258" y="122" width="12" height="16" rx="3" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <!-- Rotation arc indicators (showing range of motion) -->
+  <path d="M 145 130 A 55 55 0 0 1 175 90" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,3" fill="none" opacity="0.5"/>
+  <path d="M 255 130 A 55 55 0 0 0 225 90" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,3" fill="none" opacity="0.5"/>
+  <!-- Weight stack -->
+  <rect x="270" y="135" width="22" height="65" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="270" y1="148" x2="292" y2="148" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="270" y1="161" x2="292" y2="161" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="270" y1="174" x2="292" y2="174" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="270" y1="187" x2="292" y2="187" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Cable to weight -->
+  <line x1="255" y1="130" x2="270" y2="135" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Foot platform -->
+  <rect x="175" y="195" width="50" height="12" rx="3" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <!-- Base support legs -->
+  <line x1="120" y1="200" x2="120" y2="215" stroke="#2563eb" stroke-width="3"/>
+  <line x1="280" y1="200" x2="280" y2="215" stroke="#2563eb" stroke-width="3"/>
+</svg>

@@ -65,6 +65,13 @@
   display: block;
 }
 
+/* Smooth transitions for muscle highlighting */
+.muscle-diagram__view svg path,
+.muscle-diagram__view svg ellipse,
+.muscle-diagram__view svg rect {
+  transition: fill 0.3s ease, fill-opacity 0.3s ease, stroke 0.3s ease;
+}
+
 .muscle-diagram__legend {
   margin-top: 16px;
   display: flex;

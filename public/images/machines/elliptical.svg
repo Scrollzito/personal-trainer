@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base/floor rail -->
+  <line x1="60" y1="230" x2="340" y2="230" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Rear stabilizer -->
+  <line x1="60" y1="230" x2="90" y2="230" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <!-- Front stabilizer -->
+  <line x1="310" y1="230" x2="340" y2="230" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <!-- Main upright post (front) -->
+  <line x1="280" y1="230" x2="280" y2="50" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Console screen at top -->
+  <rect x="260" y="40" width="40" height="25" rx="4" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Console stand -->
+  <line x1="280" y1="65" x2="280" y2="75" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left foot pedal (elliptical path - rear position) -->
+  <ellipse cx="180" cy="200" rx="45" ry="8" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Right foot pedal (front position) -->
+  <ellipse cx="240" cy="185" rx="45" ry="8" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Pedal arm connections to center -->
+  <line x1="200" y1="195" x2="230" y2="160" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="260" y1="180" x2="230" y2="160" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Flywheel center -->
+  <circle cx="230" cy="160" r="8" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left moving arm handle (rear) -->
+  <line x1="170" y1="200" x2="220" y2="60" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left handle grip -->
+  <line x1="218" y1="60" x2="222" y2="45" stroke="#2563eb" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Right moving arm handle (front) -->
+  <line x1="250" y1="180" x2="300" y2="60" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right handle grip -->
+  <line x1="298" y1="60" x2="302" y2="45" stroke="#2563eb" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Support post from base to mechanism -->
+  <line x1="230" y1="230" x2="230" y2="168" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Rear base ramp -->
+  <line x1="120" y1="230" x2="180" y2="208" stroke="#2563eb" stroke-width="2" fill="none"/>
+</svg>

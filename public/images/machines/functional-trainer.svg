@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base -->
+  <line x1="40" y1="235" x2="360" y2="235" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left cable column -->
+  <rect x="55" y="25" width="50" height="210" rx="4" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right cable column -->
+  <rect x="295" y="25" width="50" height="210" rx="4" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Top crossbar connecting columns -->
+  <line x1="105" y1="30" x2="295" y2="30" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left weight stack -->
+  <rect x="63" y="80" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="63" y="94" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="63" y="108" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="63" y="122" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="63" y="136" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="63" y="150" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="63" y="164" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <!-- Right weight stack -->
+  <rect x="303" y="80" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="303" y="94" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="303" y="108" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="303" y="122" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="303" y="136" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="303" y="150" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="303" y="164" width="34" height="10" rx="1" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <!-- Left top pulley -->
+  <circle cx="80" cy="42" r="8" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Right top pulley -->
+  <circle cx="320" cy="42" r="8" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Left cable from pulley down to weights -->
+  <line x1="80" y1="50" x2="80" y2="80" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Right cable from pulley down to weights -->
+  <line x1="320" y1="50" x2="320" y2="80" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Left cable out over pulley and down to handle -->
+  <line x1="88" y1="42" x2="155" y2="42" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <line x1="155" y1="42" x2="155" y2="155" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <!-- Right cable out over pulley and down to handle -->
+  <line x1="312" y1="42" x2="245" y2="42" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <line x1="245" y1="42" x2="245" y2="155" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <!-- Left handle -->
+  <rect x="143" y="153" width="24" height="10" rx="4" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Right handle -->
+  <rect x="233" y="153" width="24" height="10" rx="4" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Base feet -->
+  <line x1="40" y1="235" x2="75" y2="235" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <line x1="325" y1="235" x2="360" y2="235" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <!-- Adjustable pulley slots on left column -->
+  <circle cx="55" cy="60" r="2" fill="#2563eb"/>
+  <circle cx="55" cy="75" r="2" fill="#2563eb"/>
+  <circle cx="55" cy="90" r="2" fill="#2563eb"/>
+  <!-- Adjustable pulley slots on right column -->
+  <circle cx="345" cy="60" r="2" fill="#2563eb"/>
+  <circle cx="345" cy="75" r="2" fill="#2563eb"/>
+  <circle cx="345" cy="90" r="2" fill="#2563eb"/>
+</svg>

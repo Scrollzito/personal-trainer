@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base frame -->
+  <line x1="40" y1="210" x2="360" y2="210" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Long low bench/seat -->
+  <rect x="100" y="165" width="120" height="10" rx="5" stroke="#2563eb" stroke-width="3" fill="#2563eb" opacity="0.15"/>
+  <!-- Bench support -->
+  <line x1="140" y1="175" x2="140" y2="210" stroke="#2563eb" stroke-width="3"/>
+  <line x1="200" y1="175" x2="200" y2="210" stroke="#2563eb" stroke-width="3"/>
+  <!-- Foot platform -->
+  <rect x="230" y="155" width="12" height="40" rx="3" stroke="#2563eb" stroke-width="3" fill="#2563eb" opacity="0.15"/>
+  <!-- Cable tower (vertical frame) -->
+  <line x1="300" y1="210" x2="300" y2="45" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="320" y1="210" x2="320" y2="45" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="300" y1="45" x2="320" y2="45" stroke="#2563eb" stroke-width="3"/>
+  <!-- Low pulley -->
+  <circle cx="300" cy="175" r="6" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Cable from pulley to handle -->
+  <line x1="294" y1="175" x2="250" y2="170" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- V-handle -->
+  <path d="M 245 162 L 250 170 L 245 178" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Weight stack -->
+  <rect x="325" y="65" width="22" height="80" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="325" y1="77" x2="347" y2="77" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="325" y1="89" x2="347" y2="89" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="325" y1="101" x2="347" y2="101" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="325" y1="113" x2="347" y2="113" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="325" y1="125" x2="347" y2="125" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="325" y1="137" x2="347" y2="137" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Floor feet -->
+  <circle cx="40" cy="213" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <circle cx="360" cy="213" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+</svg>

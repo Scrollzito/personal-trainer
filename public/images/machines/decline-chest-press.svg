@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base frame -->
+  <line x1="60" y1="230" x2="340" y2="230" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Front support (taller, feet higher) -->
+  <line x1="120" y1="230" x2="120" y2="130" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Rear support (shorter, head lower) -->
+  <line x1="270" y1="230" x2="270" y2="150" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Seat (angled - feet higher than head) -->
+  <rect x="125" y="140" width="140" height="10" rx="4" transform="rotate(12 195 145)" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Seat back (angled to support decline position) -->
+  <rect x="248" y="100" width="14" height="65" rx="5" transform="rotate(-15 255 132)" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Foot rollers at high end -->
+  <circle cx="118" cy="128" r="7" stroke="#2563eb" stroke-width="2.5" fill="#dbeafe"/>
+  <circle cx="118" cy="112" r="7" stroke="#2563eb" stroke-width="2.5" fill="#dbeafe"/>
+  <!-- Main frame upright -->
+  <line x1="120" y1="130" x2="120" y2="40" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Top cross piece -->
+  <line x1="100" y1="40" x2="140" y2="40" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Pressing handle arms -->
+  <line x1="120" y1="75" x2="185" y2="100" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="185" y1="100" x2="245" y2="115" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Handle grip -->
+  <line x1="245" y1="105" x2="245" y2="128" stroke="#2563eb" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Second arm (depth) -->
+  <line x1="120" y1="85" x2="185" y2="110" stroke="#2563eb" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <line x1="185" y1="110" x2="240" y2="123" stroke="#2563eb" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <line x1="240" y1="113" x2="240" y2="136" stroke="#2563eb" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Pivot -->
+  <circle cx="120" cy="75" r="5" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <!-- Weight stack -->
+  <rect x="50" y="70" width="35" height="70" rx="3" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="50" y1="85" x2="85" y2="85" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+  <line x1="50" y1="100" x2="85" y2="100" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+  <line x1="50" y1="115" x2="85" y2="115" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+  <line x1="50" y1="130" x2="85" y2="130" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+  <!-- Cable -->
+  <line x1="67" y1="70" x2="120" y2="75" stroke="#2563eb" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+</svg>

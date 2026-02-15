@@ -1,0 +1,234 @@
+.workout-detail {
+  padding-top: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.workout-detail__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.workout-detail__title {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.workout-detail__description {
+  font-size: 1.0625rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.workout-detail__meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.workout-detail__meta-item {
+  background: var(--color-primary-light);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  flex: 1;
+  min-width: 100px;
+}
+
+.workout-detail__meta-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-light);
+  margin-bottom: 2px;
+}
+
+.workout-detail__meta-value {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.workout-detail__section {
+  margin-bottom: 28px;
+}
+
+.workout-detail__section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: var(--color-text);
+}
+
+.workout-detail__exercises {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.workout-detail__exercise {
+  display: flex;
+  gap: 12px;
+  background: var(--color-card);
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.workout-detail__exercise-number {
+  width: 32px;
+  height: 32px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  flex-shrink: 0;
+}
+
+.workout-detail__exercise-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.workout-detail__exercise-top {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.workout-detail__exercise-thumb {
+  width: 56px;
+  height: 36px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--color-primary-light);
+  flex-shrink: 0;
+}
+
+.workout-detail__exercise-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.workout-detail__exercise-name {
+  font-weight: 700;
+  color: var(--color-text);
+  font-size: 0.9375rem;
+  transition: color 0.2s;
+}
+
+a.workout-detail__exercise-name:hover {
+  color: var(--color-primary);
+}
+
+.workout-detail__exercise-sets {
+  font-size: 0.8125rem;
+  color: var(--color-text-light);
+  margin-top: 2px;
+}
+
+.workout-detail__exercise-rest {
+  margin-left: 4px;
+  color: var(--color-text-light);
+}
+
+.workout-detail__exercise-notes {
+  margin-top: 8px;
+  font-size: 0.8125rem;
+  color: var(--color-text-light);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.workout-detail__exercise-muscles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.workout-detail__exercise-muscle-tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.workout-detail__tips {
+  background: var(--color-primary-light);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+
+.workout-detail__tips-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 12px;
+}
+
+.workout-detail__tips-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.workout-detail__tips-list li {
+  font-size: 0.9375rem;
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+  padding-left: 20px;
+  position: relative;
+}
+
+.workout-detail__tips-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.workout-detail__not-found {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.workout-detail__not-found h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.workout-detail__not-found p {
+  color: var(--color-text-light);
+  margin-bottom: 20px;
+}
+
+.workout-detail__back-btn {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.workout-detail__back-btn:hover {
+  background: var(--color-primary-dark);
+}

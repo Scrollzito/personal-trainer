@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Floor -->
+  <line x1="60" y1="220" x2="340" y2="220" stroke="#2563eb" stroke-width="2"/>
+  <!-- Seat post -->
+  <line x1="250" y1="220" x2="250" y2="150" stroke="#2563eb" stroke-width="3"/>
+  <!-- Seat -->
+  <rect x="230" y="145" width="40" height="10" rx="5" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Angled arm pad frame -->
+  <line x1="200" y1="220" x2="180" y2="130" stroke="#2563eb" stroke-width="3"/>
+  <!-- Angled preacher pad -->
+  <path d="M140 80 Q160 95 180 130" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <!-- Pad surface (wider) -->
+  <path d="M135 78 Q155 90 178 128" stroke="#2563eb" stroke-width="12" fill="none" opacity="0.15"/>
+  <!-- Bar/handle -->
+  <line x1="110" y1="85" x2="155" y2="70" stroke="#2563eb" stroke-width="4"/>
+  <!-- Weight on bar -->
+  <ellipse cx="108" cy="85" rx="3" ry="12" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Arm resting on pad (forearm going to bar) -->
+  <line x1="210" y1="115" x2="170" y2="100" stroke="#2563eb" stroke-width="2.5"/>
+  <line x1="170" y1="100" x2="145" y2="73" stroke="#2563eb" stroke-width="2.5"/>
+  <!-- Arrow showing curl motion -->
+  <path d="M120 90 Q115 70 135 62" stroke="#2563eb" stroke-width="1.5" fill="none" marker-end="url(#arrC)"/>
+  <defs><marker id="arrC" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#2563eb"/></marker></defs>
+  <!-- Base feet -->
+  <line x1="170" y1="220" x2="220" y2="220" stroke="#2563eb" stroke-width="3"/>
+  <line x1="240" y1="220" x2="270" y2="220" stroke="#2563eb" stroke-width="3"/>
+</svg>

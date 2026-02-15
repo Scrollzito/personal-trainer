@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Cable column -->
+  <rect x="290" y="30" width="25" height="190" rx="3" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Weight stack -->
+  <rect x="295" y="100" width="15" height="70" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="295" y1="115" x2="310" y2="115" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="295" y1="130" x2="310" y2="130" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="295" y1="145" x2="310" y2="145" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="295" y1="160" x2="310" y2="160" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Upper pulley -->
+  <circle cx="302" cy="42" r="6" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Pulley set at face height -->
+  <circle cx="302" cy="85" r="5" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Cable/rope -->
+  <line x1="297" y1="85" x2="200" y2="95" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Rope ends (two ropes) -->
+  <line x1="200" y1="95" x2="185" y2="85" stroke="#2563eb" stroke-width="3"/>
+  <line x1="200" y1="95" x2="185" y2="105" stroke="#2563eb" stroke-width="3"/>
+  <!-- Rope knobs -->
+  <circle cx="182" cy="83" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <circle cx="182" cy="107" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Person silhouette (standing, pulling) -->
+  <circle cx="140" cy="60" r="14" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Body -->
+  <line x1="140" y1="74" x2="140" y2="150" stroke="#2563eb" stroke-width="2.5"/>
+  <!-- Arms pulling rope to face -->
+  <line x1="140" y1="90" x2="178" y2="83" stroke="#2563eb" stroke-width="2"/>
+  <line x1="140" y1="90" x2="178" y2="107" stroke="#2563eb" stroke-width="2"/>
+  <!-- Legs -->
+  <line x1="140" y1="150" x2="125" y2="210" stroke="#2563eb" stroke-width="2"/>
+  <line x1="140" y1="150" x2="155" y2="210" stroke="#2563eb" stroke-width="2"/>
+  <!-- Floor -->
+  <line x1="60" y1="220" x2="330" y2="220" stroke="#2563eb" stroke-width="2"/>
+</svg>

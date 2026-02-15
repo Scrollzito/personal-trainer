@@ -1,0 +1,82 @@
+.machine-card {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.machine-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.machine-card__image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: var(--color-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.machine-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.machine-card__body {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.machine-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.machine-card__name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.machine-card__category {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+}
+
+.machine-card__description {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.machine-card__muscles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.machine-card__muscle-tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: var(--color-bg);
+  border-radius: 999px;
+  color: var(--color-text-light);
+  font-weight: 500;
+}

@@ -1,0 +1,1145 @@
+{
+  "workouts": [
+    {
+      "id": "beginner-full-body",
+    "name": "Beginner Full Body",
+    "description": "A balanced workout that hits every major muscle group in one session. Perfect for gym newcomers who want to build a solid foundation of strength without overcomplicating things. Stick with this 3 days a week and you'll see real progress within a few weeks.",
+    "difficulty": "beginner",
+    "duration": "45-60 min",
+    "frequency": "3x per week",
+    "type": "full-body",
+    "tags": ["beginner", "full-body", "starter", "all-around", "foundation"],
+    "exercises": [
+      {
+        "machineId": "treadmill",
+        "sets": 1,
+        "reps": "5 minutes",
+        "restSeconds": 0,
+        "notes": "Walk at a brisk pace to warm up your muscles and get your heart rate up before lifting"
+      },
+      {
+        "machineId": "leg-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Start light and focus on pushing through your heels"
+      },
+      {
+        "machineId": "chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Keep your back flat against the pad and lower the weight slowly"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Pull the bar to your upper chest and squeeze your shoulder blades together"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Press straight up without locking out your elbows at the top"
+      },
+      {
+        "machineId": "leg-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Control the weight on the way back down — don't let it snap back"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Keep your elbows pinned to your sides throughout the movement"
+      },
+      {
+        "machineId": "ab-crunch-machine",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Focus on contracting your abs rather than pulling with your arms"
+      }
+    ],
+    "tips": [
+      "Start with lighter weights than you think you need — good form matters more than heavy weight.",
+      "Rest at least one full day between sessions to let your muscles recover.",
+      "Bring a water bottle and take small sips between sets to stay hydrated.",
+      "If 3 sets feels like too much at first, start with 2 sets per exercise and work your way up."
+    ]
+  },
+  {
+    "id": "leg-day",
+    "name": "Leg Day",
+    "description": "A dedicated lower-body session that targets your quads, hamstrings, glutes, and calves. This workout uses a mix of compound and isolation exercises to build serious leg strength. Great for anyone ready to move past the basics and challenge their lower body.",
+    "difficulty": "intermediate",
+    "duration": "50-60 min",
+    "frequency": "1-2x per week",
+    "type": "legs",
+    "tags": ["legs", "lower-body", "quads", "hamstrings", "glutes", "calves", "intermediate"],
+    "exercises": [
+      {
+        "machineId": "smith-machine-squat",
+        "sets": 4,
+        "reps": "8-12",
+        "restSeconds": 120,
+        "notes": "Place your feet slightly forward and squat until your thighs are parallel to the floor"
+      },
+      {
+        "machineId": "leg-press",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Use a shoulder-width foot placement and don't lock your knees at the top"
+      },
+      {
+        "machineId": "hack-squat",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Keep your back flat against the pad and lower yourself in a controlled motion"
+      },
+      {
+        "machineId": "leg-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Squeeze your quads hard at the top and lower slowly"
+      },
+      {
+        "machineId": "leg-curl",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Focus on feeling the stretch in your hamstrings at the bottom"
+      },
+      {
+        "machineId": "hip-abductor",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Push outward in a smooth, controlled motion — avoid using momentum"
+      },
+      {
+        "machineId": "hip-adductor",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Squeeze inward and hold briefly at the end of each rep"
+      },
+      {
+        "machineId": "calf-raise",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Rise up on your toes as high as possible and pause at the top for a second"
+      }
+    ],
+    "tips": [
+      "Warm up with 5 minutes of walking or light cycling before starting the heavy lifts.",
+      "Compound movements like squats and leg press should be done first while you're freshest.",
+      "Don't skip the hip abductor and adductor — they help prevent knee injuries and improve stability.",
+      "Stretch your quads and hamstrings after the workout to reduce soreness the next day."
+    ]
+  },
+  {
+    "id": "push-day",
+    "name": "Push Day (Chest + Shoulders + Triceps)",
+    "description": "This workout focuses on all the muscles you use when pushing: chest, shoulders, and triceps. It's designed as part of a push/pull/legs split, hitting these muscle groups with enough volume to drive real growth. Best suited for people who have a few months of gym experience.",
+    "difficulty": "intermediate",
+    "duration": "45-55 min",
+    "frequency": "1-2x per week",
+    "type": "push",
+    "tags": ["push", "chest", "shoulders", "triceps", "upper-body", "intermediate", "PPL"],
+    "exercises": [
+      {
+        "machineId": "chest-press",
+        "sets": 4,
+        "reps": "8-12",
+        "restSeconds": 90,
+        "notes": "This is your main chest movement — go heavier here but keep your form strict"
+      },
+      {
+        "machineId": "incline-chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Targets the upper chest — keep your back pressed into the seat"
+      },
+      {
+        "machineId": "pec-deck",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Bring the handles together slowly and squeeze your chest at the center"
+      },
+      {
+        "machineId": "cable-crossover",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Step slightly forward and cross the cables in front of your body for a full contraction"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Press overhead without arching your lower back"
+      },
+      {
+        "machineId": "lateral-raise-machine",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Raise to shoulder height and control the descent — don't swing the weight"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Lock your elbows in place and push the bar all the way down until your arms are straight"
+      }
+    ],
+    "tips": [
+      "Start with the heavier compound lifts (chest press, shoulder press) while your energy is highest.",
+      "If your shoulders feel fatigued from chest work, consider lowering the weight on shoulder press slightly.",
+      "Keep your core tight during overhead pressing to protect your lower back.",
+      "Pair this workout with pull day and leg day for a well-rounded weekly split."
+    ]
+  },
+  {
+    "id": "pull-day",
+    "name": "Pull Day (Back + Biceps)",
+    "description": "This workout targets the muscles used in pulling motions: your entire back and biceps. It pairs perfectly with push day in a push/pull/legs rotation. Building a strong back improves your posture, protects your spine, and makes every other lift feel easier.",
+    "difficulty": "intermediate",
+    "duration": "45-55 min",
+    "frequency": "1-2x per week",
+    "type": "pull",
+    "tags": ["pull", "back", "biceps", "upper-body", "intermediate", "PPL", "posture"],
+    "exercises": [
+      {
+        "machineId": "lat-pulldown",
+        "sets": 4,
+        "reps": "8-12",
+        "restSeconds": 90,
+        "notes": "Lean back slightly and pull the bar to your upper chest — think about driving your elbows down"
+      },
+      {
+        "machineId": "seated-cable-row",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Sit up tall, pull the handle to your stomach, and squeeze your shoulder blades together"
+      },
+      {
+        "machineId": "t-bar-row",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Keep your back flat and pull the weight into your lower chest"
+      },
+      {
+        "machineId": "assisted-pull-up",
+        "sets": 3,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Use enough assistance to complete all reps with a full range of motion"
+      },
+      {
+        "machineId": "reverse-fly-machine",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Keep a slight bend in your elbows and focus on squeezing your rear delts"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Keep your elbows still — only your forearms should move"
+      },
+      {
+        "machineId": "preacher-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Lower the weight all the way down for a full stretch, then curl up to the top"
+      }
+    ],
+    "tips": [
+      "Focus on squeezing your back muscles rather than just pulling with your arms — this is the most common beginner mistake.",
+      "Use lifting straps if your grip gives out before your back does.",
+      "Save bicep work for the end of the session so your arms don't fatigue before your back exercises.",
+      "A strong back is the foundation of good posture — this workout pays off all day, not just in the gym."
+    ]
+  },
+  {
+    "id": "upper-body",
+    "name": "Upper Body",
+    "description": "A straightforward upper-body workout that trains your chest, back, shoulders, and arms in a single session. This is ideal for beginners who want a simple two-day split — pair it with a leg day for complete coverage. No complicated exercises, just solid machines that work.",
+    "difficulty": "beginner",
+    "duration": "40-50 min",
+    "frequency": "2x per week",
+    "type": "upper",
+    "tags": ["upper-body", "beginner", "chest", "back", "shoulders", "arms", "simple"],
+    "exercises": [
+      {
+        "machineId": "chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Grip the handles at chest height and push forward smoothly"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Use a wide grip and pull the bar down to your collarbone"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Press up until your arms are nearly straight, then lower under control"
+      },
+      {
+        "machineId": "seated-cable-row",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Pull the handle toward your belly button and keep your chest up"
+      },
+      {
+        "machineId": "pec-deck",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Bring the pads together in front of you and squeeze at the peak"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Stand upright and curl the bar without leaning backward"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Push the bar down until your arms are fully extended, then slowly release"
+      }
+    ],
+    "tips": [
+      "Alternate between a pushing exercise and a pulling exercise to give each muscle group more time to recover.",
+      "Keep the weight moderate — you should be able to finish all 3 sets with good form.",
+      "Pair this with a lower-body or leg-day workout for a simple and effective weekly plan.",
+      "Aim to increase the weight slightly every 1-2 weeks as the exercises start feeling easier."
+    ]
+  },
+  {
+    "id": "core-and-cardio",
+    "name": "Core & Cardio",
+    "description": "A lighter session that combines core strengthening with cardio to build endurance and tighten your midsection. This is a great workout to slot in between heavier lifting days. It keeps you moving without beating up your joints or muscles.",
+    "difficulty": "beginner",
+    "duration": "35-45 min",
+    "frequency": "2-3x per week",
+    "type": "core-cardio",
+    "tags": ["core", "cardio", "abs", "endurance", "beginner", "active-recovery", "conditioning"],
+    "exercises": [
+      {
+        "machineId": "ab-crunch-machine",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Exhale as you crunch forward and hold the squeeze for a beat at the bottom"
+      },
+      {
+        "machineId": "cable-woodchop",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Rotate through your core, not your arms — keep your hips mostly still"
+      },
+      {
+        "machineId": "captains-chair",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Lift your knees toward your chest without swinging — control the movement"
+      },
+      {
+        "machineId": "core-back-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Lower your upper body and raise back up to a straight position — don't hyperextend"
+      },
+      {
+        "machineId": "treadmill",
+        "sets": 1,
+        "reps": "10 minutes",
+        "restSeconds": 0,
+        "notes": "Walk at an incline or do a light jog — pick a pace you can sustain comfortably"
+      },
+      {
+        "machineId": "elliptical",
+        "sets": 1,
+        "reps": "10 minutes",
+        "restSeconds": 0,
+        "notes": "Keep a steady pace and use the handles to engage your upper body too"
+      }
+    ],
+    "tips": [
+      "Do the core exercises first while your abs are fresh, then finish with cardio.",
+      "Breathe out on the effort — exhale as you crunch, twist, or lift.",
+      "This workout pairs well with upper-body or full-body days as an active recovery session.",
+      "If 10 minutes of cardio feels easy, gradually increase the duration or intensity over time."
+    ]
+  },
+  {
+    "id": "quick-full-body",
+    "name": "Quick 30-Minute Full Body",
+    "description": "A streamlined full-body workout for days when you're short on time but still want to get something done. It covers the essentials — legs, chest, back, shoulders, and core — with just 5 exercises. Perfect for busy schedules or as a stepping stone to longer routines.",
+    "difficulty": "beginner",
+    "duration": "30 min",
+    "frequency": "3x per week",
+    "type": "full-body",
+    "tags": ["quick", "full-body", "beginner", "time-saver", "minimal", "30-minute", "efficient"],
+    "exercises": [
+      {
+        "machineId": "leg-press",
+        "sets": 2,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Place feet shoulder-width apart and press firmly through your heels"
+      },
+      {
+        "machineId": "chest-press",
+        "sets": 2,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Push the handles forward in a smooth arc and lower back with control"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 2,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Pull down to your upper chest and let the bar rise slowly on the way back"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 2,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Press overhead and avoid locking out completely at the top"
+      },
+      {
+        "machineId": "ab-crunch-machine",
+        "sets": 2,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Curl forward with your abs doing the work, not your hip flexors"
+      }
+    ],
+    "tips": [
+      "A short workout you actually do is always better than a long workout you skip.",
+      "Move quickly between exercises to keep your heart rate up and stay within 30 minutes.",
+      "Use this routine on busy days, or as your main program until you're ready for longer sessions.",
+      "Once 2 sets feels too easy, graduate to the full Beginner Full Body routine with 3 sets."
+    ]
+  },
+  {
+    "id": "strength-builder",
+    "name": "Strength Builder",
+    "description": "Build foundational strength with compound movements and lower rep ranges. This workout teaches proper form on the basics while progressively making you stronger. Perfect for beginners who want to focus on getting strong rather than just going through the motions.",
+    "difficulty": "beginner",
+    "duration": "45-50 minutes",
+    "frequency": "3x per week",
+    "type": "full-body",
+    "tags": ["beginner", "strength", "compound", "power", "foundation"],
+    "exercises": [
+      {
+        "machineId": "leg-press",
+        "sets": 3,
+        "reps": "6-8",
+        "restSeconds": 120,
+        "notes": "Use a weight that's challenging for 6-8 reps. Keep your back flat against the pad"
+      },
+      {
+        "machineId": "chest-press",
+        "sets": 3,
+        "reps": "6-8",
+        "restSeconds": 120,
+        "notes": "Lower slowly, press explosively. Don't lock out elbows completely at top"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 3,
+        "reps": "6-8",
+        "restSeconds": 120,
+        "notes": "Pull with your elbows, not your hands. Think about bringing your elbows to your hips"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 3,
+        "reps": "6-8",
+        "restSeconds": 120,
+        "notes": "Press straight up without arching your back. Breathe out as you push"
+      },
+      {
+        "machineId": "seated-cable-row",
+        "sets": 3,
+        "reps": "6-8",
+        "restSeconds": 120,
+        "notes": "Pull the handle to your stomach and squeeze your shoulder blades together hard"
+      },
+      {
+        "machineId": "leg-curl",
+        "sets": 3,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Control the weight on the way down — hamstrings should stay tight throughout"
+      }
+    ],
+    "tips": [
+      "Focus on perfect form over heavy weight — strength will come with consistency",
+      "Rest the full 2 minutes between sets — this isn't cardio, it's strength training",
+      "Track your weights each session and aim to add 5-10 lbs when you can complete all sets with good form",
+      "Eat enough protein (0.8-1g per pound of body weight) to support strength gains"
+    ]
+  },
+  {
+    "id": "hypertrophy-upper",
+    "name": "Hypertrophy Upper Body",
+    "description": "A muscle-building focused upper body routine with higher volume and moderate rep ranges. This workout is designed to maximize muscle growth in your chest, back, shoulders, and arms. Expect to be sore the next day — that's the pump working.",
+    "difficulty": "intermediate",
+    "duration": "50-60 minutes",
+    "frequency": "2x per week",
+    "type": "upper",
+    "tags": ["intermediate", "hypertrophy", "muscle-building", "upper-body", "volume"],
+    "exercises": [
+      {
+        "machineId": "incline-chest-press",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Start with this to hit upper chest fresh — it's often a weak point"
+      },
+      {
+        "machineId": "decline-chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Targets lower chest — keep your feet planted and core tight"
+      },
+      {
+        "machineId": "pec-deck",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Squeeze hard at peak contraction and hold for a full second"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Use a controlled tempo — 2 seconds down, 1 second squeeze, 2 seconds up"
+      },
+      {
+        "machineId": "t-bar-row",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Keep your chest up and pull to your sternum, not your neck"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Press with control — shoulders are injury-prone, so focus on form"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Slow negatives (3 seconds down) create more muscle damage and growth"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Fully extend your arms at the bottom and feel the triceps contract hard"
+      }
+    ],
+    "tips": [
+      "Time under tension matters — don't rush through reps just to finish the set",
+      "If you can't feel the target muscle working, lower the weight and focus on the mind-muscle connection",
+      "Eat in a slight calorie surplus (200-300 calories above maintenance) to maximize muscle growth",
+      "Sleep 7-9 hours per night — that's when your muscles actually grow"
+    ]
+  },
+  {
+    "id": "upper-lower-upper",
+    "name": "Upper/Lower Split - Upper Day",
+    "description": "The upper day of a classic 4-day upper/lower split. This workout balances pushing and pulling movements to build your entire upper body evenly. Pair this with the Lower Day routine and alternate throughout the week for balanced development.",
+    "difficulty": "intermediate",
+    "duration": "45-55 minutes",
+    "frequency": "2x per week",
+    "type": "upper",
+    "tags": ["intermediate", "upper-lower-split", "upper-body", "balanced", "4-day-split"],
+    "exercises": [
+      {
+        "machineId": "chest-press",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Your main chest builder — go heavy but maintain control"
+      },
+      {
+        "machineId": "incline-chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Hit the upper chest after the main pressing movement"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Match your chest volume with equal back work for balanced development"
+      },
+      {
+        "machineId": "seated-cable-row",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Pull to your lower chest and hold the squeeze for a count"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Your shoulders are pre-fatigued from pressing, so expect to use less weight here"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Keep your elbows locked in place and curl with just your biceps"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Finish strong — your triceps are already warmed up from pressing"
+      }
+    ],
+    "tips": [
+      "Alternate Upper/Lower days with at least one rest day between each session",
+      "Example weekly schedule: Monday Upper, Wednesday Lower, Friday Upper, Sunday Lower",
+      "This split allows for higher frequency (hitting each muscle 2x per week) which drives faster progress",
+      "Track your lifts and aim for progressive overload — add weight or reps every 1-2 weeks"
+    ]
+  },
+  {
+    "id": "upper-lower-lower",
+    "name": "Upper/Lower Split - Lower Day",
+    "description": "The lower day of a 4-day upper/lower split. This session hammers your quads, hamstrings, glutes, and calves with a mix of compound and isolation work. Pair with the Upper Day routine for a complete weekly training plan.",
+    "difficulty": "intermediate",
+    "duration": "45-55 minutes",
+    "frequency": "2x per week",
+    "type": "legs",
+    "tags": ["intermediate", "upper-lower-split", "lower-body", "legs", "4-day-split"],
+    "exercises": [
+      {
+        "machineId": "leg-press",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 120,
+        "notes": "Your main quad builder — go heavy and control the descent"
+      },
+      {
+        "machineId": "leg-curl",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Balance quad work with equal hamstring volume to prevent imbalances"
+      },
+      {
+        "machineId": "leg-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Isolation work for quads — squeeze hard at the top"
+      },
+      {
+        "machineId": "calf-raise",
+        "sets": 4,
+        "reps": "15-20",
+        "restSeconds": 60,
+        "notes": "Calves respond well to higher reps — go all the way up and all the way down"
+      },
+      {
+        "machineId": "hip-abductor",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Strengthens outer hips and glutes — important for knee stability"
+      },
+      {
+        "machineId": "hip-adductor",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Don't skip this — strong adductors prevent groin strains"
+      },
+      {
+        "machineId": "ab-crunch-machine",
+        "sets": 3,
+        "reps": "15-20",
+        "restSeconds": 60,
+        "notes": "Finish with core work — exhale hard as you crunch"
+      }
+    ],
+    "tips": [
+      "Warm up with 5-10 minutes of light cardio before hitting the heavy leg work",
+      "Leg DOMS (delayed onset muscle soreness) is real — expect to be sore for 2-3 days after your first few sessions",
+      "Stay hydrated and get extra carbs on lower days to fuel the big muscle groups",
+      "Stretch your quads, hamstrings, and hip flexors post-workout to aid recovery"
+    ]
+  },
+  {
+    "id": "back-biceps-focus",
+    "name": "Back & Biceps Focus",
+    "description": "A dedicated back development workout that targets every angle of your back muscles plus biceps. Building a thick, strong back improves posture, prevents injury, and creates that V-taper look. This routine goes deeper than a standard pull day.",
+    "difficulty": "intermediate",
+    "duration": "45-55 minutes",
+    "frequency": "1-2x per week",
+    "type": "pull",
+    "tags": ["intermediate", "back", "biceps", "specialization", "thickness", "posture"],
+    "exercises": [
+      {
+        "machineId": "lat-pulldown",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Your main lat builder — use a wide grip for width development"
+      },
+      {
+        "machineId": "seated-cable-row",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Build mid-back thickness — sit tall and retract your shoulder blades"
+      },
+      {
+        "machineId": "t-bar-row",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 90,
+        "notes": "Targets lower lats and mid-back — keep your torso at a 45-degree angle"
+      },
+      {
+        "machineId": "cable-face-pull",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Rear delts and upper back — pull to your face and flare your elbows out"
+      },
+      {
+        "machineId": "back-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Lower back strength — rise to parallel, don't hyperextend at the top"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Classic bicep builder — strict form, no swinging"
+      },
+      {
+        "machineId": "preacher-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Isolates the biceps by locking your arms in place — feel the peak contraction"
+      }
+    ],
+    "tips": [
+      "Focus on pulling with your back muscles, not your arms — imagine your hands as hooks",
+      "Use lifting straps if your grip fails before your back is fully fatigued",
+      "Retract your shoulder blades on every rowing movement — that's what builds thickness",
+      "Back day is about quality over quantity — slow controlled reps beat heavy swinging every time"
+    ]
+  },
+  {
+    "id": "chest-triceps-focus",
+    "name": "Chest & Triceps Focus",
+    "description": "A chest specialization workout that hits every angle — upper, middle, lower, and inner chest — plus triceps for complete pushing muscle development. Perfect if you want to build a bigger, more defined chest.",
+    "difficulty": "intermediate",
+    "duration": "45-55 minutes",
+    "frequency": "1-2x per week",
+    "type": "push",
+    "tags": ["intermediate", "chest", "triceps", "specialization", "definition", "mass"],
+    "exercises": [
+      {
+        "machineId": "chest-press",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Main chest movement — heavy weight, strict form, full range of motion"
+      },
+      {
+        "machineId": "incline-chest-press",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Upper chest emphasis — most people need more upper chest work"
+      },
+      {
+        "machineId": "decline-chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Lower chest — complete the chest development puzzle"
+      },
+      {
+        "machineId": "pec-deck",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Inner chest — squeeze the pads together and hold for a second"
+      },
+      {
+        "machineId": "cable-crossover",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Finishing movement for chest — high rep, high squeeze, pump it up"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Classic tricep mass builder — lock elbows and push all the way down"
+      },
+      {
+        "machineId": "cable-tricep-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Overhead extension hits the long head of the triceps for arm thickness"
+      }
+    ],
+    "tips": [
+      "Chest grows best with a mix of heavy compound work and higher rep isolation",
+      "Don't ego lift on chest day — torn pecs happen when form breaks down under heavy weight",
+      "If you feel shoulder pain, reduce the weight and check your form — shoulders should stay retracted",
+      "Triceps make up 2/3 of your arm mass — don't neglect them if you want bigger arms"
+    ]
+  },
+  {
+    "id": "shoulders-arms",
+    "name": "Shoulders & Arms",
+    "description": "The ultimate upper body aesthetics workout — big shoulders, peaked biceps, and horseshoe triceps. This routine is pure arm and shoulder volume for people who want to look good in a T-shirt. Function meets form.",
+    "difficulty": "intermediate",
+    "duration": "40-50 minutes",
+    "frequency": "1-2x per week",
+    "type": "upper",
+    "tags": ["intermediate", "shoulders", "arms", "aesthetics", "biceps", "triceps", "definition"],
+    "exercises": [
+      {
+        "machineId": "shoulder-press",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Build 3D delts with heavy pressing — keep your core tight"
+      },
+      {
+        "machineId": "lateral-raise-machine",
+        "sets": 4,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Side delts create width — raise to shoulder height and control the descent"
+      },
+      {
+        "machineId": "reverse-fly-machine",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Rear delts are often neglected — squeeze your shoulder blades together"
+      },
+      {
+        "machineId": "cable-face-pull",
+        "sets": 3,
+        "reps": "15-20",
+        "restSeconds": 60,
+        "notes": "More rear delt work — healthy shoulders are balanced shoulders"
+      },
+      {
+        "machineId": "cable-bicep-curl",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Bicep peak builder — slow and controlled, squeeze at the top"
+      },
+      {
+        "machineId": "preacher-curl",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Isolate the biceps — no momentum, pure muscle contraction"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Classic tricep builder — your arms will feel like they're going to explode"
+      },
+      {
+        "machineId": "cable-tricep-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Overhead work for the long head — feel the stretch at the bottom"
+      }
+    ],
+    "tips": [
+      "Shoulders are complex joints — always warm them up thoroughly before heavy lifting",
+      "If you feel any pinching or clicking in your shoulders, stop immediately and reassess your form",
+      "Biceps and triceps recover quickly — you can train arms 2x per week if you're eating and sleeping well",
+      "Flex your arms between sets (seriously) — the mind-muscle connection helps them grow"
+    ]
+  },
+  {
+    "id": "athletic-conditioning",
+    "name": "Athletic Conditioning",
+    "description": "A high-energy conditioning workout that builds endurance, burns calories, and improves your work capacity. This isn't about lifting heavy — it's about moving well, getting your heart rate up, and building the engine that powers everything else. Perfect for active recovery days.",
+    "difficulty": "beginner",
+    "duration": "35-45 minutes",
+    "frequency": "2-3x per week",
+    "type": "conditioning",
+    "tags": ["beginner", "conditioning", "endurance", "cardio", "active-recovery", "calorie-burn", "work-capacity"],
+    "exercises": [
+      {
+        "machineId": "rowing-machine",
+        "sets": 3,
+        "reps": "3 minutes",
+        "restSeconds": 45,
+        "notes": "Pull with your legs first, then your back, then your arms — that's the proper sequence"
+      },
+      {
+        "machineId": "stair-climber",
+        "sets": 2,
+        "reps": "3 minutes",
+        "restSeconds": 45,
+        "notes": "Keep a steady pace — this burns more calories than most realize"
+      },
+      {
+        "machineId": "leg-press",
+        "sets": 3,
+        "reps": "15-20",
+        "restSeconds": 45,
+        "notes": "Light weight, higher reps — focus on movement quality and breathing"
+      },
+      {
+        "machineId": "cable-woodchop",
+        "sets": 3,
+        "reps": "15-20",
+        "restSeconds": 45,
+        "notes": "Rotational power — twist from your core, not your arms"
+      },
+      {
+        "machineId": "ab-crunch-machine",
+        "sets": 3,
+        "reps": "15-20",
+        "restSeconds": 45,
+        "notes": "Core stability — exhale hard at the bottom of each rep"
+      },
+      {
+        "machineId": "treadmill",
+        "sets": 1,
+        "reps": "10 minutes",
+        "restSeconds": 0,
+        "notes": "Finish with steady-state cardio — walk at an incline or do a light jog"
+      }
+    ],
+    "tips": [
+      "Keep rest periods short (45-60 seconds) to maintain elevated heart rate",
+      "This is about movement quality and endurance, not maximal strength",
+      "Perfect for days between heavy lifting — you'll recover faster by moving, not sitting",
+      "Stay hydrated — conditioning work makes you sweat more than heavy lifting"
+    ]
+  },
+  {
+    "id": "advanced-full-body",
+    "name": "Advanced Full Body Strength",
+    "description": "A serious strength-focused routine for experienced lifters. Heavy compound movements, low reps, long rest periods. This isn't for beginners — you need solid form and a strong base before attempting this program. Build real, functional strength.",
+    "difficulty": "advanced",
+    "duration": "50-60 minutes",
+    "frequency": "3x per week",
+    "type": "full-body",
+    "tags": ["advanced", "strength", "power", "compound", "heavy", "progressive-overload"],
+    "exercises": [
+      {
+        "machineId": "smith-machine-squat",
+        "sets": 4,
+        "reps": "5-6",
+        "restSeconds": 180,
+        "notes": "Heavy squats — brace your core hard and drive through your heels"
+      },
+      {
+        "machineId": "chest-press",
+        "sets": 4,
+        "reps": "5-6",
+        "restSeconds": 180,
+        "notes": "Go heavy but maintain control — explosive press, slow descent"
+      },
+      {
+        "machineId": "lat-pulldown",
+        "sets": 4,
+        "reps": "6-8",
+        "restSeconds": 150,
+        "notes": "Pull heavy — use straps if your grip fails before your lats"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 4,
+        "reps": "6-8",
+        "restSeconds": 150,
+        "notes": "Overhead strength — shoulders are pre-fatigued from chest, manage weight accordingly"
+      },
+      {
+        "machineId": "seated-cable-row",
+        "sets": 4,
+        "reps": "6-8",
+        "restSeconds": 150,
+        "notes": "Heavy rows for back thickness — retract shoulder blades hard at peak contraction"
+      },
+      {
+        "machineId": "leg-press",
+        "sets": 3,
+        "reps": "8-10",
+        "restSeconds": 120,
+        "notes": "Additional leg volume after squats — control the eccentric (lowering) portion"
+      }
+    ],
+    "tips": [
+      "Rest the full 2-3 minutes between sets — strength requires full ATP recovery",
+      "Use a spotter or safety catches on heavy compound lifts",
+      "Track every single weight and rep — progressive overload is non-negotiable for strength gains",
+      "Don't train to failure on every set — leave 1-2 reps in the tank to avoid CNS fatigue",
+      "Deload every 4-6 weeks (reduce weight by 40-50%) to prevent overtraining and injury"
+    ]
+  },
+  {
+    "id": "advanced-ppl-push",
+    "name": "Advanced PPL - Push Day",
+    "description": "High-volume advanced push day designed for experienced lifters who can handle serious training stress. This is the most demanding chest, shoulder, and tricep workout in the library. Expect to be completely exhausted by the end. Only attempt this if you've been training consistently for 6+ months.",
+    "difficulty": "advanced",
+    "duration": "60-75 minutes",
+    "frequency": "1-2x per week",
+    "type": "push",
+    "tags": ["advanced", "push", "volume", "PPL", "chest", "shoulders", "triceps", "intensity"],
+    "exercises": [
+      {
+        "machineId": "chest-press",
+        "sets": 4,
+        "reps": "6-8",
+        "restSeconds": 120,
+        "notes": "Heavy compound chest work — this is your main strength builder"
+      },
+      {
+        "machineId": "incline-chest-press",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Upper chest emphasis — don't let your upper chest lag behind"
+      },
+      {
+        "machineId": "decline-chest-press",
+        "sets": 3,
+        "reps": "10-12",
+        "restSeconds": 75,
+        "notes": "Complete chest development — hit all three angles"
+      },
+      {
+        "machineId": "pec-deck",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Isolation work for chest — squeeze hard and hold for a full second"
+      },
+      {
+        "machineId": "cable-crossover",
+        "sets": 3,
+        "reps": "15-20",
+        "restSeconds": 60,
+        "notes": "High rep finisher — chase the pump and feel your chest fill with blood"
+      },
+      {
+        "machineId": "shoulder-press",
+        "sets": 4,
+        "reps": "8-10",
+        "restSeconds": 90,
+        "notes": "Shoulders are pre-fatigued from pressing — focus on form over ego"
+      },
+      {
+        "machineId": "lateral-raise-machine",
+        "sets": 4,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Build those 3D delts — controlled reps, feel every inch of the movement"
+      },
+      {
+        "machineId": "tricep-pushdown",
+        "sets": 4,
+        "reps": "10-12",
+        "restSeconds": 60,
+        "notes": "Triceps are fried from pressing — push through the burn"
+      },
+      {
+        "machineId": "cable-tricep-extension",
+        "sets": 3,
+        "reps": "12-15",
+        "restSeconds": 60,
+        "notes": "Overhead extension for long head — finish strong, your arms should be toast"
+      }
+    ],
+    "tips": [
+      "This is a 60-75 minute workout — don't attempt this if you're short on time or energy",
+      "Eat a proper meal 1-2 hours before training and bring intra-workout carbs (like Gatorade)",
+      "If you can't recover from this volume, reduce sets by 20-30% or increase rest days",
+      "Advanced lifters need to eat more — aim for a slight surplus to support this training volume",
+      "Listen to your body — if joints hurt, back off the weight and focus on contraction quality"
+    ]
+  }
+  ]
+}

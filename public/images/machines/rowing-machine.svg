@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Long horizontal rail on ground -->
+  <line x1="40" y1="200" x2="340" y2="200" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Rail track (two lines) -->
+  <line x1="80" y1="195" x2="300" y2="195" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="80" y1="205" x2="300" y2="205" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Front base foot -->
+  <line x1="40" y1="210" x2="80" y2="210" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="60" y1="200" x2="60" y2="210" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Rear base foot -->
+  <line x1="310" y1="210" x2="350" y2="210" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="330" y1="200" x2="330" y2="210" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Flywheel housing at front -->
+  <rect x="50" y="140" width="50" height="55" rx="6" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Flywheel circle -->
+  <circle cx="75" cy="168" r="18" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Flywheel spokes -->
+  <line x1="75" y1="150" x2="75" y2="186" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+  <line x1="57" y1="168" x2="93" y2="168" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+  <!-- Cable from flywheel -->
+  <line x1="100" y1="168" x2="185" y2="168" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <!-- Handle -->
+  <rect x="180" y="162" width="25" height="12" rx="4" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Sliding seat -->
+  <rect x="210" y="170" width="40" height="10" rx="5" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Seat wheels on rail -->
+  <circle cx="218" cy="185" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <circle cx="242" cy="185" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Foot plates -->
+  <rect x="140" y="175" width="12" height="25" rx="2" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <rect x="158" y="175" width="12" height="25" rx="2" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Foot plate angle supports -->
+  <line x1="146" y1="200" x2="146" y2="210" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="164" y1="200" x2="164" y2="210" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Monitor on front arm -->
+  <line x1="75" y1="140" x2="75" y2="110" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <rect x="58" y="90" width="34" height="22" rx="3" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+</svg>

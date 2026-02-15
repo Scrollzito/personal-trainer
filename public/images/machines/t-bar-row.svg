@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Floor -->
+  <line x1="40" y1="220" x2="360" y2="220" stroke="#2563eb" stroke-width="2"/>
+  <!-- Pivot base -->
+  <rect x="60" y="200" width="40" height="20" rx="3" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Angled bar -->
+  <line x1="80" y1="205" x2="300" y2="100" stroke="#2563eb" stroke-width="3"/>
+  <!-- Weight plates on bar end -->
+  <ellipse cx="290" cy="105" rx="4" ry="18" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <ellipse cx="300" cy="100" rx="4" ry="20" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <ellipse cx="310" cy="95" rx="4" ry="18" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <!-- Handle grips (V-bar) -->
+  <line x1="240" y1="115" x2="260" y2="130" stroke="#2563eb" stroke-width="3"/>
+  <line x1="260" y1="115" x2="240" y2="130" stroke="#2563eb" stroke-width="3"/>
+  <!-- Chest pad support -->
+  <line x1="200" y1="140" x2="200" y2="220" stroke="#2563eb" stroke-width="3"/>
+  <!-- Chest pad -->
+  <ellipse cx="200" cy="132" rx="18" ry="10" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+  <!-- Foot platform -->
+  <rect x="170" y="210" width="60" height="10" rx="3" stroke="#2563eb" stroke-width="2" fill="none"/>
+</svg>

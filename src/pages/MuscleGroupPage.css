@@ -1,0 +1,53 @@
+.muscle-group {
+  padding-top: 20px;
+}
+
+.muscle-group__title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.muscle-group__intro {
+  font-size: 1.0625rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.muscle-group__count {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.muscle-group__not-found {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.muscle-group__not-found h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.muscle-group__not-found p {
+  color: var(--color-text-light);
+  margin-bottom: 20px;
+}
+
+.muscle-group__back-btn {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.muscle-group__back-btn:hover {
+  background: var(--color-primary-dark);
+}

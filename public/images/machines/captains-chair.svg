@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Main vertical frame left -->
+  <line x1="140" y1="30" x2="140" y2="240" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Main vertical frame right -->
+  <line x1="260" y1="30" x2="260" y2="240" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Top crossbar -->
+  <line x1="140" y1="30" x2="260" y2="30" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Back pad -->
+  <rect x="170" y="50" width="60" height="80" rx="6" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Left armrest -->
+  <line x1="140" y1="90" x2="110" y2="90" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <rect x="100" y="85" width="40" height="10" rx="3" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Right armrest -->
+  <line x1="260" y1="90" x2="290" y2="90" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <rect x="260" y="85" width="40" height="10" rx="3" stroke="#2563eb" stroke-width="3" fill="#dbeafe"/>
+  <!-- Left arm grip (vertical) -->
+  <line x1="105" y1="80" x2="105" y2="100" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right arm grip (vertical) -->
+  <line x1="295" y1="80" x2="295" y2="100" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Hanging legs (left) -->
+  <line x1="175" y1="130" x2="175" y2="190" stroke="#2563eb" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <!-- Hanging legs (right) -->
+  <line x1="225" y1="130" x2="225" y2="190" stroke="#2563eb" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <!-- Left lower leg -->
+  <line x1="175" y1="190" x2="175" y2="220" stroke="#2563eb" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <!-- Right lower leg -->
+  <line x1="225" y1="190" x2="225" y2="220" stroke="#2563eb" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+  <!-- Base left -->
+  <line x1="100" y1="240" x2="180" y2="240" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Base right -->
+  <line x1="220" y1="240" x2="300" y2="240" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Base feet -->
+  <line x1="140" y1="240" x2="100" y2="240" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <line x1="260" y1="240" x2="300" y2="240" stroke="#2563eb" stroke-width="4" fill="none"/>
+</svg>

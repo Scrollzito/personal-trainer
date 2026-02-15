@@ -1,0 +1,20 @@
+.workouts-page {
+  padding-top: 20px;
+}
+
+.workouts-page__intro {
+  margin-bottom: 24px;
+}
+
+.workouts-page__heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.workouts-page__subtitle {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  line-height: 1.5;
+}

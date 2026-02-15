@@ -1,0 +1,22 @@
+.workout-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .workout-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.workout-list__empty {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.workout-list__empty-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+}

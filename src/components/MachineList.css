@@ -1,0 +1,33 @@
+.machine-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .machine-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .machine-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.machine-list__empty {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.machine-list__empty-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.machine-list__empty-text {
+  color: var(--color-text-light);
+}

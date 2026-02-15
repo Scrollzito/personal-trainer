@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Base plate -->
+  <line x1="60" y1="230" x2="340" y2="230" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left vertical guide rail -->
+  <rect x="95" y="25" width="10" height="205" rx="2" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right vertical guide rail -->
+  <rect x="295" y="25" width="10" height="205" rx="2" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Top cross bar -->
+  <line x1="95" y1="25" x2="305" y2="25" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left base foot -->
+  <line x1="80" y1="230" x2="120" y2="230" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <!-- Right base foot -->
+  <line x1="280" y1="230" x2="320" y2="230" stroke="#2563eb" stroke-width="4" fill="none"/>
+  <!-- Left upright to base -->
+  <line x1="100" y1="230" x2="100" y2="25" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right upright to base -->
+  <line x1="300" y1="230" x2="300" y2="25" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Barbell -->
+  <line x1="60" y1="120" x2="340" y2="120" stroke="#2563eb" stroke-width="5" fill="none"/>
+  <!-- Barbell sleeve ends (wider) -->
+  <rect x="55" y="114" width="30" height="12" rx="3" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="315" y="114" width="30" height="12" rx="3" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <!-- Safety hooks on left rail -->
+  <line x1="105" y1="118" x2="118" y2="118" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="118" y1="118" x2="118" y2="125" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Safety hooks on right rail -->
+  <line x1="295" y1="118" x2="282" y2="118" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <line x1="282" y1="118" x2="282" y2="125" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Guide rail slots (left) -->
+  <line x1="105" y1="50" x2="105" y2="55" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="105" y1="70" x2="105" y2="75" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="105" y1="90" x2="105" y2="95" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="105" y1="140" x2="105" y2="145" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="105" y1="160" x2="105" y2="165" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="105" y1="180" x2="105" y2="185" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Guide rail slots (right) -->
+  <line x1="295" y1="50" x2="295" y2="55" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="295" y1="70" x2="295" y2="75" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="295" y1="90" x2="295" y2="95" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="295" y1="140" x2="295" y2="145" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="295" y1="160" x2="295" y2="165" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="295" y1="180" x2="295" y2="185" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Weight plates on left -->
+  <rect x="60" y="105" width="8" height="30" rx="2" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="50" y="108" width="8" height="24" rx="2" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <!-- Weight plates on right -->
+  <rect x="332" y="105" width="8" height="30" rx="2" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+  <rect x="342" y="108" width="8" height="24" rx="2" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+</svg>

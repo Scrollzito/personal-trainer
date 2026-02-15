@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Left column -->
+  <rect x="60" y="30" width="20" height="190" rx="3" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Left weight stack -->
+  <rect x="55" y="120" width="30" height="60" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="55" y1="135" x2="85" y2="135" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="55" y1="150" x2="85" y2="150" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="55" y1="165" x2="85" y2="165" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Left pulley -->
+  <circle cx="70" cy="38" r="6" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Right column -->
+  <rect x="320" y="30" width="20" height="190" rx="3" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right weight stack -->
+  <rect x="315" y="120" width="30" height="60" rx="2" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <line x1="315" y1="135" x2="345" y2="135" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="315" y1="150" x2="345" y2="150" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="315" y1="165" x2="345" y2="165" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Right pulley -->
+  <circle cx="330" cy="38" r="6" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Top connecting bar -->
+  <line x1="80" y1="35" x2="320" y2="35" stroke="#2563eb" stroke-width="3"/>
+  <!-- Cables -->
+  <line x1="70" y1="44" x2="160" y2="140" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="330" y1="44" x2="240" y2="140" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Handles -->
+  <line x1="155" y1="135" x2="165" y2="145" stroke="#2563eb" stroke-width="3"/>
+  <line x1="235" y1="135" x2="245" y2="145" stroke="#2563eb" stroke-width="3"/>
+  <!-- Base bars -->
+  <line x1="50" y1="220" x2="90" y2="220" stroke="#2563eb" stroke-width="3"/>
+  <line x1="310" y1="220" x2="350" y2="220" stroke="#2563eb" stroke-width="3"/>
+</svg>

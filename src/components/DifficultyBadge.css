@@ -1,0 +1,22 @@
+.difficulty-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.difficulty-badge--beginner {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.difficulty-badge--intermediate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.difficulty-badge--advanced {
+  background: #fce7f3;
+  color: #9d174d;
+}

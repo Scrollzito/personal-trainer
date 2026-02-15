@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" rx="12" fill="#f1f5f9"/>
+  <!-- Running belt/deck (slightly inclined) -->
+  <rect x="70" y="170" width="230" height="20" rx="6" stroke="#2563eb" stroke-width="3" fill="none" transform="rotate(-3, 185, 180)"/>
+  <!-- Belt surface line -->
+  <line x1="85" y1="175" x2="285" y2="169" stroke="#2563eb" stroke-width="1.5" opacity="0.4"/>
+  <!-- Front roller -->
+  <circle cx="85" cy="182" r="7" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Rear roller -->
+  <circle cx="290" cy="176" r="7" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- Front support leg -->
+  <line x1="80" y1="190" x2="70" y2="220" stroke="#2563eb" stroke-width="3"/>
+  <line x1="100" y1="190" x2="110" y2="220" stroke="#2563eb" stroke-width="3"/>
+  <!-- Rear support leg -->
+  <line x1="285" y1="185" x2="290" y2="220" stroke="#2563eb" stroke-width="3"/>
+  <!-- Left upright post -->
+  <line x1="80" y1="180" x2="75" y2="50" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Right upright post -->
+  <line x1="110" y1="178" x2="105" y2="50" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Console/display -->
+  <rect x="70" y="42" width="40" height="30" rx="4" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Console screen -->
+  <rect x="76" y="48" width="28" height="16" rx="2" stroke="#2563eb" stroke-width="1.5" fill="#2563eb" opacity="0.1"/>
+  <!-- Left handrail -->
+  <line x1="75" y1="80" x2="70" y2="50" stroke="#2563eb" stroke-width="3"/>
+  <line x1="75" y1="80" x2="180" y2="95" stroke="#2563eb" stroke-width="3"/>
+  <!-- Right handrail -->
+  <line x1="105" y1="80" x2="105" y2="50" stroke="#2563eb" stroke-width="3"/>
+  <line x1="105" y1="80" x2="210" y2="95" stroke="#2563eb" stroke-width="3"/>
+  <!-- Floor line -->
+  <line x1="40" y1="220" x2="360" y2="220" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <!-- Floor feet -->
+  <circle cx="70" cy="223" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <circle cx="110" cy="223" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <circle cx="290" cy="223" r="4" stroke="#2563eb" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,50 @@
+.step-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.step-list__item {
+  display: flex;
+  gap: 16px;
+  background: var(--color-card);
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.step-list__number {
+  width: 36px;
+  height: 36px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.step-list__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.step-list__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.step-list__tip {
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: var(--color-primary-light);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+}

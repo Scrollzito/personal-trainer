@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   const location = useLocation();
   const navigate = useNavigate();
-  const isTopLevel = location.pathname === '/' || location.pathname === '/workouts';
+  const isTopLevel = location.pathname === '/' || location.pathname === '/workouts' || location.pathname === '/create-workout';
 
   return (
     <header className="header">
@@ -28,9 +28,15 @@ function Header() {
           </Link>
           <Link
             to="/workouts"
-            className={`header__nav-link ${location.pathname.startsWith('/workout') ? 'header__nav-link--active' : ''}`}
+            className={`header__nav-link ${location.pathname.startsWith('/workout') && location.pathname !== '/create-workout' ? 'header__nav-link--active' : ''}`}
           >
             Workouts
+          </Link>
+          <Link
+            to="/create-workout"
+            className={`header__nav-link ${location.pathname === '/create-workout' ? 'header__nav-link--active' : ''}`}
+          >
+            Create Workout
           </Link>
         </nav>
       </div>

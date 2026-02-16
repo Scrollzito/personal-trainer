@@ -1,0 +1,43 @@
+.muscle-group-filter {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+
+.muscle-group-filter::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.muscle-group-filter__pill {
+  flex-shrink: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #e5e7eb;
+  background: white;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  min-height: 44px; /* Touch target */
+}
+
+.muscle-group-filter__pill:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.muscle-group-filter__pill--active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.muscle-group-filter__pill--active:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}

@@ -1,0 +1,91 @@
+.workout-plan-settings {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 24px;
+}
+
+.workout-plan-settings__section {
+  margin-bottom: 24px;
+}
+
+.workout-plan-settings__section:last-child {
+  margin-bottom: 0;
+}
+
+.workout-plan-settings__section h3 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.workout-plan-settings__input-group {
+  margin-bottom: 16px;
+}
+
+.workout-plan-settings__input-group label {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 6px;
+  color: var(--color-text-light);
+  font-weight: 600;
+}
+
+.workout-plan-settings__input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  background: var(--color-bg);
+}
+
+.workout-plan-settings__input-group input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.workout-plan-settings__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.workout-plan-settings__btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.875rem;
+}
+
+.workout-plan-settings__btn--primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.workout-plan-settings__btn--primary:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.workout-plan-settings__btn--secondary {
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.workout-plan-settings__btn--secondary:hover {
+  background: #ef4444;
+  color: white;
+  border-color: #ef4444;
+}
+
+.workout-plan-settings__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

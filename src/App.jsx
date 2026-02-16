@@ -6,6 +6,8 @@ import MachineDetailPage from './pages/MachineDetailPage';
 import WorkoutsPage from './pages/WorkoutsPage';
 import WorkoutDetailPage from './pages/WorkoutDetailPage';
 import MuscleGroupPage from './pages/MuscleGroupPage';
+import CreateWorkoutPage from './pages/CreateWorkoutPage';
+import { WorkoutBuilderProvider } from './context/WorkoutBuilderContext';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -27,6 +29,11 @@ function App() {
           <Route path="/workouts" element={<WorkoutsPage />} />
           <Route path="/workout/:id" element={<WorkoutDetailPage />} />
           <Route path="/muscles/:group" element={<MuscleGroupPage />} />
+          <Route path="/create-workout" element={
+            <WorkoutBuilderProvider>
+              <CreateWorkoutPage />
+            </WorkoutBuilderProvider>
+          } />
         </Routes>
       </main>
     </BrowserRouter>

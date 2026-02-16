@@ -1,0 +1,36 @@
+.create-workout-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.create-workout-page__header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.create-workout-page__header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.create-workout-page__main {
+  flex: 1;
+  padding: 2rem;
+  padding-bottom: 200px; /* Space for bottom drawer */
+  overflow-y: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .create-workout-page__main {
+    padding: 1rem;
+    padding-bottom: 250px;
+  }
+}

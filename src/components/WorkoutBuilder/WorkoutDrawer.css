@@ -1,0 +1,339 @@
+.workout-drawer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 2px solid #2563eb;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.workout-drawer--expanded {
+  /* Expanded state (default) */
+}
+
+/* Header (always visible, clickable to toggle) */
+.workout-drawer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  user-select: none;
+  background: #f9fafb;
+}
+
+.workout-drawer__header:hover {
+  background: #f3f4f6;
+}
+
+.workout-drawer__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.workout-drawer__count {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.workout-drawer__toggle {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+/* Content (shown when expanded) */
+.workout-drawer__content {
+  padding: 1rem 2rem 1.5rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.workout-drawer__name {
+  margin-bottom: 1rem;
+}
+
+.workout-drawer__name h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.workout-drawer__name h3:hover {
+  color: #2563eb;
+}
+
+.workout-drawer__name-input {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border: 2px solid #2563eb;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Exercise List */
+.workout-drawer__exercises {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.workout-drawer__exercise {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  cursor: move;
+  transition: all 0.2s;
+}
+
+.workout-drawer__exercise:hover {
+  background: #f3f4f6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Drag Handle */
+.workout-drawer__drag-handle {
+  color: #9ca3af;
+  cursor: grab;
+  user-select: none;
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.workout-drawer__drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Exercise Name */
+.workout-drawer__exercise-name {
+  font-weight: 500;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+/* Input Container */
+.workout-drawer__inputs {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex: 1;
+}
+
+/* Input Group */
+.workout-drawer__input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.workout-drawer__input-group label {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.workout-drawer__input-group input {
+  width: 60px;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  background: white;
+  text-align: center;
+}
+
+.workout-drawer__input-group input[type="text"] {
+  width: 70px;
+}
+
+.workout-drawer__input-group input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.workout-drawer__unit {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* Remove Button */
+.workout-drawer__exercise-remove {
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+
+.workout-drawer__exercise-remove:hover {
+  background: #dc2626;
+}
+
+/* Action Buttons */
+.workout-drawer__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.workout-drawer__btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.workout-drawer__btn--save {
+  background: #10b981;
+  color: white;
+}
+
+.workout-drawer__btn--save:hover:not(:disabled) {
+  background: #059669;
+  transform: translateY(-1px);
+}
+
+.workout-drawer__btn--save:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+}
+
+.workout-drawer__btn--secondary {
+  background: #3b82f6;
+  color: white;
+}
+
+.workout-drawer__btn--secondary:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.workout-drawer__btn--danger {
+  background: #ef4444;
+  color: white;
+}
+
+.workout-drawer__btn--danger:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+
+/* Success Message */
+.workout-drawer__success-message {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: #d1fae5;
+  border: 1px solid #10b981;
+  border-radius: 8px;
+  color: #065f46;
+  font-weight: 500;
+  text-align: center;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Saved Plans Section */
+.workout-drawer__saved-plans {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #e5e7eb;
+}
+
+.workout-drawer__saved-plans h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+/* Collapsed state */
+.workout-drawer:not(.workout-drawer--expanded) .workout-drawer__content {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .workout-drawer__header,
+  .workout-drawer__content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .workout-drawer__exercise {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .workout-drawer__exercise-name {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .workout-drawer__inputs {
+    flex: 1;
+    gap: 0.5rem;
+  }
+
+  .workout-drawer__input-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.125rem;
+  }
+
+  .workout-drawer__input-group input {
+    width: 100%;
+    min-width: 50px;
+  }
+
+  .workout-drawer__actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .workout-drawer__btn {
+    width: 100%;
+  }
+
+  .workout-drawer__btn--save {
+    grid-column: 1 / -1;
+  }
+}

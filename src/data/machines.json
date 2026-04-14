@@ -5,7 +5,7 @@
       "name": "Leg Press",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/leg-press.svg",
+      "thumbnail": "/images/machines/leg-press.jpg",
       "shortDescription": "Strengthens your thighs and glutes by pushing a weighted platform away with your feet. Great for building leg strength without needing to balance a barbell.",
       "musclesWorked": [
         "Quadriceps (Front Thighs)",
@@ -59,7 +59,7 @@
       "name": "Lat Pulldown",
       "category": "back",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/lat-pulldown.svg",
+      "thumbnail": "/images/machines/lat-pulldown.jpg",
       "shortDescription": "Builds the large muscles in your back by pulling a bar down toward your chest. It's like doing a pull-up, but the machine helps you control the weight.",
       "musclesWorked": [
         "Lats (Latissimus Dorsi)",
@@ -113,7 +113,7 @@
       "name": "Chest Press Machine",
       "category": "chest",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/chest-press.svg",
+      "thumbnail": "/images/machines/chest-press.jpg",
       "shortDescription": "Strengthens your chest, shoulders, and arms by pushing handles away from your body. Much safer than a bench press for beginners because the machine guides the movement.",
       "musclesWorked": [
         "Chest (Pectoralis Major)",
@@ -167,7 +167,7 @@
       "name": "Seated Cable Row",
       "category": "back",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/seated-cable-row.svg",
+      "thumbnail": "/images/machines/seated-cable-row.jpg",
       "shortDescription": "Works your back muscles by pulling a handle toward your stomach while seated. Great for improving posture and building a strong back.",
       "musclesWorked": [
         "Lats (Latissimus Dorsi)",
@@ -221,7 +221,7 @@
       "name": "Leg Curl Machine",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/leg-curl.svg",
+      "thumbnail": "/images/machines/leg-curl.jpg",
       "shortDescription": "Targets the back of your thighs (hamstrings) by curling your legs toward your glutes. Simple movement that's easy to learn.",
       "musclesWorked": [
         "Hamstrings (Back Thighs)",
@@ -272,7 +272,7 @@
       "name": "Leg Extension Machine",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/leg-extension.svg",
+      "thumbnail": "/images/machines/leg-extension.jpg",
       "shortDescription": "Targets the front of your thighs (quadriceps) by straightening your legs against resistance. One of the simplest gym machines to use.",
       "musclesWorked": [
         "Quadriceps (Front Thighs)"
@@ -323,7 +323,7 @@
       "name": "Shoulder Press Machine",
       "category": "shoulders",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/shoulder-press.svg",
+      "thumbnail": "/images/machines/shoulder-press.jpg",
       "shortDescription": "Builds your shoulder muscles by pressing handles upward above your head. The machine guides the path so you don't have to worry about balance.",
       "musclesWorked": [
         "Front Shoulders (Anterior Deltoids)",
@@ -377,7 +377,7 @@
       "name": "Pec Deck (Chest Fly)",
       "category": "chest",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/pec-deck.svg",
+      "thumbnail": "/images/machines/pec-deck.jpg",
       "shortDescription": "Works your chest muscles by bringing your arms together in front of you, like giving a big hug. Great for shaping the chest.",
       "musclesWorked": [
         "Chest (Pectoralis Major)",
@@ -429,7 +429,7 @@
       "name": "Treadmill",
       "category": "cardio",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/treadmill.svg",
+      "thumbnail": "/images/machines/treadmill.jpg",
       "shortDescription": "A walking and running machine that helps you do cardio indoors. You control the speed and incline. Start slow and work your way up.",
       "musclesWorked": [
         "Quadriceps (Front Thighs)",
@@ -484,7 +484,7 @@
       "name": "Cable Bicep Curl",
       "category": "arms",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/cable-bicep-curl.svg",
+      "thumbnail": "/images/machines/cable-bicep-curl.jpg",
       "shortDescription": "Builds your biceps (the front of your upper arms) by curling a handle upward using a cable machine. The cable keeps tension on your muscles the whole time.",
       "musclesWorked": [
         "Biceps",
@@ -534,7 +534,7 @@
       "name": "Hack Squat Machine",
       "category": "legs",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/hack-squat.svg",
+      "thumbnail": "/images/machines/hack-squat.jpg",
       "shortDescription": "A squat machine where you lean back against a padded sled and push a platform with your feet. It lets you squat heavy without worrying about balancing a bar on your back.",
       "musclesWorked": [
         "Quadriceps (Front Thighs)",
@@ -594,7 +594,7 @@
       "name": "Seated Calf Raise Machine",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/calf-raise.svg",
+      "thumbnail": "/images/machines/calf-raise.jpg",
       "shortDescription": "Strengthens your calf muscles (the back of your lower legs) by raising your heels against a weighted pad while seated. Simple and effective for building lower leg strength.",
       "musclesWorked": [
         "Calves (Gastrocnemius)",
@@ -642,7 +642,7 @@
       "name": "Hip Abductor Machine",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/hip-abductor.svg",
+      "thumbnail": "/images/machines/hip-abductor.jpg",
       "shortDescription": "Works the muscles on the outside of your hips and thighs by pushing your legs apart against padded resistance. Great for strengthening the outer hip area.",
       "musclesWorked": [
         "Hip Abductors (Outer Thighs)",
@@ -692,7 +692,7 @@
       "name": "Hip Adductor Machine",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/hip-adductor.svg",
+      "thumbnail": "/images/machines/hip-adductor.jpg",
       "shortDescription": "Strengthens the muscles on the inside of your thighs by squeezing your legs together against padded resistance. Helps with hip stability and inner thigh toning.",
       "musclesWorked": [
         "Hip Adductors (Inner Thighs)",
@@ -741,7 +741,7 @@
       "name": "Smith Machine Squat",
       "category": "legs",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/smith-machine-squat.svg",
+      "thumbnail": "/images/machines/smith-machine-squat.jpg",
       "shortDescription": "A squat performed on a barbell that's attached to vertical rails, so it only moves straight up and down. Lets you practice squatting with added safety since the bar can't tip over.",
       "musclesWorked": [
         "Quadriceps (Front Thighs)",
@@ -802,7 +802,7 @@
       "name": "Incline Chest Press Machine",
       "category": "chest",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/incline-chest-press.svg",
+      "thumbnail": "/images/machines/incline-chest-press.jpg",
       "shortDescription": "Similar to the regular chest press, but the seat is angled so you push upward at an angle. This targets the upper part of your chest more than a flat press does.",
       "musclesWorked": [
         "Upper Chest (Pectorals)",
@@ -853,7 +853,7 @@
       "name": "Decline Chest Press Machine",
       "category": "chest",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/decline-chest-press.svg",
+      "thumbnail": "/images/machines/decline-chest-press.jpg",
       "shortDescription": "A chest press where you push at a downward angle, which focuses on the lower portion of your chest. Great for building a well-rounded chest when combined with flat and incline pressing.",
       "musclesWorked": [
         "Lower Chest (Pectorals)",
@@ -904,7 +904,7 @@
       "name": "Cable Crossover",
       "category": "chest",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/cable-crossover.svg",
+      "thumbnail": "/images/machines/cable-crossover.jpg",
       "shortDescription": "A chest exercise where you stand between two cable towers and bring your hands together in front of you. It gives your chest a great squeeze and stretch that machines can't replicate.",
       "musclesWorked": [
         "Chest (Pectorals)",
@@ -955,7 +955,7 @@
       "name": "T-Bar Row Machine",
       "category": "back",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/t-bar-row.svg",
+      "thumbnail": "/images/machines/t-bar-row.jpg",
       "shortDescription": "A rowing exercise where you pull a bar anchored at one end toward your chest while leaning forward. Builds thick, strong back muscles and is a staple in many workout routines.",
       "musclesWorked": [
         "Latissimus Dorsi",
@@ -1007,7 +1007,7 @@
       "name": "Back Extension (Hyperextension)",
       "category": "back",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/back-extension.svg",
+      "thumbnail": "/images/machines/back-extension.jpg",
       "shortDescription": "Strengthens your lower back by bending forward over a padded support and lifting your torso back up. Also works your glutes and hamstrings. Uses your body weight so there's no complicated setup.",
       "musclesWorked": [
         "Lower Back (Erector Spinae)",
@@ -1061,7 +1061,7 @@
       "name": "Assisted Pull-Up Machine",
       "category": "back",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/assisted-pull-up.svg",
+      "thumbnail": "/images/machines/assisted-pull-up.jpg",
       "shortDescription": "Helps you do pull-ups by supporting some of your body weight with a counterweight. Perfect if you can't do a pull-up on your own yet — the machine makes it easier while you build strength.",
       "musclesWorked": [
         "Lats (Latissimus Dorsi)",
@@ -1116,7 +1116,7 @@
       "name": "Lateral Raise Machine",
       "category": "shoulders",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/lateral-raise-machine.svg",
+      "thumbnail": "/images/machines/lateral-raise-machine.jpg",
       "shortDescription": "Targets the side of your shoulders by lifting padded arms out to your sides. Easier than using dumbbells because the machine keeps you in the right position.",
       "musclesWorked": [
         "Lateral Deltoids (Side Shoulders)",
@@ -1166,7 +1166,7 @@
       "name": "Reverse Fly Machine",
       "category": "shoulders",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/reverse-fly-machine.svg",
+      "thumbnail": "/images/machines/reverse-fly-machine.jpg",
       "shortDescription": "Works the back of your shoulders and upper back by opening your arms outward against resistance. It's like a pec deck in reverse and is great for improving posture.",
       "musclesWorked": [
         "Rear Deltoids",
@@ -1217,7 +1217,7 @@
       "name": "Cable Face Pull",
       "category": "shoulders",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/cable-face-pull.svg",
+      "thumbnail": "/images/machines/cable-face-pull.jpg",
       "shortDescription": "A cable exercise where you pull a rope attachment toward your face, targeting the rear shoulders and upper back. One of the best exercises for shoulder health and posture.",
       "musclesWorked": [
         "Rear Deltoids",
@@ -1270,7 +1270,7 @@
       "name": "Cable Tricep Pushdown",
       "category": "arms",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/tricep-pushdown.svg",
+      "thumbnail": "/images/machines/tricep-pushdown.jpg",
       "shortDescription": "Builds the back of your upper arms (triceps) by pushing a cable attachment downward. Simple and effective — one of the most popular arm exercises in any gym.",
       "musclesWorked": [
         "Triceps"
@@ -1319,7 +1319,7 @@
       "name": "Preacher Curl Machine",
       "category": "arms",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/preacher-curl.svg",
+      "thumbnail": "/images/machines/preacher-curl.jpg",
       "shortDescription": "Isolates your biceps by curling against a padded arm rest that prevents you from cheating or swinging. Your upper arms stay locked in place so your biceps do all the work.",
       "musclesWorked": [
         "Biceps",
@@ -1370,7 +1370,7 @@
       "name": "Cable Overhead Tricep Extension",
       "category": "arms",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/cable-tricep-extension.svg",
+      "thumbnail": "/images/machines/cable-tricep-extension.jpg",
       "shortDescription": "Works the back of your upper arms by extending a rope overhead using a cable machine. The overhead position gives your triceps a deep stretch that other exercises miss.",
       "musclesWorked": [
         "Triceps (Long Head)",
@@ -1421,7 +1421,7 @@
       "name": "Ab Crunch Machine",
       "category": "core",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/ab-crunch-machine.svg",
+      "thumbnail": "/images/machines/ab-crunch-machine.jpg",
       "shortDescription": "Strengthens your abdominal muscles by curling your torso forward against resistance. Easier to learn than floor crunches because the machine guides your movement and lets you add weight.",
       "musclesWorked": [
         "Abs (Rectus Abdominis)",
@@ -1474,7 +1474,7 @@
       "name": "Cable Woodchop",
       "category": "core",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/cable-woodchop.svg",
+      "thumbnail": "/images/machines/cable-woodchop.jpg",
       "shortDescription": "A rotational core exercise where you pull a cable diagonally across your body, like swinging an axe. Builds the twisting strength your abs need for sports and everyday movements.",
       "musclesWorked": [
         "Obliques",
@@ -1527,7 +1527,7 @@
       "name": "Captain's Chair (Hanging Leg Raise)",
       "category": "core",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/captains-chair.svg",
+      "thumbnail": "/images/machines/captains-chair.jpg",
       "shortDescription": "A frame with arm rests and a back pad where you hang and lift your legs to work your abs. One of the most effective ab exercises — you use your body weight with no complicated settings.",
       "musclesWorked": [
         "Rectus Abdominis (Lower Abs)",
@@ -1579,7 +1579,7 @@
       "name": "Back Extension (Core Focus)",
       "category": "core",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/core-back-extension.svg",
+      "thumbnail": "/images/machines/core-back-extension.jpg",
       "shortDescription": "Uses the hyperextension bench to strengthen the muscles along your spine. Think of it as an ab exercise for your back — important for balanced core strength and preventing back pain.",
       "musclesWorked": [
         "Erector Spinae (Lower Back)",
@@ -1630,7 +1630,7 @@
       "name": "Elliptical Trainer",
       "category": "cardio",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/elliptical.svg",
+      "thumbnail": "/images/machines/elliptical.jpg",
       "shortDescription": "A low-impact cardio machine where your feet glide in an oval motion while you push and pull moving handles. It gives you a full-body workout without the joint pounding of running.",
       "musclesWorked": [
         "Legs",
@@ -1682,7 +1682,7 @@
       "name": "Stationary Bike",
       "category": "cardio",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/stationary-bike.svg",
+      "thumbnail": "/images/machines/stationary-bike.jpg",
       "shortDescription": "An indoor bicycle that lets you get a great cardio workout while seated. Easy on your joints, simple to use, and you can read or watch TV while pedaling.",
       "musclesWorked": [
         "Quadriceps (Front Thighs)",
@@ -1737,7 +1737,7 @@
       "name": "Rowing Machine (Ergometer)",
       "category": "cardio",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/rowing-machine.svg",
+      "thumbnail": "/images/machines/rowing-machine.jpg",
       "shortDescription": "Simulates the motion of rowing a boat and works almost every muscle in your body. One of the best machines for a complete workout — it builds strength and cardio fitness at the same time.",
       "musclesWorked": [
         "Back",
@@ -1792,7 +1792,7 @@
       "name": "Stair Climber (StepMill)",
       "category": "cardio",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/stair-climber.svg",
+      "thumbnail": "/images/machines/stair-climber.jpg",
       "shortDescription": "A machine with a revolving set of stairs that you walk up continuously. It's like climbing real stairs that never end — great for your legs, glutes, and heart.",
       "musclesWorked": [
         "Quadriceps",
@@ -1847,7 +1847,7 @@
       "name": "Smith Machine (General Guide)",
       "category": "legs",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/smith-machine.svg",
+      "thumbnail": "/images/machines/smith-machine.jpg",
       "shortDescription": "A barbell fixed to vertical rails that can be used for dozens of exercises including squats, bench press, rows, and shoulder press. The bar only moves straight up and down and has built-in safety hooks.",
       "musclesWorked": [
         "Quadriceps",
@@ -1909,7 +1909,7 @@
       "name": "Cable Machine (General Guide)",
       "category": "arms",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/cable-machine.svg",
+      "thumbnail": "/images/machines/cable-machine.jpg",
       "shortDescription": "A versatile machine with adjustable pulleys and interchangeable handles that can be used for hundreds of exercises targeting every muscle group. If you only learn one machine, this is a great choice.",
       "musclesWorked": [
         "Chest",
@@ -1973,7 +1973,7 @@
       "name": "Functional Trainer (Dual Cable)",
       "category": "chest",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/functional-trainer.svg",
+      "thumbnail": "/images/machines/functional-trainer.jpg",
       "shortDescription": "A machine with two independent cable columns that can be set to any height. It lets you do exercises that move in natural, real-world patterns — great for sports training, rehab, and building balanced strength.",
       "musclesWorked": [
         "Chest",
@@ -2036,7 +2036,7 @@
       "name": "Lying Leg Curl",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/lying-leg-curl.svg",
+      "thumbnail": "/images/machines/lying-leg-curl.jpg",
       "shortDescription": "Isolates the hamstrings from a prone position, allowing for a full range of motion and maximum muscle contraction.",
       "musclesWorked": [
         "Hamstrings",
@@ -2085,7 +2085,7 @@
       "name": "45-Degree Leg Press",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/leg-press-45.svg",
+      "thumbnail": "/images/machines/leg-press-45.jpg",
       "shortDescription": "Angled leg press that targets quads, glutes, and hamstrings with reduced spinal loading compared to squats.",
       "musclesWorked": [
         "Quadriceps",
@@ -2136,7 +2136,7 @@
       "name": "Glute Kickback Machine",
       "category": "legs",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/glute-kickback.svg",
+      "thumbnail": "/images/machines/glute-kickback.jpg",
       "shortDescription": "Dedicated glute isolation machine that targets the gluteus maximus through hip extension movement.",
       "musclesWorked": [
         "Glutes",
@@ -2186,7 +2186,7 @@
       "name": "Pendulum Squat",
       "category": "legs",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/pendulum-squat.svg",
+      "thumbnail": "/images/machines/pendulum-squat.jpg",
       "shortDescription": "Advanced squat machine with a unique arc motion that deeply targets quads while minimizing spinal loading.",
       "musclesWorked": [
         "Quadriceps",
@@ -2241,7 +2241,7 @@
       "name": "Close-Grip Lat Pulldown",
       "category": "back",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/lat-pulldown-close.svg",
+      "thumbnail": "/images/machines/lat-pulldown-close.jpg",
       "shortDescription": "Lat pulldown variation using a narrow grip for increased range of motion and bicep involvement.",
       "musclesWorked": [
         "Latissimus Dorsi",
@@ -2292,7 +2292,7 @@
       "name": "Wide-Grip Lat Pulldown",
       "category": "back",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/lat-pulldown-wide.svg",
+      "thumbnail": "/images/machines/lat-pulldown-wide.jpg",
       "shortDescription": "Classic back builder using a wide grip to maximize lat width development and create a V-taper.",
       "musclesWorked": [
         "Latissimus Dorsi",
@@ -2344,7 +2344,7 @@
       "name": "Single-Arm Cable Row",
       "category": "back",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/cable-row-single.svg",
+      "thumbnail": "/images/machines/cable-row-single.jpg",
       "shortDescription": "Unilateral rowing exercise that builds back thickness while improving muscle balance and core stability.",
       "musclesWorked": [
         "Latissimus Dorsi",
@@ -2401,7 +2401,7 @@
       "name": "Upright Row Machine",
       "category": "shoulders",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/upright-row-machine.svg",
+      "thumbnail": "/images/machines/upright-row-machine.jpg",
       "shortDescription": "Guided upright row movement that builds shoulder width and upper trap development with reduced injury risk.",
       "musclesWorked": [
         "Deltoids (Shoulders)",
@@ -2451,7 +2451,7 @@
       "name": "Seated Dumbbell Shoulder Press Machine",
       "category": "shoulders",
       "difficulty": "intermediate",
-      "thumbnail": "/images/machines/dumbbell-shoulder-press.svg",
+      "thumbnail": "/images/machines/dumbbell-shoulder-press.jpg",
       "shortDescription": "Machine that mimics dumbbell pressing, allowing independent arm movement for balanced shoulder development.",
       "musclesWorked": [
         "Deltoids (Shoulders)",
@@ -2501,7 +2501,7 @@
       "name": "Decline Sit-Up Bench",
       "category": "core",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/decline-situp-bench.svg",
+      "thumbnail": "/images/machines/decline-situp-bench.jpg",
       "shortDescription": "Adjustable bench for weighted ab training with progressive difficulty through angle adjustment.",
       "musclesWorked": [
         "Rectus Abdominis",
@@ -2551,7 +2551,7 @@
       "name": "Torso Rotation Machine",
       "category": "core",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/torso-rotation.svg",
+      "thumbnail": "/images/machines/torso-rotation.jpg",
       "shortDescription": "Seated rotation machine that isolates the obliques and develops rotational core strength.",
       "musclesWorked": [
         "Obliques",
@@ -2602,7 +2602,7 @@
       "name": "Cable Rope Hammer Curl",
       "category": "arms",
       "difficulty": "beginner",
-      "thumbnail": "/images/machines/cable-hammer-curl.svg",
+      "thumbnail": "/images/machines/cable-hammer-curl.jpg",
       "shortDescription": "Cable curl variation with neutral grip that targets the brachialis for arm thickness and forearm development.",
       "musclesWorked": [
         "Brachialis",
@@ -2647,6 +2647,820 @@
         "cable",
         "beginner-friendly",
         "isolation"
+      ]
+    },
+    {
+      "id": "belt-squat",
+      "name": "Belt Squat Machine",
+      "category": "legs",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/belt-squat.jpg",
+      "shortDescription": "A plate-loaded squat variation where resistance is applied through a hip belt, removing all spinal load and allowing full squatting depth with pure leg drive.",
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)",
+        "Calves"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Step onto the elevated platforms and clip the belt around your hips, positioning it across your hip bones. Stand with feet shoulder-width apart, toes pointing slightly outward.",
+          "tip": "The belt should sit below your waist on your hip flexors — not around your stomach. Adjust the chain/strap length so the weight hangs freely when you stand tall."
+        },
+        {
+          "number": 2,
+          "text": "Grip the handles lightly for balance, brace your core, and stand upright with chest tall. This is your starting position.",
+          "tip": "You don't need to hold the handles tightly — they're just for stability. Keep your torso upright throughout the entire movement."
+        },
+        {
+          "number": 3,
+          "text": "Push your hips back slightly and bend your knees to squat down. Keep your torso as upright as possible and squat until your thighs are parallel to the floor or below.",
+          "tip": "Unlike a barbell squat, you can stay more upright here because there's no spinal load. Let your knees track over your toes and sit deep into the squat."
+        },
+        {
+          "number": 4,
+          "text": "Drive through your heels and mid-foot to stand back up to the starting position. Squeeze your glutes at the top.",
+          "tip": "Push the floor away from you — don't think about pulling yourself up. Keep the movement slow and controlled, especially on the way down."
+        }
+      ],
+      "safetyWarnings": [
+        "Ensure the belt is securely fastened before loading weight — check the clip or buckle twice.",
+        "Start with lighter weight to learn the movement pattern before adding load.",
+        "Keep your knees tracking over your toes — don't let them cave inward.",
+        "Avoid leaning too far forward; the belt squat should keep your torso upright.",
+        "If you feel hip discomfort from the belt, adjust the position or reduce weight."
+      ],
+      "youtubeVideoId": "ZDCMlDKr5Ic",
+      "suggestedSets": "3-4 sets of 8-12 reps",
+      "tags": [
+        "legs",
+        "lower body",
+        "quad",
+        "glutes",
+        "hamstrings",
+        "squat",
+        "plate-loaded",
+        "spine-friendly",
+        "matrix-magnum"
+      ]
+    },
+    {
+      "id": "hip-thrust-machine",
+      "name": "Hip Thrust Machine",
+      "category": "legs",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/hip-thrust-machine.jpg",
+      "shortDescription": "Machine-based hip thrust that isolates the glutes through a powerful hip extension movement. The Matrix Magnum Glute Trainer replicates bar hip thrusting without discomfort.",
+      "musclesWorked": [
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)",
+        "Hip Flexors"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit into the machine with your upper back against the padded support. Position the hip pad across your hip bones and adjust the seat so your feet are flat on the platform, knees at roughly 90 degrees.",
+          "tip": "The pad should be on your hip bones, not your stomach or thighs. Adjust the machine's settings for your height before loading weight."
+        },
+        {
+          "number": 2,
+          "text": "Plant your feet firmly on the platform, slightly wider than hip-width. Tuck your chin slightly and brace your core.",
+          "tip": "Foot position matters: feet slightly forward allows deeper glute activation. Experiment with width to find what targets your glutes best."
+        },
+        {
+          "number": 3,
+          "text": "Drive through your heels to push your hips upward in a powerful extension. Squeeze your glutes hard at the top until your body forms a straight line from shoulders to knees.",
+          "tip": "Think about pushing the floor away with your heels, not just lifting your hips. The squeeze at the top is critical — hold for 1-2 seconds for max activation."
+        },
+        {
+          "number": 4,
+          "text": "Slowly lower your hips back down under control, stopping just before the weight stack touches down, then immediately drive back up.",
+          "tip": "Don't let the weight crash down — maintain tension throughout. The controlled lowering phase is just as important as the push."
+        }
+      ],
+      "safetyWarnings": [
+        "Ensure the hip pad is positioned correctly across the hip bones, not the lower abdomen.",
+        "Avoid hyperextending your lower back at the top — your torso should be straight, not arched excessively.",
+        "Start light to learn the hip hinge pattern before adding heavy load.",
+        "Keep your chin tucked to avoid neck strain — don't crane your neck up.",
+        "If you have hip impingement or lower back issues, consult a trainer before use."
+      ],
+      "youtubeVideoId": "xDmFkJxPzeM",
+      "suggestedSets": "3-4 sets of 10-15 reps",
+      "tags": [
+        "legs",
+        "glutes",
+        "hip-thrust",
+        "isolation",
+        "beginner-friendly",
+        "machine",
+        "matrix-magnum",
+        "lower body"
+      ]
+    },
+    {
+      "id": "seated-calf-raise",
+      "name": "Seated Calf Raise",
+      "category": "legs",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/seated-calf-raise.jpg",
+      "shortDescription": "Seated machine targeting the soleus muscle deep in the calf. The bent-knee position shifts emphasis away from the gastrocnemius to fully isolate the soleus for complete lower leg development.",
+      "musclesWorked": [
+        "Soleus (Deep Calf)",
+        "Gastrocnemius (Calf)"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit on the machine and place the balls of your feet on the foot platform with heels hanging off. Position the knee pads across your lower thighs, just above your knees, and adjust so they hold your legs firmly.",
+          "tip": "Your knees should be bent at approximately 90 degrees. The pads should be snug but not painfully tight — they keep the weight from lifting you off the seat."
+        },
+        {
+          "number": 2,
+          "text": "Release the safety pin and let your heels drop as low as possible for a full stretch. Hold the bottom position for 1 second.",
+          "tip": "A full stretch at the bottom is crucial for the soleus. Don't rush past this point — the stretch is where the growth stimulus comes from."
+        },
+        {
+          "number": 3,
+          "text": "Push through the balls of your feet and raise your heels as high as possible, squeezing your calves hard at the top. Hold for 1-2 seconds.",
+          "tip": "Rise all the way up onto the tips of your toes. The peak contraction squeeze is what drives soleus development — don't cut the range short."
+        },
+        {
+          "number": 4,
+          "text": "Slowly lower back down to the starting stretched position under full control.",
+          "tip": "Take 2-3 seconds to lower — slow negatives are especially effective for calf training. Don't bounce at the bottom."
+        }
+      ],
+      "safetyWarnings": [
+        "Always use the safety pin when adjusting your position — never let the weight drop freely.",
+        "Avoid using excessive weight that prevents a full range of motion.",
+        "Don't bounce at the bottom stretch — this can strain the Achilles tendon.",
+        "Keep the balls of your feet (not your heels) on the platform at all times.",
+        "If you have Achilles or ankle issues, consult a professional before use."
+      ],
+      "youtubeVideoId": "JbyjNymZOt0",
+      "suggestedSets": "3-4 sets of 15-20 reps",
+      "tags": [
+        "legs",
+        "calves",
+        "soleus",
+        "isolation",
+        "beginner-friendly",
+        "machine",
+        "lower body"
+      ]
+    },
+    {
+      "id": "kneeling-leg-curl",
+      "name": "Kneeling Leg Curl",
+      "category": "legs",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/kneeling-leg-curl.jpg",
+      "shortDescription": "Plate-loaded single-leg curl performed in a kneeling position. Extends the hip while flexing the knee for maximum hamstring stretch and contraction through a full range of motion.",
+      "musclesWorked": [
+        "Hamstrings (Back Thighs)",
+        "Glutes (Buttocks)"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Kneel on the padded platform with one knee, positioning your working leg so the ankle pad rests just above your heel. Your hip should be in line with the pivot point of the machine.",
+          "tip": "Proper alignment with the machine's pivot point is critical. Adjust the pad height so there's no pinching behind your knee during the curl."
+        },
+        {
+          "number": 2,
+          "text": "Grip the handles for support. Keep your hips extended (hip fully open) and your torso upright or slightly forward. This pre-stretched position is the starting point.",
+          "tip": "The extended hip position stretches the hamstring at its origin — this is what makes kneeling curls superior for hamstring development over lying curls."
+        },
+        {
+          "number": 3,
+          "text": "Curl your heel toward your glutes by bending your knee, maintaining hip extension throughout the movement. Squeeze your hamstring hard at peak contraction.",
+          "tip": "Don't let your hip flex as you curl — keep the hip open. If you need to hinge forward to complete the rep, the weight is too heavy."
+        },
+        {
+          "number": 4,
+          "text": "Slowly extend your leg back to the starting position, controlling the weight all the way down to full stretch.",
+          "tip": "The eccentric (lowering) phase under hip extension is the most powerful stimulus. Take 2-3 seconds on the way down."
+        }
+      ],
+      "safetyWarnings": [
+        "Start with light weight — kneeling leg curls are more intense than lying curls and the hamstrings fatigue quickly.",
+        "Ensure the ankle pad is secure before beginning each set.",
+        "Never jerk or use momentum — controlled movement only.",
+        "If you feel knee pain behind the joint, stop and reassess pad positioning.",
+        "Train one leg at a time to identify and correct strength imbalances."
+      ],
+      "youtubeVideoId": "1Tq3QdYUuHs",
+      "suggestedSets": "3 sets of 8-12 reps per leg",
+      "tags": [
+        "legs",
+        "hamstrings",
+        "isolation",
+        "single-leg",
+        "plate-loaded",
+        "matrix-magnum",
+        "lower body"
+      ]
+    },
+    {
+      "id": "glute-machine",
+      "name": "Glute Kickback Machine",
+      "category": "legs",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/glute-machine.jpg",
+      "shortDescription": "Upright standing machine that isolates the glutes through a rear leg extension. Provides consistent resistance through the full range of motion for targeted glute shaping.",
+      "musclesWorked": [
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Step onto the machine and place one knee on the pad and the foot of your working leg on the push plate. Grip the handles and lean slightly forward onto the chest pad.",
+          "tip": "Your supporting leg should be firmly planted. The slight forward lean engages your glutes better than standing fully upright."
+        },
+        {
+          "number": 2,
+          "text": "Brace your core and keep a neutral spine. Your working leg should start with the knee bent at roughly 90 degrees.",
+          "tip": "Don't let your lower back arch excessively. A neutral spine protects your lumbar region and keeps tension on the glutes."
+        },
+        {
+          "number": 3,
+          "text": "Press the foot plate backward and downward by extending your hip, driving your leg back. Keep the movement controlled and squeeze your glute hard at the end range.",
+          "tip": "Focus on squeezing the glute — not just moving your leg. Imagine you're trying to push something away with your heel."
+        },
+        {
+          "number": 4,
+          "text": "Slowly return your leg to the starting position under control. Complete all reps on one side before switching.",
+          "tip": "Don't let the weight stack slam down between reps. Maintain tension and control throughout the entire set."
+        }
+      ],
+      "safetyWarnings": [
+        "Keep your lower back neutral — avoid excessive lumbar arching which shifts load off the glutes.",
+        "Adjust the machine for your height before adding weight.",
+        "Don't use momentum or swing your leg — pure glute extension only.",
+        "If you feel discomfort in your lower back, reduce weight and focus on bracing.",
+        "Perform equal reps on both sides to prevent muscle imbalances."
+      ],
+      "youtubeVideoId": "Ex-3MBFkSFs",
+      "suggestedSets": "3-4 sets of 12-15 reps per leg",
+      "tags": [
+        "legs",
+        "glutes",
+        "isolation",
+        "single-leg",
+        "beginner-friendly",
+        "machine",
+        "lower body"
+      ]
+    },
+    {
+      "id": "converging-chest-press",
+      "name": "Converging Chest Press",
+      "category": "chest",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/converging-chest-press.jpg",
+      "shortDescription": "Matrix Versa/Aura series chest press with arms that converge toward the midline, mimicking the natural arc of a dumbbell press for improved chest activation and feel.",
+      "musclesWorked": [
+        "Pectoralis Major (Chest)",
+        "Anterior Deltoid (Front Shoulder)",
+        "Triceps"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Adjust the seat so the handles are at mid-chest height. Sit with your back flat against the pad, feet flat on the floor. Grip the handles with palms facing forward or slightly inward.",
+          "tip": "The handles should start at chest level — not at your shoulders or stomach. Use the gas-assisted seat adjustment to set the height quickly."
+        },
+        {
+          "number": 2,
+          "text": "Press the handles forward and inward in a converging arc, bringing your hands toward the midline of your body as you extend your arms. Squeeze your chest at full extension.",
+          "tip": "The converging path is the key difference — let your arms naturally come together at the end. This mimics how the pec fibers actually fire, improving the mind-muscle connection."
+        },
+        {
+          "number": 3,
+          "text": "Slowly return the handles back to the starting position, allowing your chest to open fully for a deep stretch.",
+          "tip": "Control the return — don't let the weight pull your arms back. The stretch at the end of each rep is where the chest gets the greatest stimulus."
+        },
+        {
+          "number": 4,
+          "text": "Repeat for the desired number of reps, keeping your back flat against the pad throughout.",
+          "tip": "Never arch your lower back off the seat to push more weight. Keep your feet flat on the floor for stability."
+        }
+      ],
+      "safetyWarnings": [
+        "Never bounce the weight or use momentum — control every rep.",
+        "Keep your wrists straight and aligned with your forearms throughout.",
+        "Avoid flaring your elbows excessively — keep them roughly 45-75 degrees from your torso.",
+        "If you feel shoulder impingement, lower the seat or reduce the range of motion.",
+        "Warm up with light weight before your working sets."
+      ],
+      "youtubeVideoId": "xUm0BiZCWlQ",
+      "suggestedSets": "3-4 sets of 10-12 reps",
+      "tags": [
+        "chest",
+        "press",
+        "compound",
+        "beginner-friendly",
+        "machine",
+        "matrix-versa",
+        "converging"
+      ]
+    },
+    {
+      "id": "pec-fly-rear-delt",
+      "name": "Pec Fly / Rear Delt Machine",
+      "category": "chest",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/pec-fly-rear-delt.jpg",
+      "shortDescription": "Dual-function machine performing both pec fly (chest isolation) and rear delt fly (upper back/shoulder) by reversing the direction of resistance. Two movements in one space-efficient design.",
+      "musclesWorked": [
+        "Pectoralis Major (Chest)",
+        "Rear Deltoids (Back of Shoulder)",
+        "Rhomboids (Upper Back)"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "For Pec Fly: Select the front handle position. Sit facing forward with your back against the pad. Set the arms wide and adjust the seat so handles are at shoulder height. Grip the handles with palms facing inward.",
+          "tip": "Pec fly position: handles wide, arms open, feeling a stretch across your chest before you begin. Never go so wide that you feel shoulder impingement."
+        },
+        {
+          "number": 2,
+          "text": "Pec Fly: Bring both arms forward in a wide arc, squeezing your chest as the handles come together in front of you. Hold for 1 second, then slowly open back to the start.",
+          "tip": "Think of hugging a large barrel — don't just pull with your arms. Keep a soft bend in the elbows and initiate the movement from your chest."
+        },
+        {
+          "number": 3,
+          "text": "For Rear Delt: Rotate the seat to face the machine (or adjust handles to the rear position). Sit upright and grip the handles with palms facing inward, arms extended forward.",
+          "tip": "Rear delt position: arms forward, slightly bent. Maintain an upright torso — don't lean backward to help pull the weight."
+        },
+        {
+          "number": 4,
+          "text": "Rear Delt: Pull both arms back in a wide arc, squeezing your shoulder blades together at the end range. Slowly return to the starting position.",
+          "tip": "Lead with your elbows and focus on squeezing your rear delts and rhomboids. Don't shrug your shoulders — keep them down and back."
+        }
+      ],
+      "safetyWarnings": [
+        "Never use heavy weight on the pec fly — the shoulder is vulnerable in the wide, open position.",
+        "Adjust the arm width before your first rep — never stretch into a painful range.",
+        "For rear delt, don't use momentum; slow, controlled pulls protect the rotator cuff.",
+        "Keep your spine neutral and back against the pad for both movements.",
+        "Consult a trainer if you have any history of shoulder injuries before using this machine."
+      ],
+      "youtubeVideoId": "Iwe6AmxVf7o",
+      "suggestedSets": "3 sets of 12-15 reps (each movement)",
+      "tags": [
+        "chest",
+        "shoulders",
+        "rear-delt",
+        "pec-fly",
+        "isolation",
+        "dual-function",
+        "beginner-friendly",
+        "machine",
+        "matrix-versa"
+      ]
+    },
+    {
+      "id": "low-row-machine",
+      "name": "Low Row Machine",
+      "category": "back",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/low-row-machine.jpg",
+      "shortDescription": "Plate-loaded low cable row variation on a dedicated machine. Targets the lower lats and mid-back with a horizontal pulling motion from a low angle for superior lat thickness.",
+      "musclesWorked": [
+        "Latissimus Dorsi (Lats)",
+        "Rhomboids (Mid Back)",
+        "Rear Deltoids",
+        "Biceps"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit on the machine facing the pulley. Place your feet on the foot rests and grip the handles with palms facing each other (neutral grip) or overhand. Sit upright with a slight forward lean.",
+          "tip": "Brace your core before the first pull. The slight forward lean at the start allows a better stretch of the lats at the beginning of each rep."
+        },
+        {
+          "number": 2,
+          "text": "Begin the pull by depressing your shoulder blades — squeeze them down and back before bending your elbows. This engages the lats before the biceps take over.",
+          "tip": "Initiating with the scapula is the key to targeting your back instead of your arms. Think 'shoulders back and down' first, then pull elbows back."
+        },
+        {
+          "number": 3,
+          "text": "Pull the handles toward your lower abdomen/hip area, keeping elbows close to your sides and driving them past your ribs. Squeeze your lats hard at the peak contraction.",
+          "tip": "Low row targets the lower lats — pull to the belly button, not your chest. Elbows close to your body, not flaring out wide."
+        },
+        {
+          "number": 4,
+          "text": "Slowly extend your arms back to the starting position, allowing your shoulder blades to protract and your lats to stretch fully at the end.",
+          "tip": "The stretch is important — let your upper back round slightly at the end of each rep to get a full lat stretch before pulling again."
+        }
+      ],
+      "safetyWarnings": [
+        "Never jerk the weight — all pulling should be smooth and controlled.",
+        "Avoid excessive torso swinging — slight natural movement is okay but large rocking reduces effectiveness and risks injury.",
+        "Keep your lower back from excessively arching or rounding under heavy load.",
+        "Warm up your rotator cuff before heavy pulling sessions.",
+        "If you feel pulling in the lower back instead of the lats, reduce weight and focus on scapular initiation."
+      ],
+      "youtubeVideoId": "GZbfZ033f74",
+      "suggestedSets": "3-4 sets of 8-12 reps",
+      "tags": [
+        "back",
+        "lats",
+        "mid-back",
+        "compound",
+        "pulling",
+        "plate-loaded",
+        "matrix-magnum",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "high-row-machine",
+      "name": "High Row Machine",
+      "category": "back",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/high-row-machine.jpg",
+      "shortDescription": "Plate-loaded high angle row that targets the upper lats and teres major. The high cable angle mimics a pull-down but with more natural loading for superior upper back width.",
+      "musclesWorked": [
+        "Latissimus Dorsi Upper (Lats)",
+        "Teres Major",
+        "Rear Deltoids",
+        "Biceps"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Position yourself on the machine, gripping the handles overhead at a high angle. Your arms should be extended upward, with a slight lean back. Brace your core and plant your feet firmly.",
+          "tip": "The high row mimics a pull-down but from a plate-loaded lever — adjust your torso angle to find the position where you feel your lats stretching at the top."
+        },
+        {
+          "number": 2,
+          "text": "Initiate the pull by depressing your shoulder blades — pull them down away from your ears before bending your elbows.",
+          "tip": "Scapular depression first is critical for lat engagement. If you bend your elbows first, your biceps will dominate the movement."
+        },
+        {
+          "number": 3,
+          "text": "Pull the handles down and toward your upper chest/collarbone area, driving your elbows down and back. Squeeze your lats hard at the bottom of the movement.",
+          "tip": "Think of pulling your elbows into your back pockets. At the bottom, your shoulder blades should be retracted and depressed fully."
+        },
+        {
+          "number": 4,
+          "text": "Slowly extend your arms back overhead to the starting position, allowing a full lat stretch at the top.",
+          "tip": "Control the return — resist the weight on the way up. A slow eccentric develops more muscle than the concentric pull alone."
+        }
+      ],
+      "safetyWarnings": [
+        "Never jerk the weight down — smooth, controlled motion only.",
+        "Keep your core braced throughout — don't let your lower back hyperextend.",
+        "Avoid pulling your elbows behind your body at the bottom — this can strain the shoulder joint.",
+        "Warm up the rotator cuff before heavy high row sessions.",
+        "If you feel shoulder pain at the top stretched position, reduce the range of motion."
+      ],
+      "youtubeVideoId": "N_s9em1xTqU",
+      "suggestedSets": "3-4 sets of 8-12 reps",
+      "tags": [
+        "back",
+        "lats",
+        "upper-back",
+        "compound",
+        "pulling",
+        "plate-loaded",
+        "matrix-magnum",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "incline-lever-row",
+      "name": "Incline Lever Row",
+      "category": "back",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/incline-lever-row.jpg",
+      "shortDescription": "Chest-supported incline row on a lever machine. The incline pad eliminates lower back involvement, isolating the mid and upper back muscles for pure back development.",
+      "musclesWorked": [
+        "Rhomboids (Mid Back)",
+        "Trapezius (Upper Back)",
+        "Rear Deltoids",
+        "Latissimus Dorsi (Lats)",
+        "Biceps"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Set the incline pad to roughly 30-45 degrees. Lie chest-down on the pad with your feet on the platform. Reach down and grip the handles with a neutral or overhand grip.",
+          "tip": "The chest support removes lower back strain entirely — you can focus 100% on your back. Adjust the incline so your arms hang naturally toward the floor at the start."
+        },
+        {
+          "number": 2,
+          "text": "Allow your arms to hang fully extended with your shoulder blades protracting (spreading apart). This is the full stretch position.",
+          "tip": "Let your scapulae spread apart at the bottom of each rep for a full range of motion. Don't start from a position where your back is already tense."
+        },
+        {
+          "number": 3,
+          "text": "Pull the handles upward by retracting your shoulder blades first, then bending your elbows. Drive your elbows up toward the ceiling, squeezing your mid-back at the top.",
+          "tip": "Focus on pinching your shoulder blades together at the top. If you can't hold the peak contraction for a moment, you're moving too fast."
+        },
+        {
+          "number": 4,
+          "text": "Slowly lower the handles back to the full stretch position under control.",
+          "tip": "The chest-supported position lets you control the negative without your lower back fatiguing — use this advantage to slow down the eccentric."
+        }
+      ],
+      "safetyWarnings": [
+        "Ensure your chest is firmly supported on the pad before each set.",
+        "Avoid using weight so heavy that your body lifts off the pad to complete reps.",
+        "Keep your neck neutral — don't crane your head up or down.",
+        "Control the weight on the way down — don't let the plates drop freely.",
+        "Start lighter than you think — the chest support makes this more isolated than free-weight rows."
+      ],
+      "youtubeVideoId": "xQNrFHEMhI4",
+      "suggestedSets": "3-4 sets of 10-12 reps",
+      "tags": [
+        "back",
+        "mid-back",
+        "rhomboids",
+        "trapezius",
+        "compound",
+        "chest-supported",
+        "plate-loaded",
+        "matrix-magnum"
+      ]
+    },
+    {
+      "id": "dip-assist-machine",
+      "name": "Assisted Dip Machine",
+      "category": "arms",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/dip-assist-machine.jpg",
+      "shortDescription": "Counterweighted machine that assists with parallel bar dips, reducing bodyweight to make the movement accessible for beginners while building triceps and chest strength for unassisted dips.",
+      "musclesWorked": [
+        "Triceps",
+        "Pectoralis Major (Lower Chest)",
+        "Anterior Deltoid (Front Shoulder)"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Select the assistance weight — a higher weight means more assistance (less effort needed). Kneel on the platform pad and grip the parallel bars with both hands at your sides.",
+          "tip": "Start with a high assistance level (e.g., 50-60% of your bodyweight) if you're new to dips. Reduce the assist weight progressively to build toward unassisted dips."
+        },
+        {
+          "number": 2,
+          "text": "Hold yourself upright on the bars with arms extended (but not locked). Lean slightly forward to increase chest involvement, or stay upright to emphasize triceps.",
+          "tip": "Slight forward lean = more chest. Upright torso = more triceps. Decide your target before starting your set."
+        },
+        {
+          "number": 3,
+          "text": "Slowly lower yourself by bending your elbows until your upper arms are roughly parallel to the floor. Keep elbows from flaring excessively — aim for 45-75 degrees from your torso.",
+          "tip": "Go as deep as your shoulder mobility allows. For most people, upper arms parallel to the floor is the target depth. Never force beyond a pain-free range."
+        },
+        {
+          "number": 4,
+          "text": "Press yourself back up by extending your elbows until arms are straight. Squeeze your triceps hard at the top.",
+          "tip": "Press through your palms, not your wrists. Think about pushing the bars down to the floor rather than pushing your body up."
+        }
+      ],
+      "safetyWarnings": [
+        "Never lock your elbows at the top — keep a slight bend to protect the joint.",
+        "Avoid flaring elbows out wide — keep them angled 45-75 degrees to protect the shoulder.",
+        "Don't descend too fast or bounce at the bottom — control the movement at all depths.",
+        "If you feel sharp shoulder pain, stop immediately — dips are demanding on the anterior shoulder.",
+        "As you reduce assistance weight, make small increments — don't jump too quickly."
+      ],
+      "youtubeVideoId": "2z8JmcrW-As",
+      "suggestedSets": "3 sets of 8-12 reps",
+      "tags": [
+        "arms",
+        "triceps",
+        "chest",
+        "dips",
+        "assisted",
+        "compound",
+        "beginner-friendly",
+        "machine",
+        "matrix-aura"
+      ]
+    },
+    {
+      "id": "elevated-biceps-curl",
+      "name": "Elevated Biceps Curl Machine",
+      "category": "arms",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/elevated-biceps-curl.jpg",
+      "shortDescription": "Matrix Magnum plate-loaded curl machine with arms elevated above the shoulder line, creating peak bicep tension in the shortened position and a massive stretch at the bottom.",
+      "musclesWorked": [
+        "Biceps Brachii",
+        "Brachialis",
+        "Brachioradialis"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Sit facing the machine with your arms resting on the elevated pad. Your upper arms should be angled upward at roughly 45-60 degrees, with forearms extended and hands gripping the handles.",
+          "tip": "The elevated arm position is the key difference — at the bottom of the curl, your biceps are fully stretched and under load, which is where the most growth stimulus occurs."
+        },
+        {
+          "number": 2,
+          "text": "Let your arms fully extend at the bottom, allowing a complete stretch of the biceps. Your upper arms remain fixed on the pad throughout the movement.",
+          "tip": "Do not allow your shoulders to roll forward or your upper arms to lift off the pad. The pad immobilizes the upper arm to ensure pure bicep isolation."
+        },
+        {
+          "number": 3,
+          "text": "Curl the handles toward your face by bending your elbows, squeezing your biceps hard at the peak contraction.",
+          "tip": "At the top of the movement, your biceps are in a shortened position with the arms elevated — focus on squeezing hard here for maximum activation."
+        },
+        {
+          "number": 4,
+          "text": "Slowly lower the handles back to the fully extended, stretched position.",
+          "tip": "The lowering phase under stretch is critical for this machine. Take 3 seconds to lower to maximize the stretched overload stimulus."
+        }
+      ],
+      "safetyWarnings": [
+        "Use lighter weight than standard curls — the stretched position under load dramatically increases bicep tension.",
+        "Never yank from the bottom position — start smoothly to avoid bicep tendon strain.",
+        "Keep upper arms firmly on the pad throughout — don't cheat by lifting your elbows.",
+        "Avoid hyperextending your elbows at the bottom if you have elbow joint sensitivity.",
+        "Progress weight slowly — this exercise has a high overload potential."
+      ],
+      "youtubeVideoId": "7UJSNRKTsMQ",
+      "suggestedSets": "3 sets of 10-12 reps",
+      "tags": [
+        "arms",
+        "biceps",
+        "isolation",
+        "plate-loaded",
+        "matrix-magnum",
+        "stretch-focused",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "recumbent-bike",
+      "name": "Recumbent Bike",
+      "category": "cardio",
+      "difficulty": "beginner",
+      "thumbnail": "/images/machines/recumbent-bike.jpg",
+      "shortDescription": "Low-impact cardio machine with a reclined seat and backrest. The reclined position reduces pressure on the lower back and joints, making it ideal for rehabilitation, older adults, and extended cardio sessions.",
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Hamstrings (Back Thighs)",
+        "Glutes (Buttocks)",
+        "Calves"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Adjust the seat forward or backward until your legs have a slight bend at the knee when the pedal is at the furthest point. Sit back fully into the reclined seat with your lower back supported.",
+          "tip": "Correct seat position is key for joint health. If your legs are fully extended at the bottom of the pedal stroke, move the seat forward. Your knees should never lock out."
+        },
+        {
+          "number": 2,
+          "text": "Grip the side handles lightly for stability. Your feet should be secured in the pedal straps with the ball of each foot over the pedal axle.",
+          "tip": "The back support means you don't need to grip the handles hard — a relaxed grip allows you to focus on leg drive and maintain a natural cadence."
+        },
+        {
+          "number": 3,
+          "text": "Begin pedaling at a comfortable resistance level, aiming for 60-80 RPM. Maintain an upright head position and breathe steadily.",
+          "tip": "Start at low resistance and build up gradually. A cadence of 70-80 RPM at moderate resistance is ideal for aerobic fat-burning. Higher resistance at lower RPM builds leg strength."
+        },
+        {
+          "number": 4,
+          "text": "Maintain steady pedaling for your target duration, adjusting resistance to keep your heart rate in your target zone.",
+          "tip": "Use the console's heart rate monitor if available. A moderate intensity zone (60-75% max HR) is effective for fat burning and cardiovascular health."
+        }
+      ],
+      "safetyWarnings": [
+        "Always adjust the seat before starting — incorrect positioning causes knee strain.",
+        "Step on/off carefully — the reclined position can make mounting awkward.",
+        "Secure feet in the pedal straps before beginning to pedal.",
+        "If you feel knee pain during pedaling, adjust seat distance or resistance level.",
+        "Consult your doctor if using for rehabilitation purposes."
+      ],
+      "youtubeVideoId": "YvmfWfrykGo",
+      "suggestedSets": "20-45 minutes at moderate intensity",
+      "tags": [
+        "cardio",
+        "low-impact",
+        "recumbent",
+        "bike",
+        "rehabilitation",
+        "beginner-friendly",
+        "matrix-cardio"
+      ]
+    },
+    {
+      "id": "indoor-cycle",
+      "name": "Indoor Cycle (Spin Bike)",
+      "category": "cardio",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/indoor-cycle.jpg",
+      "shortDescription": "High-intensity cycling machine simulating road cycling. The weighted flywheel and adjustable resistance allow for sprint intervals, climbs, and sustained high-output cardio sessions.",
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Hamstrings (Back Thighs)",
+        "Glutes (Buttocks)",
+        "Calves",
+        "Core"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Adjust saddle height so there is a slight bend in the knee at the bottom of the pedal stroke (about 25-35 degrees). Set handlebar height to a comfortable position — higher for beginners, lower for aggressive performance riding.",
+          "tip": "Proper saddle height prevents knee injury. A quick test: sit on the saddle and place your heel on the pedal at the bottom — your leg should be straight. With the ball of your foot on the pedal it will have the correct slight bend."
+        },
+        {
+          "number": 2,
+          "text": "Clip in or secure your feet in the pedal straps. Sit on the saddle with a slight forward lean, weight balanced between the saddle and handlebars.",
+          "tip": "Don't put all your weight on the handlebars — your core should support your upper body. Think 80% of your weight on the saddle, 20% on the bars."
+        },
+        {
+          "number": 3,
+          "text": "Begin pedaling at a moderate resistance. Focus on a smooth, circular pedaling motion — push down on the forward stroke and pull up on the back stroke for maximum efficiency.",
+          "tip": "Cadence for endurance: 80-100 RPM at moderate resistance. For strength/climbing: 60-70 RPM at high resistance. For sprints: 100+ RPM at light-moderate resistance."
+        },
+        {
+          "number": 4,
+          "text": "Vary your resistance and cadence throughout the session. Standing sprints add intensity — rise off the saddle and maintain core stability while driving through the pedals.",
+          "tip": "During standing climbs, keep your weight centered over the bike. Excessive forward rocking wastes energy and stresses the wrists and lower back."
+        }
+      ],
+      "safetyWarnings": [
+        "Always adjust the bike before riding — incorrect setup leads to knee and back injuries.",
+        "Never free-spin (pedaling with no resistance) — the flywheel's momentum can cause the pedals to spin out of control and injure your ankles.",
+        "Engage the emergency brake by pushing the resistance knob down if you need to stop quickly.",
+        "Wear proper cycling shoes or secure your feet tightly in the straps.",
+        "Stay hydrated — high-intensity indoor cycling causes significant sweat loss."
+      ],
+      "youtubeVideoId": "n5-qS7pkOLo",
+      "suggestedSets": "20-45 minutes with interval training",
+      "tags": [
+        "cardio",
+        "cycling",
+        "spinning",
+        "high-intensity",
+        "intervals",
+        "matrix-cardio",
+        "intermediate"
+      ]
+    },
+    {
+      "id": "ascent-trainer",
+      "name": "Ascent Trainer",
+      "category": "cardio",
+      "difficulty": "intermediate",
+      "thumbnail": "/images/machines/ascent-trainer.jpg",
+      "shortDescription": "Matrix's adaptive motion trainer combining elliptical, stair climbing, and running into one machine. Variable stride incline from flat to steep climbing engages different lower body muscles and calorie burn rates.",
+      "musclesWorked": [
+        "Quadriceps (Front Thighs)",
+        "Glutes (Buttocks)",
+        "Hamstrings (Back Thighs)",
+        "Calves",
+        "Core",
+        "Hip Flexors"
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "text": "Step onto the foot platforms and grip the handlebars. Start at a flat incline setting (level 0-1) to warm up and get used to the machine's natural stride path.",
+          "tip": "The Ascent Trainer adapts to your natural gait — don't force a specific stride length. Let the machine guide your movement pattern before changing incline."
+        },
+        {
+          "number": 2,
+          "text": "Begin stepping at a comfortable pace. At flat incline, the motion resembles a long elliptical stride. Use the moving handlebars for an upper body push-pull motion.",
+          "tip": "Push with the opposite arm to the forward leg for a natural cross-body movement pattern. This engages your core and increases total calorie burn."
+        },
+        {
+          "number": 3,
+          "text": "Gradually increase the incline to change the movement from an elliptical to a stair-climbing motion. At maximum incline, focus on driving through your heels and pushing back with each step.",
+          "tip": "Higher incline dramatically increases glute and hamstring activation. If your goal is glute development, train at 60-100% incline. For quad focus, use flat to mid-incline."
+        },
+        {
+          "number": 4,
+          "text": "Vary incline throughout your session for a full lower body workout. Use intervals: 2 minutes flat, 2 minutes steep, repeat for the duration of your workout.",
+          "tip": "The incline variety is the Ascent Trainer's greatest advantage. Changing incline every 1-3 minutes prevents adaptation and keeps heart rate elevated throughout."
+        }
+      ],
+      "safetyWarnings": [
+        "Step on with the machine stationary before pressing start — don't mount a moving machine.",
+        "Hold the handlebars when first using the machine to get used to the stride pattern.",
+        "Increase incline gradually — jumping to maximum incline can strain hip flexors.",
+        "Stay upright — don't lean excessively on the handlebars as this reduces the workout intensity.",
+        "Step off carefully after the machine has slowed to a stop."
+      ],
+      "youtubeVideoId": "jXzMEBOm7JY",
+      "suggestedSets": "20-40 minutes with incline intervals",
+      "tags": [
+        "cardio",
+        "elliptical",
+        "stair-climbing",
+        "adaptive",
+        "full-body",
+        "matrix-cardio",
+        "ascent-trainer",
+        "intermediate"
       ]
     }
   ]

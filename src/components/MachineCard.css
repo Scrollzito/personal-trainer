@@ -1,105 +1,101 @@
 .machine-card {
-  background: var(--color-card);
+  display: block;
   border-radius: var(--radius);
   overflow: hidden;
+  position: relative;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--color-border);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-  display: flex;
-  flex-direction: column;
+  transition: transform var(--transition-slow), box-shadow var(--transition-slow), border-color var(--transition);
   cursor: pointer;
 }
 
 .machine-card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--color-primary-light);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+  border-color: transparent;
 }
 
-/* ── Image container ────────────────────────────── */
-.machine-card__image {
-  width: 100%;
+/* ── Visual (image + overlay) ─────────────────────── */
+.machine-card__visual {
+  position: relative;
   aspect-ratio: 4 / 3;
   background: var(--color-img-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
-  position: relative;
-  border-bottom: 1px solid var(--color-border);
 }
 
-/* Full machine visible — no crop */
-.machine-card__image img {
+.machine-card__visual img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center;
   padding: 10px;
-  transition: transform var(--transition);
+  transition: transform var(--transition-slow);
 }
 
-.machine-card:hover .machine-card__image img {
-  transform: scale(1.04);
+.machine-card:hover .machine-card__visual img {
+  transform: scale(1.06);
 }
 
-/* ── Body ───────────────────────────────────────── */
-.machine-card__body {
+/* Gradient darkens bottom so text is always readable */
+.machine-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 28%,
+    rgba(0, 0, 0, 0.55) 62%,
+    rgba(0, 0, 0, 0.88) 100%
+  );
+  pointer-events: none;
+}
+
+/* ── Footer (text on image) ───────────────────────── */
+.machine-card__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 14px 16px 16px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
 }
 
-.machine-card__header {
+.machine-card__meta {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 8px;
-}
-
-.machine-card__name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--color-text);
-  line-height: 1.3;
-  letter-spacing: -0.01em;
+  margin-bottom: 5px;
 }
 
 .machine-card__category {
   font-size: 0.6875rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-primary);
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
 }
 
-.machine-card__description {
-  font-size: 0.8125rem;
-  color: var(--color-text-light);
-  line-height: 1.5;
-  flex: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.machine-card__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
 }
 
-/* ── Muscle tags ────────────────────────────────── */
+/* ── Muscle tags ─────────────────────────────────── */
 .machine-card__muscles {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 6px;
+  gap: 4px;
 }
 
 .machine-card__muscle-tag {
   font-size: 0.6875rem;
-  padding: 3px 9px;
-  background: var(--color-primary-subtle);
+  padding: 2px 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: var(--radius-full);
-  color: var(--color-primary-dark);
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }

@@ -2,8 +2,8 @@
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding: 4px 0;
-  margin-bottom: 16px;
+  padding: 4px 0 12px;
+  margin-bottom: 8px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
@@ -14,27 +14,33 @@
 
 .category-filter__pill {
   flex-shrink: 0;
-  padding: 10px 20px;
-  border-radius: 999px;
-  border: 2px solid var(--color-primary);
+  padding: 9px 20px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--color-border-strong);
   background: var(--color-card);
-  color: var(--color-primary);
+  color: var(--color-text-light);
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
-  min-height: 44px;
-  transition: all 0.2s;
+  min-height: 40px;
+  transition: all var(--transition);
+  letter-spacing: 0.01em;
 }
 
 .category-filter__pill:hover {
-  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-primary-subtle);
 }
 
 .category-filter__pill--active {
   background: var(--color-primary);
   color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.22), var(--shadow-sm);
 }
 
 .category-filter__pill--active:hover {
   background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
 }

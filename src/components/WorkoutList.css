@@ -4,15 +4,23 @@
   gap: 16px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .workout-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+@media (min-width: 1024px) {
+  .workout-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
 .workout-list__empty {
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
+  grid-column: 1 / -1;
 }
 
 .workout-list__empty-title {

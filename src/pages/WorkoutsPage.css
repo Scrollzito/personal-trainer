@@ -1,20 +1,101 @@
 .workouts-page {
-  padding-top: 20px;
+  padding-top: 0;
 }
 
-.workouts-page__intro {
-  margin-bottom: 24px;
+/* ── Hero ─────────────────────────────────────────── */
+.workouts-page__hero {
+  padding: 56px 0 52px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 40px;
 }
 
-.workouts-page__heading {
-  font-size: 1.5rem;
-  font-weight: 800;
+.workouts-page__hero-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 900;
+  line-height: 1.0;
+  letter-spacing: -0.03em;
   color: var(--color-text);
-  margin-bottom: 4px;
+  margin-bottom: 18px;
 }
 
-.workouts-page__subtitle {
-  color: var(--color-text-light);
-  font-size: 1rem;
-  line-height: 1.5;
+.workouts-page__hero-title span {
+  color: var(--color-primary);
 }
+
+.workouts-page__hero-subtitle {
+  font-size: 1.0625rem;
+  color: var(--color-text-light);
+  line-height: 1.65;
+  max-width: 520px;
+  margin-bottom: 40px;
+}
+
+.workouts-page__stats {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.workouts-page__stat-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--color-border-strong);
+}
+
+.workouts-page__stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.workouts-page__stat--beginner .workouts-page__stat-number { color: var(--color-success); }
+.workouts-page__stat--intermediate .workouts-page__stat-number { color: var(--color-accent); }
+.workouts-page__stat--advanced .workouts-page__stat-number { color: var(--color-danger); }
+
+.workouts-page__stat-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 5px;
+}
+
+/* ── Filters ──────────────────────────────────────── */
+.workouts-page__filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.workouts-page__filter-pill {
+  padding: 9px 22px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--color-border-strong);
+  background: var(--color-card);
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.workouts-page__filter-pill:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.workouts-page__filter-pill--active {
+  color: white;
+  border-color: transparent;
+}
+
+.workouts-page__filter-pill--all    { background: var(--color-primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.2); }
+.workouts-page__filter-pill--beginner    { background: var(--color-success); box-shadow: 0 0 0 3px rgba(16,185,129,0.2); }
+.workouts-page__filter-pill--intermediate { background: var(--color-accent);  box-shadow: 0 0 0 3px rgba(249,115,22,0.2); }
+.workouts-page__filter-pill--advanced    { background: var(--color-danger);   box-shadow: 0 0 0 3px rgba(239,68,68,0.2); }

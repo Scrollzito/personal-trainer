@@ -8,6 +8,7 @@ import WorkoutDetailPage from './pages/WorkoutDetailPage';
 import MuscleGroupPage from './pages/MuscleGroupPage';
 import CreateWorkoutPage from './pages/CreateWorkoutPage';
 import { WorkoutBuilderProvider } from './context/WorkoutBuilderContext';
+import { ThemeProvider } from './context/ThemeContext';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -19,6 +20,7 @@ function ScrollToTop() {
 
 function App() {
   return (
+    <ThemeProvider>
     <BrowserRouter>
       <ScrollToTop />
       <Header />
@@ -37,6 +39,7 @@ function App() {
         </Routes>
       </main>
     </BrowserRouter>
+    </ThemeProvider>
   );
 }
 

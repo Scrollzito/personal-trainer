@@ -125,6 +125,14 @@ button:active {
   --shadow-primary: 0 4px 20px rgba(37, 99, 235, 0.40);
 }
 
+/* Dark mode: all blue-pill tags (muscle tags, etc.) */
+[data-theme="dark"] .workout-detail__exercise-muscle-tag,
+[data-theme="dark"] .machine-detail__muscle-tag,
+[data-theme="dark"] .machine-card__muscle-tag-body {
+  background: rgba(37, 99, 235, 0.18);
+  color: #93c5fd;
+}
+
 /* Dark mode difficulty badge overrides */
 [data-theme="dark"] .difficulty-badge--beginner {
   background: rgba(16, 185, 129, 0.18);

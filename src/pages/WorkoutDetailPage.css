@@ -184,9 +184,10 @@ a.workout-detail__exercise-name:hover {
   font-style: italic;
   line-height: 1.5;
   padding: 8px 10px;
-  background: var(--color-bg-deep);
+  background: var(--color-bg);
   border-radius: var(--radius-xs);
-  border-left: 3px solid var(--color-border-strong);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
 }
 
 .workout-detail__exercise-muscles {
@@ -199,8 +200,9 @@ a.workout-detail__exercise-name:hover {
 .workout-detail__exercise-muscle-tag {
   font-size: 0.6875rem;
   padding: 3px 9px;
-  background: var(--color-primary-subtle);
-  color: var(--color-primary-dark);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  color: var(--color-primary);
   border-radius: var(--radius-full);
   font-weight: 600;
 }

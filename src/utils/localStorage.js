@@ -1,5 +1,6 @@
 const STORAGE_KEY = 'gym-app-workout-plans';
 const DRAFT_STORAGE_KEY = 'gym-app-current-workout-draft';
+const WORKOUT_SESSION_STORAGE_KEY = 'gym-app-workout-session';
 
 const isIntegerInRange = (value, min, max) =>
   Number.isInteger(value) && value >= min && value <= max;
@@ -22,6 +23,20 @@ const isValidPlan = (plan, allowUnsaved = false) =>
   !Number.isNaN(Date.parse(plan.dateCreated)) &&
   Array.isArray(plan.exercises) &&
   plan.exercises.every(isValidExercise);
+
+const isValidWorkoutSession = (session) =>
+  session !== null &&
+  typeof session === 'object' &&
+  isValidPlan(session.plan, true) &&
+  session.plan.exercises.length > 0 &&
+  Array.isArray(session.completedSets) &&
+  session.completedSets.length === session.plan.exercises.length &&
+  session.completedSets.every((row, index) =>
+    Array.isArray(row) &&
+    row.length === session.plan.exercises[index].sets &&
+    row.every((completed) => typeof completed === 'boolean')) &&
+  (session.restEndsAt === null ||
+    (Number.isFinite(session.restEndsAt) && session.restEndsAt >= 0));
 
 export const savePlans = (plans) => {
   if (!Array.isArray(plans) || !plans.every(isValidPlan)) {
@@ -94,6 +109,60 @@ export const clearDraft = () => {
     sessionStorage.removeItem(DRAFT_STORAGE_KEY);
   } catch (error) {
     console.error('Failed to clear workout draft from sessionStorage:', error);
+  }
+};
+
+export const createWorkoutSession = (plan) => {
+  if (!isValidPlan(plan, true) || plan.exercises.length === 0) return null;
+
+  return {
+    plan: {
+      ...plan,
+      exercises: plan.exercises.map((exercise) => ({ ...exercise }))
+    },
+    completedSets: plan.exercises.map((exercise) => Array(exercise.sets).fill(false)),
+    restEndsAt: null
+  };
+};
+
+export const saveWorkoutSession = (session) => {
+  if (!isValidWorkoutSession(session)) return false;
+
+  try {
+    sessionStorage.setItem(WORKOUT_SESSION_STORAGE_KEY, JSON.stringify(session));
+    return true;
+  } catch (error) {
+    console.error('Failed to save workout session to sessionStorage:', error);
+    return false;
+  }
+};
+
+export const clearWorkoutSession = () => {
+  try {
+    sessionStorage.removeItem(WORKOUT_SESSION_STORAGE_KEY);
+    return true;
+  } catch (error) {
+    console.error('Failed to clear workout session from sessionStorage:', error);
+    return false;
+  }
+};
+
+export const loadWorkoutSession = () => {
+  try {
+    const stored = sessionStorage.getItem(WORKOUT_SESSION_STORAGE_KEY);
+    if (!stored) return null;
+
+    const session = JSON.parse(stored);
+    if (!isValidWorkoutSession(session)) {
+      console.warn('Ignored invalid workout session.');
+      clearWorkoutSession();
+      return null;
+    }
+    return session;
+  } catch (error) {
+    console.error('Failed to load workout session from sessionStorage:', error);
+    clearWorkoutSession();
+    return null;
   }
 };
 

@@ -293,12 +293,23 @@
   color: white;
 }
 
+.workout-drawer__btn--start {
+  background: var(--color-primary);
+  color: white;
+}
+
+.workout-drawer__btn--start:hover:not(:disabled) {
+  background: var(--color-primary-dark);
+  transform: translateY(-1px);
+}
+
 .workout-drawer__btn--save:hover:not(:disabled) {
   filter: brightness(0.9);
   transform: translateY(-1px);
 }
 
-.workout-drawer__btn--save:disabled {
+.workout-drawer__btn--save:disabled,
+.workout-drawer__btn--start:disabled {
   background: var(--color-border-strong);
   color: var(--color-text-light);
   cursor: not-allowed;
@@ -426,7 +437,7 @@
     width: 100%;
   }
 
-  .workout-drawer__btn--save {
+  .workout-drawer__btn--start {
     grid-column: 1 / -1;
   }
 }

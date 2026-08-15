@@ -1,5 +1,13 @@
 import assert from 'node:assert/strict';
-import { clearDraft, loadDraft, saveDraft } from '../src/utils/localStorage.js';
+import {
+  clearDraft,
+  clearWorkoutSession,
+  createWorkoutSession,
+  loadDraft,
+  loadWorkoutSession,
+  saveDraft,
+  saveWorkoutSession
+} from '../src/utils/localStorage.js';
 
 const entries = new Map();
 globalThis.sessionStorage = {
@@ -27,4 +35,31 @@ assert.deepEqual(loadDraft(), draft);
 clearDraft();
 assert.equal(loadDraft(), null);
 
-console.log('Draft storage valid.');
+const session = createWorkoutSession(draft);
+assert.ok(session);
+assert.deepEqual(session.completedSets, [[false, false, false]]);
+
+draft.exercises[0].notes = 'Changed after session creation.';
+assert.equal(session.plan.exercises[0].notes, 'Keep knees aligned.');
+
+assert.equal(saveWorkoutSession(session), true);
+assert.deepEqual(loadWorkoutSession(), session);
+
+const setItem = sessionStorage.setItem;
+const logError = console.error;
+console.error = () => {};
+sessionStorage.setItem = () => { throw new Error('Storage unavailable'); };
+assert.equal(saveWorkoutSession(session), false);
+sessionStorage.setItem = setItem;
+console.error = logError;
+
+const sessionKey = [...entries.keys()].find((key) => key.includes('workout-session'));
+entries.set(sessionKey, JSON.stringify({ ...session, completedSets: [[false]] }));
+assert.equal(loadWorkoutSession(), null);
+assert.equal(entries.has(sessionKey), false);
+
+assert.equal(saveWorkoutSession(session), true);
+assert.equal(clearWorkoutSession(), true);
+assert.equal(loadWorkoutSession(), null);
+
+console.log('Workout storage valid.');

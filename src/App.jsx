@@ -7,6 +7,7 @@ import WorkoutsPage from './pages/WorkoutsPage';
 import WorkoutDetailPage from './pages/WorkoutDetailPage';
 import MuscleGroupPage from './pages/MuscleGroupPage';
 import CreateWorkoutPage from './pages/CreateWorkoutPage';
+import WorkoutSessionPage from './pages/WorkoutSessionPage';
 import { WorkoutBuilderProvider } from './context/WorkoutBuilderContext';
 import { ThemeProvider } from './context/ThemeContext';
 
@@ -38,6 +39,7 @@ function App() {
               <Route path="/workout/:id" element={<WorkoutDetailPage />} />
               <Route path="/muscles/:group" element={<MuscleGroupPage />} />
               <Route path="/create-workout" element={<CreateWorkoutPage />} />
+              <Route path="/workout-session" element={<WorkoutSessionPage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>

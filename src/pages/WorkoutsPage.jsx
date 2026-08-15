@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import workoutData from '../data/workouts.json';
 import WorkoutList from '../components/WorkoutList';
 import './WorkoutsPage.css';
@@ -11,7 +11,16 @@ const DIFFICULTIES = [
 ];
 
 function WorkoutsPage() {
-  const [activeDifficulty, setActiveDifficulty] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const difficulty = searchParams.get('difficulty');
+  const activeDifficulty = DIFFICULTIES.some(({ id }) => id === difficulty) ? difficulty : null;
+
+  const setDifficulty = (value) => {
+    const next = new URLSearchParams(searchParams);
+    if (value) next.set('difficulty', value);
+    else next.delete('difficulty');
+    setSearchParams(next, { replace: true });
+  };
 
   const filtered = activeDifficulty
     ? workoutData.workouts.filter((w) => w.difficulty === activeDifficulty)
@@ -65,7 +74,7 @@ function WorkoutsPage() {
             aria-pressed={activeDifficulty === d.id}
             key={String(d.id)}
             className={`workouts-page__filter-pill ${activeDifficulty === d.id ? `workouts-page__filter-pill--active workouts-page__filter-pill--${d.id ?? 'all'}` : ''}`}
-            onClick={() => setActiveDifficulty(d.id)}
+            onClick={() => setDifficulty(d.id)}
           >
             {d.label}
           </button>

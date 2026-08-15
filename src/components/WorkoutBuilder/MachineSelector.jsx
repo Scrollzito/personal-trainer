@@ -33,12 +33,14 @@ function MachineSelector() {
       machineMatchesMuscleGroup(machine, activeMuscleGroup, activeCategory);
 
     // Search filter
-    const query = searchText.toLowerCase();
+    const query = searchText.trim().toLowerCase();
     const matchesSearch =
       !query ||
       machine.name.toLowerCase().includes(query) ||
       machine.shortDescription.toLowerCase().includes(query) ||
-      machine.category.toLowerCase().includes(query);
+      machine.category.toLowerCase().includes(query) ||
+      machine.musclesWorked.some((muscle) => muscle.toLowerCase().includes(query)) ||
+      machine.tags.some((tag) => tag.toLowerCase().includes(query));
 
     return matchesCategory && matchesMuscleGroup && matchesSearch;
   });
@@ -61,11 +63,19 @@ function MachineSelector() {
         />
       )}
 
-      <div className="machine-selector__list">
-        {filteredMachines.map(machine => (
+      {filteredMachines.length === 0 ? (
+        <div className="machine-selector__empty" role="status">
+          <strong>No machines found</strong>
+          <span>Try another search or clear the filters.</span>
+        </div>
+      ) : (
+        <div className="machine-selector__list">
+          {filteredMachines.map(machine => (
           <div key={machine.id} className="machine-selector__item">
             <MachineCard machine={machine} />
             <button
+              type="button"
+              aria-label={`${isAdded(machine.id) ? 'Added' : 'Add'} ${machine.name}`}
               className={`machine-selector__add-btn ${isAdded(machine.id) ? 'machine-selector__add-btn--added' : ''}`}
               onClick={() => addExercise(machine.id)}
               disabled={isAdded(machine.id)}
@@ -73,8 +83,9 @@ function MachineSelector() {
               {isAdded(machine.id) ? '✓ Added' : '+ Add'}
             </button>
           </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

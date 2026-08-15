@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import machineData from '../data/machines.json';
 import workoutData from '../data/workouts.json';
 import SearchBar from '../components/SearchBar';
@@ -19,12 +18,20 @@ const MUSCLE_GROUPS = [
 ];
 
 function HomePage() {
-  const [searchText, setSearchText] = useState('');
-  const [activeCategory, setActiveCategory] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchText = searchParams.get('q') || '';
+  const activeCategory = searchParams.get('category');
+
+  const setFilter = (key, value) => {
+    const next = new URLSearchParams(searchParams);
+    if (value) next.set(key, value);
+    else next.delete(key);
+    setSearchParams(next, { replace: true });
+  };
 
   const filtered = machineData.machines.filter((machine) => {
     const matchesCategory = !activeCategory || machine.category === activeCategory;
-    const query = searchText.toLowerCase();
+    const query = searchText.trim().toLowerCase();
     const matchesSearch =
       !query ||
       machine.name.toLowerCase().includes(query) ||
@@ -105,8 +112,8 @@ function HomePage() {
             <p className="home-page__subtitle">Search or filter to find any machine in the gym.</p>
           </div>
         </div>
-        <SearchBar value={searchText} onChange={setSearchText} />
-        <CategoryFilter active={activeCategory} onChange={setActiveCategory} />
+        <SearchBar value={searchText} onChange={(value) => setFilter('q', value)} />
+        <CategoryFilter active={activeCategory} onChange={(value) => setFilter('category', value)} />
         <MachineList machines={filtered} />
       </section>
     </div>

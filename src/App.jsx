@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Navigate, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
@@ -21,24 +21,23 @@ function ScrollToTop() {
 function App() {
   return (
     <ThemeProvider>
-    <BrowserRouter>
-      <ScrollToTop />
-      <Header />
-      <main className="main-content">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/machine/:id" element={<MachineDetailPage />} />
-          <Route path="/workouts" element={<WorkoutsPage />} />
-          <Route path="/workout/:id" element={<WorkoutDetailPage />} />
-          <Route path="/muscles/:group" element={<MuscleGroupPage />} />
-          <Route path="/create-workout" element={
-            <WorkoutBuilderProvider>
-              <CreateWorkoutPage />
-            </WorkoutBuilderProvider>
-          } />
-        </Routes>
-      </main>
-    </BrowserRouter>
+      <WorkoutBuilderProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Header />
+          <main className="main-content">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/machine/:id" element={<MachineDetailPage />} />
+              <Route path="/workouts" element={<WorkoutsPage />} />
+              <Route path="/workout/:id" element={<WorkoutDetailPage />} />
+              <Route path="/muscles/:group" element={<MuscleGroupPage />} />
+              <Route path="/create-workout" element={<CreateWorkoutPage />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </main>
+        </BrowserRouter>
+      </WorkoutBuilderProvider>
     </ThemeProvider>
   );
 }

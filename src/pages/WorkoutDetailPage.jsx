@@ -4,11 +4,13 @@ import workoutData from '../data/workouts.json';
 import machineData from '../data/machines.json';
 import DifficultyBadge from '../components/DifficultyBadge';
 import MuscleDiagram from '../components/MuscleDiagram';
+import { useWorkoutBuilder } from '../context/WorkoutBuilderContext';
 import './WorkoutDetailPage.css';
 
 function WorkoutDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { currentPlan, setCurrentPlan } = useWorkoutBuilder();
   const workout = workoutData.workouts.find((w) => w.id === id);
 
   // Calculate all unique muscles worked in the workout
@@ -23,6 +25,23 @@ function WorkoutDetailPage() {
     });
     return Array.from(muscles);
   }, [workout]);
+
+  const customizeWorkout = () => {
+    if (
+      currentPlan.exercises.length > 0 &&
+      !window.confirm('Replace your current workout with this routine?')
+    ) {
+      return;
+    }
+
+    setCurrentPlan({
+      id: null,
+      name: workout.name,
+      dateCreated: new Date().toISOString(),
+      exercises: workout.exercises.map((exercise) => ({ ...exercise }))
+    });
+    navigate('/create-workout');
+  };
 
   if (!workout) {
     return (
@@ -40,7 +59,16 @@ function WorkoutDetailPage() {
     <div className="workout-detail">
       <div className="workout-detail__header">
         <h1 className="workout-detail__title">{workout.name}</h1>
-        <DifficultyBadge difficulty={workout.difficulty} />
+        <div className="workout-detail__header-actions">
+          <DifficultyBadge difficulty={workout.difficulty} />
+          <button
+            type="button"
+            className="workout-detail__customize-btn"
+            onClick={customizeWorkout}
+          >
+            Customize this routine
+          </button>
+        </div>
       </div>
 
       <p className="workout-detail__description">{workout.description}</p>
@@ -117,7 +145,10 @@ function WorkoutDetailPage() {
 
       {allMusclesWorked.length > 0 && (
         <section className="workout-detail__section">
-          <MuscleDiagram musclesWorked={allMusclesWorked} showToggle={true} />
+          <MuscleDiagram
+            musclesWorked={allMusclesWorked}
+            showToggle={true}
+          />
         </section>
       )}
 

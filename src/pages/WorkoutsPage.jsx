@@ -58,9 +58,11 @@ function WorkoutsPage() {
       </section>
 
       {/* Filter */}
-      <div className="workouts-page__filters">
+      <div className="workouts-page__filters" role="group" aria-label="Workout difficulty">
         {DIFFICULTIES.map((d) => (
           <button
+            type="button"
+            aria-pressed={activeDifficulty === d.id}
             key={String(d.id)}
             className={`workouts-page__filter-pill ${activeDifficulty === d.id ? `workouts-page__filter-pill--active workouts-page__filter-pill--${d.id ?? 'all'}` : ''}`}
             onClick={() => setActiveDifficulty(d.id)}

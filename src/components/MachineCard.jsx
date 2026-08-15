@@ -10,7 +10,6 @@ function MachineCard({ machine }) {
           src={machine.thumbnail}
           alt={machine.name}
           loading="lazy"
-          onError={(e) => { e.target.style.display = 'none'; }}
         />
         <div className="machine-card__overlay" />
         <div className="machine-card__footer">

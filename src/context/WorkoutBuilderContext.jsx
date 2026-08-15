@@ -1,33 +1,35 @@
-import { createContext, useContext, useState, useEffect } from 'react';
-import { loadPlans, savePlans, generateId } from '../utils/localStorage';
+import { createContext, useContext, useEffect, useState } from 'react';
+import { clearDraft, generateId, loadDraft, loadPlans, saveDraft, savePlans } from '../utils/localStorage';
 
 const WorkoutBuilderContext = createContext();
 
-export function WorkoutBuilderProvider({ children }) {
-  const [currentPlan, setCurrentPlan] = useState({
-    id: null,
-    name: 'Untitled Workout',
-    dateCreated: new Date().toISOString(),
-    exercises: []
-  });
-  const [savedPlans, setSavedPlans] = useState([]);
+const createEmptyPlan = () => ({
+  id: null,
+  name: 'Untitled Workout',
+  dateCreated: new Date().toISOString(),
+  exercises: []
+});
 
-  // Load saved plans from localStorage on mount
+export function WorkoutBuilderProvider({ children }) {
+  const [currentPlan, setCurrentPlan] = useState(() => loadDraft() ?? createEmptyPlan());
+  const [savedPlans, setSavedPlans] = useState(loadPlans);
+
   useEffect(() => {
-    setSavedPlans(loadPlans());
-  }, []);
+    saveDraft(currentPlan);
+  }, [currentPlan]);
 
   const addExercise = (machineId) => {
-    setCurrentPlan(prev => ({
-      ...prev,
-      exercises: [...prev.exercises, {
-        machineId,
-        sets: 3,
-        reps: '10-12',
-        restSeconds: 60,
-        order: prev.exercises.length
-      }]
-    }));
+    setCurrentPlan(prev => prev.exercises.some(exercise => exercise.machineId === machineId)
+      ? prev
+      : ({
+          ...prev,
+          exercises: [...prev.exercises, {
+            machineId,
+            sets: 3,
+            reps: '10-12',
+            restSeconds: 60
+          }]
+        }));
   };
 
   const removeExercise = (index) => {
@@ -58,6 +60,7 @@ export function WorkoutBuilderProvider({ children }) {
   const savePlan = () => {
     const planToSave = {
       ...currentPlan,
+      name: (currentPlan.name.trim() || 'Untitled Workout').slice(0, 80),
       id: currentPlan.id || generateId(),
       dateCreated: currentPlan.id ? currentPlan.dateCreated : new Date().toISOString()
     };
@@ -65,9 +68,10 @@ export function WorkoutBuilderProvider({ children }) {
     const updatedPlans = savedPlans.filter(p => p.id !== planToSave.id);
     updatedPlans.push(planToSave);
 
-    setSavedPlans(updatedPlans);
     savePlans(updatedPlans);
+    setSavedPlans(updatedPlans);
     setCurrentPlan(planToSave);
+    return planToSave;
   };
 
   const loadPlan = (id) => {
@@ -77,17 +81,13 @@ export function WorkoutBuilderProvider({ children }) {
 
   const deletePlan = (id) => {
     const updatedPlans = savedPlans.filter(p => p.id !== id);
-    setSavedPlans(updatedPlans);
     savePlans(updatedPlans);
+    setSavedPlans(updatedPlans);
   };
 
   const clearPlan = () => {
-    setCurrentPlan({
-      id: null,
-      name: 'Untitled Workout',
-      dateCreated: new Date().toISOString(),
-      exercises: []
-    });
+    clearDraft();
+    setCurrentPlan(createEmptyPlan());
   };
 
   return (

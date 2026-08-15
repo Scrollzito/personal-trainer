@@ -1,11 +1,8 @@
-import { useWorkoutBuilder } from '../context/WorkoutBuilderContext';
 import MachineSelector from '../components/WorkoutBuilder/MachineSelector';
 import WorkoutDrawer from '../components/WorkoutBuilder/WorkoutDrawer';
 import './CreateWorkoutPage.css';
 
 function CreateWorkoutPage() {
-  const { currentPlan } = useWorkoutBuilder();
-
   return (
     <div className="create-workout-page">
       <div className="create-workout-page__header">
@@ -16,9 +13,7 @@ function CreateWorkoutPage() {
         <MachineSelector />
       </div>
 
-      {currentPlan.exercises.length > 0 && (
-        <WorkoutDrawer />
-      )}
+      <WorkoutDrawer />
     </div>
   );
 }

@@ -1,16 +1,36 @@
-# React + Vite
+# Gym Machine Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive gym reference and workout planner. Browse machine instructions and safety guidance, explore prebuilt routines, create custom plans, and export them as PDFs.
 
-Currently, two official plugins are available:
+## What is included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 65 machine guides with local images, muscle diagrams, videos, and safety notes
+- 18 prebuilt workout routines
+- A custom workout builder with editable sets, reps, rest, ordering, and PDF export
+- Light and dark themes
+- Browser-only storage for custom plans
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Use Node.js 20.19+ or 22.12+.
 
-## Expanding the ESLint configuration
+```sh
+npm ci
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Quality checks:
+
+```sh
+npm run lint
+npm test
+npm run build
+```
+
+Preview the production build with `npm run preview`.
+
+## Data and privacy
+
+Machine and routine content lives in `src/data`. Custom plans and theme preferences stay in the browser's local storage; there is no account or server synchronization. Clearing site data removes saved custom plans.
+
+Exercise videos are embedded from YouTube. PDF export runs entirely in the browser.

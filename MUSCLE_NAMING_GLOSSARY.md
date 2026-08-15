@@ -1,10 +1,10 @@
 # Master Muscle Naming Glossary
 
-**Purpose:** This document defines the standardized muscle terminology for all 50 machines in the Personal Trainer app. Use this as the single source of truth when revising machine data.
+**Purpose:** This document defines the standardized muscle terminology for all 65 machines in the Gym Machine Guide. Use this as the single source of truth when revising machine data.
 
 **Format Standard:** `"Common Name (Anatomical Clarification)"`
 
-**Last Updated:** 2024
+**Last Updated:** 2026
 
 ---
 
@@ -320,7 +320,7 @@ When updating a machine's `musclesWorked` array:
 - [ ] No generic terms unless full-body cardio
 - [ ] All entries use "Common Name (Anatomical)" format
 - [ ] Cross-reference with ExRx.net for accuracy
-- [ ] Check MuscleDiagram.jsx MUSCLE_MAP for SVG compatibility
+- [ ] Run `npm test` to verify `src/data/muscleMap.js` covers the diagram
 
 ---
 

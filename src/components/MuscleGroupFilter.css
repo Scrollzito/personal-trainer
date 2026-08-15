@@ -15,9 +15,9 @@
   flex-shrink: 0;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
-  border: 1px solid #e5e7eb;
-  background: white;
-  color: #374151;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text-light);
   font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
@@ -27,17 +27,17 @@
 }
 
 .muscle-group-filter__pill:hover {
-  background: #f9fafb;
-  border-color: #d1d5db;
+  background: var(--color-card-hover);
+  border-color: var(--color-border-strong);
 }
 
 .muscle-group-filter__pill--active {
-  background: #2563eb;
+  background: var(--color-primary);
   color: white;
-  border-color: #2563eb;
+  border-color: var(--color-primary);
 }
 
 .muscle-group-filter__pill--active:hover {
-  background: #1d4ed8;
-  border-color: #1d4ed8;
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
 }

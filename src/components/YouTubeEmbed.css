@@ -16,3 +16,9 @@
   height: 100%;
   border: 0;
 }
+
+.youtube-embed__privacy {
+  margin-top: 8px;
+  color: var(--color-text-light);
+  font-size: 0.75rem;
+}

@@ -1,193 +1,25 @@
 import { useState, useMemo } from 'react';
+import { MUSCLE_MAP } from '../data/muscleMap';
 import './MuscleDiagram.css';
-
-// Muscle name mapping to SVG path IDs
-// Reference: MUSCLE_NAMING_GLOSSARY.md for standardized terminology
-const MUSCLE_MAP = {
-  // ========== STANDARDIZED NAMES (v1.0) ==========
-  // Format: "Common Name (Anatomical Clarification)"
-
-  // Legs - Standardized
-  'Quadriceps (Front Thighs)': ['quads'],
-  'Hamstrings (Back Thighs)': ['hamstrings'],
-  'Glutes (Buttocks)': ['glutes'],
-  'Calves (Gastrocnemius & Soleus)': ['calves'],
-  'Hip Adductors (Inner Thighs)': ['hip-adductors'],
-  'Hip Abductors (Outer Thighs)': ['hip-abductors'],
-
-  // Chest - Standardized
-  'Chest (Pectoralis Major)': ['chest'],
-  'Upper Chest (Upper Pectorals)': ['chest-upper'],
-  'Lower Chest (Lower Pectorals)': ['chest-lower'],
-
-  // Back - Standardized
-  'Lats (Latissimus Dorsi)': ['lats'],
-  'Middle Back (Rhomboids & Traps)': ['rhomboids', 'traps-middle'],
-  'Lower Back (Erector Spinae)': ['lower-back'],
-  'Traps (Trapezius)': ['traps-upper', 'traps-middle'],
-
-  // Shoulders - Standardized
-  'Front Shoulders (Anterior Deltoids)': ['deltoids-front'],
-  'Side Shoulders (Lateral Deltoids)': ['deltoids-side'],
-  'Rear Shoulders (Posterior Deltoids)': ['deltoids-rear'],
-  'Rotator Cuff (Shoulder Stabilizers)': ['rotator-cuff'],
-
-  // Arms - Standardized
-  'Biceps (Front of Upper Arm)': ['biceps'],
-  'Triceps (Back of Upper Arm)': ['triceps'],
-  'Forearms (Brachioradialis & Wrist Flexors)': ['forearms'],
-  'Brachialis (Elbow Flexor)': ['biceps'],
-
-  // Core - Standardized
-  'Abs (Rectus Abdominis)': ['abs'],
-  'Obliques (Side Abs)': ['obliques'],
-  'Deep Core (Transverse Abdominis)': ['abs'],
-  'Hip Flexors (Iliopsoas)': ['hip-flexors'],
-
-  // Cardio - Standardized
-  'Cardiovascular System (Heart & Lungs)': [],
-
-  // ========== LEGACY NAMES (Backward Compatibility) ==========
-  // Keep these for existing machine data during migration
-  // Will be removed once all machines are updated
-
-  // Chest - Legacy
-  'Chest (Pectorals)': ['chest'],
-  'Chest': ['chest'],
-
-  // Back - Legacy
-  'Latissimus Dorsi': ['lats'],
-  'Middle Back (Rhomboids)': ['rhomboids'],
-  'Rhomboids': ['rhomboids'],
-  'Erector Spinae (Lower Back)': ['lower-back'],
-  'Erector Spinae': ['lower-back'],
-
-  // Shoulders - Legacy
-  'Deltoids (Shoulders)': ['deltoids'],
-  'Front Deltoids': ['deltoids-front'],
-  'Lateral Deltoids (Side Shoulders)': ['deltoids-side'],
-  'Rear Deltoids': ['deltoids-rear'],
-  'Upper Trapezius': ['traps-upper'],
-  'Middle Trapezius': ['traps-middle'],
-  'Trapezius': ['traps-upper', 'traps-middle'],
-
-  // Arms - Legacy
-  'Biceps': ['biceps'],
-  'Brachialis': ['biceps'],
-  'Brachioradialis': ['forearms'],
-  'Triceps': ['triceps'],
-  'Triceps (Long Head)': ['triceps'],
-  'Triceps (Medial Head)': ['triceps'],
-  'Forearms': ['forearms'],
-
-  // Core - Legacy
-  'Rectus Abdominis (Six-Pack Muscles)': ['abs'],
-  'Rectus Abdominis': ['abs'],
-  'Rectus Abdominis (Lower Abs)': ['abs'],
-  'Obliques': ['obliques'],
-  'Transverse Abdominis': ['abs'],
-  'Core Stabilizers': ['abs', 'obliques'],
-  'Core': ['abs', 'obliques'],
-
-  // Legs - Legacy
-  'Quadriceps': ['quads'],
-  'Hamstrings': ['hamstrings'],
-  'Glutes': ['glutes'],
-  'Gluteus Medius': ['glutes'],
-  'Calves': ['calves'],
-  'Calves (Gastrocnemius)': ['calves'],
-  'Gracilis': ['hip-adductors'],
-
-  // Generic/Full Body - Legacy (only for cardio machines)
-  'Legs': ['quads', 'hamstrings', 'glutes', 'calves'],
-  'Arms': ['biceps', 'triceps'],
-  'Back': ['lats', 'rhomboids', 'lower-back'],
-  'Shoulders': ['deltoids-front', 'deltoids-side', 'deltoids-rear'],
-  'Heart & Lungs (Cardio)': []
-};
 
 function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
   const [view, setView] = useState('front');
 
-  // Helper to compare activation level priority
-  const getPriority = (level) => {
-    const priorities = { primary: 3, secondary: 2, tertiary: 1 };
-    return priorities[level] || 0;
-  };
+  const highlightedPaths = useMemo(
+    () => new Set(musclesWorked.flatMap((muscle) => MUSCLE_MAP[muscle] || [])),
+    [musclesWorked]
+  );
 
-  // Calculate which SVG paths should be highlighted with activation levels
-  const highlightedPaths = useMemo(() => {
-    const pathLevels = new Map(); // path -> activation level
-
-    musclesWorked.forEach((muscle, index) => {
-      const mappedPaths = MUSCLE_MAP[muscle] || [];
-
-      // Determine activation level based on position in array
-      let level;
-      if (index === 0) {
-        level = 'primary';   // First muscle = primary mover
-      } else if (index <= 2) {
-        level = 'secondary'; // 2nd-3rd muscles = synergists
-      } else {
-        level = 'tertiary';  // 4th+ muscles = stabilizers
-      }
-
-      mappedPaths.forEach((path) => {
-        // If path already exists, keep higher priority level
-        const existing = pathLevels.get(path);
-        if (!existing || getPriority(level) > getPriority(existing)) {
-          pathLevels.set(path, level);
-        }
-      });
-    });
-
-    return pathLevels;
-  }, [musclesWorked]);
-
-  // Get activation level for a muscle path
-  const getActivationLevel = (pathId) => highlightedPaths.get(pathId) || null;
-
-  // Get styling for a muscle path based on activation level
-  // Can accept multiple path IDs to check (for backward compatibility)
   const getMuscleStyle = (...pathIds) => {
-    // Check all provided pathIds and use the highest priority level found
-    let highestLevel = null;
-    let highestPriority = 0;
+    const targeted = pathIds.some((pathId) => highlightedPaths.has(pathId));
 
-    pathIds.forEach(pathId => {
-      const level = getActivationLevel(pathId);
-      if (level) {
-        const priority = getPriority(level);
-        if (priority > highestPriority) {
-          highestLevel = level;
-          highestPriority = priority;
-        }
-      }
-    });
-
-    const styles = {
-      primary: {
-        fill: '#ff4444',        // Bright red
-        fillOpacity: 0.7,       // Strong visibility
-        stroke: '#cc3333',
-        strokeWidth: 3
-      },
-      secondary: {
-        fill: '#ff8855',        // Medium orange
-        fillOpacity: 0.5,       // Medium visibility
-        stroke: '#dd6644',
-        strokeWidth: 2.5
-      },
-      tertiary: {
-        fill: '#ffaa88',        // Pale orange
-        fillOpacity: 0.3,       // Subtle visibility
-        stroke: '#ee9977',
-        strokeWidth: 2
-      }
-    };
-
-    return highestLevel ? styles[highestLevel] : {
-      fill: '#f5f5f5',          // Light gray for inactive muscles
+    return targeted ? {
+      fill: '#ff4444',
+      fillOpacity: 0.7,
+      stroke: '#cc3333',
+      strokeWidth: 3
+    } : {
+      fill: '#f5f5f5',
       fillOpacity: 0.1,
       stroke: '#e0e0e0',
       strokeWidth: 1.5
@@ -199,16 +31,20 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
       <div className="muscle-diagram__header">
         <h3 className="muscle-diagram__title">Muscles Worked</h3>
         {showToggle && (
-          <div className="muscle-diagram__toggle">
+          <div className="muscle-diagram__toggle" role="group" aria-label="Muscle diagram view">
             <button
+              type="button"
               className={`muscle-diagram__toggle-btn ${view === 'front' ? 'muscle-diagram__toggle-btn--active' : ''}`}
               onClick={() => setView('front')}
+              aria-pressed={view === 'front'}
             >
               Front
             </button>
             <button
+              type="button"
               className={`muscle-diagram__toggle-btn ${view === 'back' ? 'muscle-diagram__toggle-btn--active' : ''}`}
               onClick={() => setView('back')}
+              aria-pressed={view === 'back'}
             >
               Back
             </button>
@@ -219,7 +55,7 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
       <div className="muscle-diagram__body">
         {view === 'front' ? (
           <div className="muscle-diagram__view">
-            <svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Front view of targeted muscles">
               {/* Head */}
               <ellipse cx="150" cy="40" rx="30" ry="35" fill="none" stroke="#cbd5e1" strokeWidth="2" />
 
@@ -239,12 +75,23 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
               <path d="M 160 420 L 165 480 L 170 560 L 175 590" fill="none" stroke="#cbd5e1" strokeWidth="2" />
 
               {/* CHEST (Pectorals) */}
-              <path id="chest"
-                    d="M 130 110 Q 115 130 110 155 L 140 175 L 150 170 L 150 110 Z"
-                    {...getMuscleStyle('chest')} />
-              <path id="chest-right"
-                    d="M 170 110 Q 185 130 190 155 L 160 175 L 150 170 L 150 110 Z"
-                    {...getMuscleStyle('chest')} />
+              <path id="chest-upper-left"
+                    d="M 130 110 Q 116 122 112 140 L 145 150 L 150 145 L 150 110 Z"
+                    {...getMuscleStyle('chest', 'chest-upper')} />
+              <path id="chest-upper-right"
+                    d="M 170 110 Q 184 122 188 140 L 155 150 L 150 145 L 150 110 Z"
+                    {...getMuscleStyle('chest', 'chest-upper')} />
+              <path id="chest-lower-left"
+                    d="M 112 142 Q 110 150 110 155 L 140 175 L 150 170 L 150 147 L 145 152 Z"
+                    {...getMuscleStyle('chest', 'chest-lower')} />
+              <path id="chest-lower-right"
+                    d="M 188 142 Q 190 150 190 155 L 160 175 L 150 170 L 150 147 L 155 152 Z"
+                    {...getMuscleStyle('chest', 'chest-lower')} />
+
+              {/* CARDIOVASCULAR SYSTEM */}
+              <path id="cardio"
+                    d="M 150 135 C 140 122 123 132 127 148 C 131 161 143 169 150 176 C 157 169 169 161 173 148 C 177 132 160 122 150 135 Z"
+                    {...getMuscleStyle('cardio')} />
 
               {/* ABS (Rectus Abdominis) */}
               <rect id="abs-upper" x="135" y="180" width="30" height="35" rx="3"
@@ -263,10 +110,16 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
                     {...getMuscleStyle('obliques')} />
 
               {/* FRONT DELTOIDS (Shoulders) */}
-              <ellipse id="deltoids-front-left" cx="100" cy="120" rx="18" ry="25"
-                       {...getMuscleStyle('deltoids-front', 'deltoids')} />
-              <ellipse id="deltoids-front-right" cx="200" cy="120" rx="18" ry="25"
-                       {...getMuscleStyle('deltoids-front', 'deltoids')} />
+              <ellipse id="deltoids-front-left" cx="103" cy="120" rx="13" ry="23"
+                       {...getMuscleStyle('deltoids-front')} />
+              <ellipse id="deltoids-front-right" cx="197" cy="120" rx="13" ry="23"
+                       {...getMuscleStyle('deltoids-front')} />
+
+              {/* SIDE DELTOIDS */}
+              <ellipse id="deltoids-side-left" cx="91" cy="123" rx="8" ry="20"
+                       {...getMuscleStyle('deltoids-side')} />
+              <ellipse id="deltoids-side-right" cx="209" cy="123" rx="8" ry="20"
+                       {...getMuscleStyle('deltoids-side')} />
 
               {/* BICEPS */}
               <ellipse id="biceps-left" cx="70" cy="170" rx="12" ry="28"
@@ -281,6 +134,14 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
               <path id="forearms-right"
                     d="M 235 220 L 240 260 L 232 280 L 228 260 L 230 220 Z"
                     {...getMuscleStyle('forearms')} />
+
+              {/* HIP FLEXORS */}
+              <path id="hip-flexors-left"
+                    d="M 122 300 L 140 305 L 143 350 L 126 342 Z"
+                    {...getMuscleStyle('hip-flexors')} />
+              <path id="hip-flexors-right"
+                    d="M 178 300 L 160 305 L 157 350 L 174 342 Z"
+                    {...getMuscleStyle('hip-flexors')} />
 
               {/* QUADRICEPS (Quads) */}
               <path id="quads-left"
@@ -301,7 +162,7 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
           </div>
         ) : (
           <div className="muscle-diagram__view">
-            <svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Back view of targeted muscles">
               {/* Head */}
               <ellipse cx="150" cy="40" rx="30" ry="35" fill="none" stroke="#cbd5e1" strokeWidth="2" />
 
@@ -344,9 +205,23 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
 
               {/* REAR DELTOIDS */}
               <ellipse id="deltoids-rear-left" cx="100" cy="125" rx="18" ry="25"
-                       {...getMuscleStyle('deltoids-rear', 'deltoids')} />
+                       {...getMuscleStyle('deltoids-rear')} />
               <ellipse id="deltoids-rear-right" cx="200" cy="125" rx="18" ry="25"
-                       {...getMuscleStyle('deltoids-rear', 'deltoids')} />
+                       {...getMuscleStyle('deltoids-rear')} />
+
+              {/* ROTATOR CUFF */}
+              <ellipse id="rotator-cuff-left" cx="116" cy="137" rx="10" ry="15"
+                       {...getMuscleStyle('rotator-cuff')} />
+              <ellipse id="rotator-cuff-right" cx="184" cy="137" rx="10" ry="15"
+                       {...getMuscleStyle('rotator-cuff')} />
+
+              {/* TERES MAJOR */}
+              <path id="teres-major-left"
+                    d="M 111 154 Q 118 158 126 172 L 119 184 Q 110 174 106 164 Z"
+                    {...getMuscleStyle('teres-major')} />
+              <path id="teres-major-right"
+                    d="M 189 154 Q 182 158 174 172 L 181 184 Q 190 174 194 164 Z"
+                    {...getMuscleStyle('teres-major')} />
 
               {/* TRICEPS */}
               <path id="triceps-left"
@@ -391,15 +266,7 @@ function MuscleDiagram({ musclesWorked = [], showToggle = true }) {
       <div className="muscle-diagram__legend">
         <div className="muscle-diagram__legend-item">
           <div className="muscle-diagram__legend-color" style={{ background: '#ff4444', opacity: 0.7, border: '2px solid #cc3333' }}></div>
-          <span>Primary</span>
-        </div>
-        <div className="muscle-diagram__legend-item">
-          <div className="muscle-diagram__legend-color" style={{ background: '#ff8855', opacity: 0.5, border: '2px solid #dd6644' }}></div>
-          <span>Secondary</span>
-        </div>
-        <div className="muscle-diagram__legend-item">
-          <div className="muscle-diagram__legend-color" style={{ background: '#ffaa88', opacity: 0.3, border: '2px solid #ee9977' }}></div>
-          <span>Stabilizer</span>
+          <span>Targeted</span>
         </div>
         <div className="muscle-diagram__legend-item">
           <div className="muscle-diagram__legend-color" style={{ background: '#f5f5f5', opacity: 0.1, border: '2px solid #e0e0e0' }}></div>

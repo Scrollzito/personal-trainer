@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState } from 'react';
 import { loadPlans, savePlans, generateId } from '../utils/localStorage';
 
 const WorkoutBuilderContext = createContext();
@@ -10,12 +10,7 @@ export function WorkoutBuilderProvider({ children }) {
     dateCreated: new Date().toISOString(),
     exercises: []
   });
-  const [savedPlans, setSavedPlans] = useState([]);
-
-  // Load saved plans from localStorage on mount
-  useEffect(() => {
-    setSavedPlans(loadPlans());
-  }, []);
+  const [savedPlans, setSavedPlans] = useState(loadPlans);
 
   const addExercise = (machineId) => {
     setCurrentPlan(prev => ({
@@ -24,8 +19,7 @@ export function WorkoutBuilderProvider({ children }) {
         machineId,
         sets: 3,
         reps: '10-12',
-        restSeconds: 60,
-        order: prev.exercises.length
+        restSeconds: 60
       }]
     }));
   };
@@ -58,6 +52,7 @@ export function WorkoutBuilderProvider({ children }) {
   const savePlan = () => {
     const planToSave = {
       ...currentPlan,
+      name: (currentPlan.name.trim() || 'Untitled Workout').slice(0, 80),
       id: currentPlan.id || generateId(),
       dateCreated: currentPlan.id ? currentPlan.dateCreated : new Date().toISOString()
     };
@@ -65,9 +60,10 @@ export function WorkoutBuilderProvider({ children }) {
     const updatedPlans = savedPlans.filter(p => p.id !== planToSave.id);
     updatedPlans.push(planToSave);
 
-    setSavedPlans(updatedPlans);
     savePlans(updatedPlans);
+    setSavedPlans(updatedPlans);
     setCurrentPlan(planToSave);
+    return planToSave;
   };
 
   const loadPlan = (id) => {
@@ -77,8 +73,8 @@ export function WorkoutBuilderProvider({ children }) {
 
   const deletePlan = (id) => {
     const updatedPlans = savedPlans.filter(p => p.id !== id);
-    setSavedPlans(updatedPlans);
     savePlans(updatedPlans);
+    setSavedPlans(updatedPlans);
   };
 
   const clearPlan = () => {

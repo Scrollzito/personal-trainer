@@ -1,6 +1,11 @@
+.export-pdf {
+  display: grid;
+  gap: 6px;
+}
+
 .export-pdf-button {
   padding: 10px 16px;
-  background: #10b981;
+  background: var(--color-success-strong);
   color: white;
   border: none;
   border-radius: 6px;
@@ -11,8 +16,14 @@
   width: 100%;
 }
 
+.export-pdf__error {
+  max-width: 16rem;
+  color: var(--color-danger);
+  font-size: 0.8125rem;
+}
+
 .export-pdf-button:hover:not(:disabled) {
-  background: #059669;
+  filter: brightness(0.9);
   transform: translateY(-1px);
   box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
 }

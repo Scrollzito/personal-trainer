@@ -17,7 +17,7 @@
 
 .muscle-group-filter {
   margin-bottom: 1rem;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid var(--color-border);
   padding-top: 0.75rem;
 }
 
@@ -30,6 +30,18 @@
 
 .machine-selector__item {
   position: relative;
+}
+
+.machine-selector__empty {
+  display: grid;
+  gap: 4px;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-text-light);
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
 }
 
 .machine-selector__add-btn {
@@ -53,7 +65,7 @@
 }
 
 .machine-selector__add-btn--added {
-  background: #10b981;
+  background: var(--color-success-strong);
   cursor: not-allowed;
 }
 

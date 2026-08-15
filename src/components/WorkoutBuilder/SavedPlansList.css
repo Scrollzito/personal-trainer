@@ -44,6 +44,7 @@
   padding: 6px;
   border: 1px solid var(--color-border);
   background: var(--color-card);
+  color: var(--color-text);
   border-radius: 4px;
   font-size: 0.75rem;
   cursor: pointer;
@@ -62,9 +63,32 @@
 }
 
 .saved-plans-list__actions button:last-child:hover {
-  background: #ef4444;
+  background: var(--color-danger-strong);
   color: white;
-  border-color: #ef4444;
+  border-color: var(--color-danger);
+}
+
+.saved-plans-list__actions button:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.saved-plans-list__feedback {
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: var(--color-text);
+  font-size: 0.875rem;
+}
+
+.saved-plans-list__feedback--success {
+  background: var(--color-success-bg);
+  border: 1px solid var(--color-success);
+}
+
+.saved-plans-list__feedback--error {
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
 }
 
 .saved-plans-list__empty {

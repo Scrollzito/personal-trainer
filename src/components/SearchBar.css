@@ -22,7 +22,6 @@
   border-radius: var(--radius);
   background: var(--color-card);
   color: var(--color-text);
-  outline: none;
   transition: border-color var(--transition), box-shadow var(--transition);
 }
 

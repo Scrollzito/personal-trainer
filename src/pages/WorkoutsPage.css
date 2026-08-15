@@ -96,6 +96,23 @@
 }
 
 .workouts-page__filter-pill--all    { background: var(--color-primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.2); }
-.workouts-page__filter-pill--beginner    { background: var(--color-success); box-shadow: 0 0 0 3px rgba(16,185,129,0.2); }
-.workouts-page__filter-pill--intermediate { background: var(--color-accent);  box-shadow: 0 0 0 3px rgba(249,115,22,0.2); }
-.workouts-page__filter-pill--advanced    { background: var(--color-danger);   box-shadow: 0 0 0 3px rgba(239,68,68,0.2); }
+.workouts-page__filter-pill--beginner    { background: var(--color-success-strong); box-shadow: 0 0 0 3px rgba(16,185,129,0.2); }
+.workouts-page__filter-pill--intermediate { background: var(--color-accent-strong);  box-shadow: 0 0 0 3px rgba(249,115,22,0.2); }
+.workouts-page__filter-pill--advanced    { background: var(--color-danger-strong);   box-shadow: 0 0 0 3px rgba(239,68,68,0.2); }
+
+@media (max-width: 640px) {
+  .workouts-page__hero {
+    padding: 36px 0 32px;
+    margin-bottom: 28px;
+  }
+
+  .workouts-page__stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .workouts-page__stat-divider {
+    display: none;
+  }
+}

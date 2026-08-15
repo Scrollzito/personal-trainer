@@ -12,8 +12,10 @@ const CATEGORIES = [
 
 function CategoryFilter({ active, onChange }) {
   return (
-    <div className="category-filter">
+    <div className="category-filter" role="group" aria-label="Machine categories">
       <button
+        type="button"
+        aria-pressed={!active}
         className={`category-filter__pill ${!active ? 'category-filter__pill--active' : ''}`}
         onClick={() => onChange(null)}
       >
@@ -21,6 +23,8 @@ function CategoryFilter({ active, onChange }) {
       </button>
       {CATEGORIES.map((cat) => (
         <button
+          type="button"
+          aria-pressed={active === cat.id}
           key={cat.id}
           className={`category-filter__pill ${active === cat.id ? 'category-filter__pill--active' : ''}`}
           onClick={() => onChange(active === cat.id ? null : cat.id)}

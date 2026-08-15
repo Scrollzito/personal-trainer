@@ -36,33 +36,46 @@ function Header() {
     <header className="header">
       <div className="header__inner">
         {!isTopLevel && (
-          <button className="header__back" onClick={() => navigate(-1)}>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <button type="button" className="header__back" onClick={() => navigate(-1)} aria-label="Go back">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
           </button>
         )}
-        <h1 className="header__title" onClick={() => navigate('/')}>
+        <Link to="/" className="header__title">
           Gym Machine Guide
-        </h1>
-        <nav className="header__nav">
-          <Link to="/" className={`header__nav-link ${location.pathname === '/' ? 'header__nav-link--active' : ''}`}>
+        </Link>
+        <nav className="header__nav" aria-label="Primary navigation">
+          <Link
+            to="/"
+            aria-current={location.pathname === '/' ? 'page' : undefined}
+            className={`header__nav-link ${location.pathname === '/' ? 'header__nav-link--active' : ''}`}
+          >
             Machines
           </Link>
-          <Link to="/workouts" className={`header__nav-link ${location.pathname.startsWith('/workout') && location.pathname !== '/create-workout' ? 'header__nav-link--active' : ''}`}>
+          <Link
+            to="/workouts"
+            aria-current={location.pathname.startsWith('/workout') && location.pathname !== '/create-workout' ? 'page' : undefined}
+            className={`header__nav-link ${location.pathname.startsWith('/workout') && location.pathname !== '/create-workout' ? 'header__nav-link--active' : ''}`}
+          >
             Workouts
           </Link>
-          <Link to="/create-workout" className={`header__nav-link ${location.pathname === '/create-workout' ? 'header__nav-link--active' : ''}`}>
+          <Link
+            to="/create-workout"
+            aria-current={location.pathname === '/create-workout' ? 'page' : undefined}
+            className={`header__nav-link ${location.pathname === '/create-workout' ? 'header__nav-link--active' : ''}`}
+          >
             Create Workout
           </Link>
         </nav>
         <button
+          type="button"
           className="header__theme-toggle"
           onClick={toggle}
           aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
           title={isDark ? 'Light mode' : 'Dark mode'}
         >
-          {isDark ? <SunIcon /> : <MoonIcon />}
+          <span aria-hidden="true">{isDark ? <SunIcon /> : <MoonIcon />}</span>
         </button>
       </div>
     </header>

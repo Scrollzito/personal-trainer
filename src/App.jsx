@@ -1,5 +1,5 @@
-import { BrowserRouter, Navigate, Routes, Route, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { BrowserRouter, Navigate, Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import MachineDetailPage from './pages/MachineDetailPage';
@@ -12,9 +12,14 @@ import { ThemeProvider } from './context/ThemeContext';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType();
+  const previousPathname = useRef(pathname);
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    if (previousPathname.current !== pathname && navigationType !== 'POP') {
+      window.scrollTo(0, 0);
+    }
+    previousPathname.current = pathname;
+  }, [navigationType, pathname]);
   return null;
 }
 

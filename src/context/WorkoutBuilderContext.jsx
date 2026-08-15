@@ -83,6 +83,9 @@ export function WorkoutBuilderProvider({ children }) {
     const updatedPlans = savedPlans.filter(p => p.id !== id);
     savePlans(updatedPlans);
     setSavedPlans(updatedPlans);
+    setCurrentPlan(prev => prev.id === id
+      ? { ...prev, id: null, dateCreated: new Date().toISOString() }
+      : prev);
   };
 
   const clearPlan = () => {

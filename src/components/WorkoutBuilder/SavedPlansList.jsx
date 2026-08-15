@@ -3,10 +3,18 @@ import { useWorkoutBuilder } from '../../context/WorkoutBuilderContext';
 import './SavedPlansList.css';
 
 function SavedPlansList() {
-  const { savedPlans, loadPlan, deletePlan } = useWorkoutBuilder();
+  const { currentPlan, savedPlans, loadPlan, deletePlan } = useWorkoutBuilder();
   const [feedback, setFeedback] = useState(null);
 
   const handleLoad = (plan) => {
+    if (
+      currentPlan.exercises.length > 0 &&
+      JSON.stringify(currentPlan) !== JSON.stringify(plan) &&
+      !window.confirm('Replace your current workout with this routine?')
+    ) {
+      return;
+    }
+
     loadPlan(plan.id);
     setFeedback({ type: 'success', message: `${plan.name} loaded.` });
   };
@@ -15,8 +23,14 @@ function SavedPlansList() {
     if (!window.confirm(`Delete ${plan.name}?`)) return;
 
     try {
+      const isCurrentPlan = currentPlan.id === plan.id;
       deletePlan(plan.id);
-      setFeedback({ type: 'success', message: `${plan.name} deleted.` });
+      setFeedback({
+        type: 'success',
+        message: isCurrentPlan
+          ? `${plan.name} deleted. Your current workout remains as an unsaved draft.`
+          : `${plan.name} deleted.`
+      });
     } catch (error) {
       setFeedback({
         type: 'error',

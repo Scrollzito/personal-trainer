@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { useWorkoutBuilder } from '../../context/WorkoutBuilderContext';
 import machineData from '../../data/machines.json';
 import SearchBar from '../SearchBar';
@@ -10,17 +10,32 @@ import './MachineSelector.css';
 
 function MachineSelector() {
   const { currentPlan, addExercise } = useWorkoutBuilder();
-  const [searchText, setSearchText] = useState('');
-  const [activeCategory, setActiveCategory] = useState(null);
-  const [activeMuscleGroup, setActiveMuscleGroup] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchText = searchParams.get('q') || '';
+  const category = searchParams.get('category');
+  const activeCategory = machineData.machines.some((machine) => machine.category === category)
+    ? category
+    : null;
 
   // Get available muscle groups for the selected category
   const availableMuscleGroups = activeCategory ? getMuscleGroupsForCategory(activeCategory) : [];
+  const muscleGroup = searchParams.get('muscle');
+  const activeMuscleGroup = availableMuscleGroups.includes(muscleGroup) ? muscleGroup : null;
+
+  const setFilter = (key, value) => {
+    const next = new URLSearchParams(searchParams);
+    if (value) next.set(key, value);
+    else next.delete(key);
+    setSearchParams(next, { replace: true });
+  };
 
   // Handle category change and reset muscle group
   const handleCategoryChange = (category) => {
-    setActiveCategory(category);
-    setActiveMuscleGroup(null);
+    const next = new URLSearchParams(searchParams);
+    if (category) next.set('category', category);
+    else next.delete('category');
+    next.delete('muscle');
+    setSearchParams(next, { replace: true });
   };
 
   // Filter machines with three-tier filtering: category + muscle group + search
@@ -52,14 +67,14 @@ function MachineSelector() {
     <div className="machine-selector">
       <h2 className="machine-selector__title">Add Exercises</h2>
 
-      <SearchBar value={searchText} onChange={setSearchText} />
+      <SearchBar value={searchText} onChange={(value) => setFilter('q', value)} />
       <CategoryFilter active={activeCategory} onChange={handleCategoryChange} />
 
       {activeCategory && availableMuscleGroups.length > 0 && (
         <MuscleGroupFilter
           muscleGroups={availableMuscleGroups}
           active={activeMuscleGroup}
-          onChange={setActiveMuscleGroup}
+          onChange={(value) => setFilter('muscle', value)}
         />
       )}
 

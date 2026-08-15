@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import machineData from '../data/machines.json';
 import {
@@ -32,12 +32,10 @@ const formatPrescription = (exercise) => {
 
 function WorkoutSessionPage() {
   const navigate = useNavigate();
-  const headingRef = useRef(null);
   const [session, setSession] = useState(loadWorkoutSession);
   const [remainingSeconds, setRemainingSeconds] = useState(() => secondsUntil(session?.restEndsAt));
   const [announcement, setAnnouncement] = useState('');
   const [storageError, setStorageError] = useState('');
-  const sessionName = session?.plan.name;
 
   useEffect(() => {
     const deadline = session?.restEndsAt;
@@ -55,21 +53,10 @@ function WorkoutSessionPage() {
     return () => window.clearInterval(timer);
   }, [session?.restEndsAt]);
 
-  useEffect(() => {
-    const previousTitle = document.title;
-    document.title = sessionName
-      ? `${sessionName} | Workout Session`
-      : 'Start Workout | Gym Machine Guide';
-    headingRef.current?.focus();
-    return () => {
-      document.title = previousTitle;
-    };
-  }, [sessionName]);
-
   if (!session) {
     return (
       <div className="workout-session workout-session--empty">
-        <h1 ref={headingRef} tabIndex="-1">No workout ready</h1>
+        <h1>No workout ready</h1>
         <p>Add exercises or load a saved plan before starting a session.</p>
         <Link className="workout-session__primary-link" to="/create-workout">Build a workout</Link>
       </div>
@@ -139,7 +126,7 @@ function WorkoutSessionPage() {
       <header className="workout-session__header">
         <div>
           <p className="workout-session__eyebrow">Workout in progress</p>
-          <h1 ref={headingRef} tabIndex="-1">{session.plan.name}</h1>
+          <h1>{session.plan.name}</h1>
         </div>
         <button type="button" className="workout-session__end" onClick={() => leaveSession(true)}>
           End session

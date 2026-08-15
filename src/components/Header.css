@@ -122,10 +122,11 @@
     order: 3;
     width: 100%;
     margin-left: 0;
+    overflow-x: auto;
   }
 
   .header__nav-link {
-    flex: 1;
+    flex: 1 0 auto;
     padding: 7px 8px;
     text-align: center;
     font-size: 0.8125rem;
@@ -133,5 +134,13 @@
 
   .header__theme-toggle {
     margin-left: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .header__nav-link {
+    flex: 1 1 auto;
+    padding-inline: 4px;
+    font-size: 0.75rem;
   }
 }

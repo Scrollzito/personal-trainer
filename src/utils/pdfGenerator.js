@@ -11,6 +11,13 @@ export const generateWorkoutPDF = (plan, machinesData) => {
         yPosition = 20;
       }
     };
+    const writeWrappedText = (text) => {
+      doc.splitTextToSize(text, 170).forEach((line) => {
+        ensureSpace(5);
+        doc.text(line, 20, yPosition);
+        yPosition += 5;
+      });
+    };
 
     const planName = (plan.name.trim() || 'Untitled Workout').slice(0, 80);
 
@@ -66,6 +73,7 @@ export const generateWorkoutPDF = (plan, machinesData) => {
         console.warn(`[PDF] Machine not found for ID: ${exercise.machineId}`);
         return;
       }
+      const notes = typeof exercise.notes === 'string' ? exercise.notes.trim() : '';
 
       ensureSpace(31);
       doc.setFontSize(13);
@@ -78,6 +86,17 @@ export const generateWorkoutPDF = (plan, machinesData) => {
       doc.text(`${exercise.sets} sets × ${exercise.reps} reps | Rest: ${exercise.restSeconds}s`, 20, yPosition);
       yPosition += 7;
 
+      if (notes) {
+        ensureSpace(10);
+        doc.setFont(undefined, 'bold');
+        doc.text('Notes:', 20, yPosition);
+        yPosition += 5;
+        doc.setFont(undefined, 'normal');
+        writeWrappedText(notes);
+        yPosition += 2;
+      }
+
+      ensureSpace(22);
       doc.setFont(undefined, 'bold');
       doc.text('Muscles Worked:', 20, yPosition);
       yPosition += 5;
@@ -95,10 +114,7 @@ export const generateWorkoutPDF = (plan, machinesData) => {
 
       if (Array.isArray(machine.steps) && machine.steps.length > 0) {
         machine.steps.forEach((step, stepIndex) => {
-          const lines = doc.splitTextToSize(`${stepIndex + 1}. ${step.text}`, 170);
-          ensureSpace(lines.length * 5);
-          doc.text(lines, 20, yPosition);
-          yPosition += lines.length * 5;
+          writeWrappedText(`${stepIndex + 1}. ${step.text}`);
         });
       } else {
         ensureSpace(5);

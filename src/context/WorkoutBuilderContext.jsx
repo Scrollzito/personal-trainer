@@ -1,27 +1,35 @@
-import { createContext, useContext, useState } from 'react';
-import { loadPlans, savePlans, generateId } from '../utils/localStorage';
+import { createContext, useContext, useEffect, useState } from 'react';
+import { clearDraft, generateId, loadDraft, loadPlans, saveDraft, savePlans } from '../utils/localStorage';
 
 const WorkoutBuilderContext = createContext();
 
+const createEmptyPlan = () => ({
+  id: null,
+  name: 'Untitled Workout',
+  dateCreated: new Date().toISOString(),
+  exercises: []
+});
+
 export function WorkoutBuilderProvider({ children }) {
-  const [currentPlan, setCurrentPlan] = useState({
-    id: null,
-    name: 'Untitled Workout',
-    dateCreated: new Date().toISOString(),
-    exercises: []
-  });
+  const [currentPlan, setCurrentPlan] = useState(() => loadDraft() ?? createEmptyPlan());
   const [savedPlans, setSavedPlans] = useState(loadPlans);
 
+  useEffect(() => {
+    saveDraft(currentPlan);
+  }, [currentPlan]);
+
   const addExercise = (machineId) => {
-    setCurrentPlan(prev => ({
-      ...prev,
-      exercises: [...prev.exercises, {
-        machineId,
-        sets: 3,
-        reps: '10-12',
-        restSeconds: 60
-      }]
-    }));
+    setCurrentPlan(prev => prev.exercises.some(exercise => exercise.machineId === machineId)
+      ? prev
+      : ({
+          ...prev,
+          exercises: [...prev.exercises, {
+            machineId,
+            sets: 3,
+            reps: '10-12',
+            restSeconds: 60
+          }]
+        }));
   };
 
   const removeExercise = (index) => {
@@ -78,12 +86,8 @@ export function WorkoutBuilderProvider({ children }) {
   };
 
   const clearPlan = () => {
-    setCurrentPlan({
-      id: null,
-      name: 'Untitled Workout',
-      dateCreated: new Date().toISOString(),
-      exercises: []
-    });
+    clearDraft();
+    setCurrentPlan(createEmptyPlan());
   };
 
   return (

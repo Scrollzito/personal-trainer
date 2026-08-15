@@ -41,6 +41,7 @@
 
 .workout-drawer__header:focus-visible,
 .workout-drawer__name-input:focus-visible,
+.workout-drawer__notes textarea:focus-visible,
 .workout-drawer__order-actions button:focus-visible,
 .workout-drawer__exercise-remove:focus-visible,
 .workout-drawer__btn:focus-visible {
@@ -111,6 +112,7 @@
 
 .workout-drawer__exercise {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 1rem;
@@ -191,6 +193,37 @@
 .workout-drawer__unit {
   font-size: 0.75rem;
   color: var(--color-text-light);
+}
+
+.workout-drawer__notes {
+  flex: 1 0 100%;
+}
+
+.workout-drawer__notes label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--color-text-light);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.workout-drawer__notes textarea {
+  width: 100%;
+  min-height: 52px;
+  padding: 0.5rem;
+  resize: vertical;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 6px;
+  background: var(--color-card);
+  color: var(--color-text);
+  font: inherit;
+  line-height: 1.4;
+  cursor: text;
+}
+
+.workout-drawer__notes textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
 .workout-drawer__order-actions {

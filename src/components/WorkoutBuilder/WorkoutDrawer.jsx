@@ -99,18 +99,24 @@ export default function WorkoutDrawer() {
             ) : currentPlan.exercises.map((exercise, index) => {
               const machineName = getMachineName(exercise.machineId);
               const inputId = `workout-exercise-${index}`;
+              const notes = typeof exercise.notes === 'string' ? exercise.notes : '';
 
               return (
                 <div
                   key={exercise.machineId}
                   className="workout-drawer__exercise"
-                  draggable
-                  onDragStart={(e) => handleDragStart(e, index)}
                   onDragOver={handleDragOver}
                   onDrop={(e) => handleDrop(e, index)}
                 >
                   {/* Drag Handle */}
-                  <div className="workout-drawer__drag-handle" aria-hidden="true">⋮⋮</div>
+                  <div
+                    className="workout-drawer__drag-handle"
+                    draggable
+                    onDragStart={(e) => handleDragStart(e, index)}
+                    aria-hidden="true"
+                  >
+                    ⋮⋮
+                  </div>
 
                   {/* Machine Name */}
                   <span className="workout-drawer__exercise-name">
@@ -191,6 +197,18 @@ export default function WorkoutDrawer() {
                   >
                     ×
                   </button>
+
+                  <div className="workout-drawer__notes">
+                    <label htmlFor={`${inputId}-notes`}>Notes for {machineName} (optional)</label>
+                    <textarea
+                      id={`${inputId}-notes`}
+                      rows="2"
+                      maxLength={500}
+                      value={notes}
+                      onChange={(e) => updateExercise(index, { notes: e.target.value })}
+                      placeholder="Add a form cue or reminder"
+                    />
+                  </div>
                 </div>
               );
             })}

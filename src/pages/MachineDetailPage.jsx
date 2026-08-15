@@ -1,15 +1,18 @@
-import { useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import machineData from '../data/machines.json';
 import DifficultyBadge from '../components/DifficultyBadge';
 import YouTubeEmbed from '../components/YouTubeEmbed';
 import StepList from '../components/StepList';
 import MuscleDiagram from '../components/MuscleDiagram';
+import { useWorkoutBuilder } from '../context/WorkoutBuilderContext';
 import './MachineDetailPage.css';
 
 function MachineDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { currentPlan, addExercise } = useWorkoutBuilder();
   const machine = machineData.machines.find((m) => m.id === id);
+  const isInWorkout = currentPlan.exercises.some((exercise) => exercise.machineId === id);
 
   if (!machine) {
     return (
@@ -53,6 +56,27 @@ function MachineDetailPage() {
           {machine.musclesWorked.map((muscle) => (
             <span key={muscle} className="detail-page__muscle-tag">{muscle}</span>
           ))}
+        </div>
+
+        <div className="detail-page__workout-action">
+          <button
+            type="button"
+            className={`detail-page__workout-button ${isInWorkout ? 'detail-page__workout-button--added' : ''}`}
+            onClick={() => {
+              if (!isInWorkout) addExercise(machine.id);
+            }}
+            aria-disabled={isInWorkout}
+          >
+            {isInWorkout ? '✓ Added to workout' : '+ Add to workout'}
+          </button>
+          {isInWorkout && (
+            <Link className="detail-page__workout-link" to="/create-workout">
+              View workout ({currentPlan.exercises.length})
+            </Link>
+          )}
+          <span className="detail-page__workout-status" role="status">
+            {isInWorkout ? `${machine.name} is in your current workout.` : ''}
+          </span>
         </div>
 
         {/* Muscle diagram */}

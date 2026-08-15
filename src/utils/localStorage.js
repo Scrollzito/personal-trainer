@@ -1,4 +1,5 @@
 const STORAGE_KEY = 'gym-app-workout-plans';
+const DRAFT_STORAGE_KEY = 'gym-app-current-workout-draft';
 
 const isIntegerInRange = (value, min, max) =>
   Number.isInteger(value) && value >= min && value <= max;
@@ -9,12 +10,13 @@ const isValidExercise = (exercise) =>
   typeof exercise.machineId === 'string' &&
   isIntegerInRange(exercise.sets, 1, 10) &&
   typeof exercise.reps === 'string' && exercise.reps.trim().length > 0 &&
-  isIntegerInRange(exercise.restSeconds, 0, 300);
+  isIntegerInRange(exercise.restSeconds, 0, 300) &&
+  (exercise.notes === undefined || typeof exercise.notes === 'string');
 
-const isValidPlan = (plan) =>
+const isValidPlan = (plan, allowUnsaved = false) =>
   plan !== null &&
   typeof plan === 'object' &&
-  typeof plan.id === 'string' &&
+  (typeof plan.id === 'string' || (allowUnsaved && plan.id === null)) &&
   typeof plan.name === 'string' &&
   typeof plan.dateCreated === 'string' &&
   !Number.isNaN(Date.parse(plan.dateCreated)) &&
@@ -52,6 +54,46 @@ export const loadPlans = () => {
   } catch (error) {
     console.error('Failed to load plans from localStorage:', error);
     return [];
+  }
+};
+
+export const saveDraft = (plan) => {
+  if (!isValidPlan(plan, true)) return;
+
+  try {
+    if (plan.id === null && plan.name === 'Untitled Workout' && plan.exercises.length === 0) {
+      sessionStorage.removeItem(DRAFT_STORAGE_KEY);
+    } else {
+      sessionStorage.setItem(DRAFT_STORAGE_KEY, JSON.stringify(plan));
+    }
+  } catch (error) {
+    console.error('Failed to save workout draft to sessionStorage:', error);
+  }
+};
+
+export const loadDraft = () => {
+  try {
+    const stored = sessionStorage.getItem(DRAFT_STORAGE_KEY);
+    if (!stored) return null;
+
+    const draft = JSON.parse(stored);
+    if (!isValidPlan(draft, true)) {
+      console.warn('Ignored invalid current workout draft.');
+      sessionStorage.removeItem(DRAFT_STORAGE_KEY);
+      return null;
+    }
+    return draft;
+  } catch (error) {
+    console.error('Failed to load workout draft from sessionStorage:', error);
+    return null;
+  }
+};
+
+export const clearDraft = () => {
+  try {
+    sessionStorage.removeItem(DRAFT_STORAGE_KEY);
+  } catch (error) {
+    console.error('Failed to clear workout draft from sessionStorage:', error);
   }
 };
 

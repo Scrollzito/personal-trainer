@@ -2,9 +2,10 @@ import { useState } from 'react';
 import { useWorkoutBuilder } from '../../context/WorkoutBuilderContext';
 import './SavedPlansList.css';
 
-function SavedPlansList() {
+function SavedPlansList({ onLoad, headingLevel = 4 }) {
   const { currentPlan, savedPlans, loadPlan, deletePlan } = useWorkoutBuilder();
   const [feedback, setFeedback] = useState(null);
+  const Heading = headingLevel === 2 ? 'h2' : 'h4';
 
   const handleLoad = (plan) => {
     if (
@@ -17,6 +18,7 @@ function SavedPlansList() {
 
     loadPlan(plan.id);
     setFeedback({ type: 'success', message: `${plan.name} loaded.` });
+    onLoad?.(plan);
   };
 
   const handleDelete = (plan) => {
@@ -53,8 +55,8 @@ function SavedPlansList() {
           {savedPlans.map(plan => (
             <div key={plan.id} className="saved-plans-list__item">
               <div className="saved-plans-list__info">
-                <h4>{plan.name}</h4>
-                <p>{plan.exercises.length} exercises</p>
+                <Heading className="saved-plans-list__heading">{plan.name}</Heading>
+                <p>{plan.exercises.length} {plan.exercises.length === 1 ? 'exercise' : 'exercises'}</p>
                 <p className="saved-plans-list__date">
                   {new Date(plan.dateCreated).toLocaleDateString()}
                 </p>

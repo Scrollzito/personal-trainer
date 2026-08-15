@@ -5,6 +5,7 @@ import machineData from '../data/machines.json';
 import DifficultyBadge from '../components/DifficultyBadge';
 import MuscleDiagram from '../components/MuscleDiagram';
 import { useWorkoutBuilder } from '../context/WorkoutBuilderContext';
+import { handleImageError } from '../utils/imageFallback';
 import './WorkoutDetailPage.css';
 
 function WorkoutDetailPage() {
@@ -104,6 +105,7 @@ function WorkoutDetailPage() {
                         src={machine.thumbnail}
                         alt={machine?.name || exercise.machineId}
                         loading="lazy"
+                        onError={handleImageError}
                       />
                     )}
                     <div className="workout-detail__exercise-info">

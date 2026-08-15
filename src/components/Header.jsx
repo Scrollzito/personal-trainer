@@ -30,7 +30,7 @@ function Header() {
   const location = useLocation();
   const navigate = useNavigate();
   const { isDark, toggle } = useTheme();
-  const isTopLevel = location.pathname === '/' || location.pathname === '/workouts' || location.pathname === '/create-workout';
+  const isTopLevel = ['/', '/workouts', '/create-workout', '/saved-workouts'].includes(location.pathname);
 
   return (
     <header className="header">
@@ -66,6 +66,13 @@ function Header() {
             className={`header__nav-link ${location.pathname === '/create-workout' ? 'header__nav-link--active' : ''}`}
           >
             Create Workout
+          </Link>
+          <Link
+            to="/saved-workouts"
+            aria-current={location.pathname === '/saved-workouts' ? 'page' : undefined}
+            className={`header__nav-link ${location.pathname === '/saved-workouts' ? 'header__nav-link--active' : ''}`}
+          >
+            Saved
           </Link>
         </nav>
         <button

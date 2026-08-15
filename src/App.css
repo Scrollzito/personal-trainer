@@ -100,11 +100,35 @@ button:active {
   outline-offset: 3px;
 }
 
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 1000;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--color-card);
+  color: var(--color-text);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 .main-content {
   max-width: var(--max-width);
   margin: 0 auto;
+  scroll-margin-top: 76px;
   padding: 0 var(--spacing);
   padding-bottom: 56px;
+}
+
+@media (max-width: 760px) {
+  .main-content {
+    scroll-margin-top: 132px;
+  }
 }
 
 /* ── Dark mode ─────────────────────────────────────── */

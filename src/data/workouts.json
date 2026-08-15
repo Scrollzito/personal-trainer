@@ -3,7 +3,7 @@
     {
       "id": "beginner-full-body",
       "name": "Beginner Full Body",
-      "description": "A balanced workout that hits every major muscle group in one session. Perfect for gym newcomers who want to build a solid foundation of strength without overcomplicating things. Stick with this 3 days a week and you'll see real progress within a few weeks.",
+      "description": "A balanced workout that trains every major muscle group in one session. It gives gym newcomers a straightforward routine they can repeat and adjust as they progress.",
       "difficulty": "beginner",
       "duration": "45-60 min",
       "frequency": "3x per week",
@@ -158,14 +158,14 @@
       "tips": [
         "Warm up with 5 minutes of walking or light cycling before starting the heavy lifts.",
         "Compound movements like squats and leg press should be done first while you're freshest.",
-        "Don't skip the hip abductor and adductor — they help prevent knee injuries and improve stability.",
-        "Stretch your quads and hamstrings after the workout to reduce soreness the next day."
+        "The hip abductor and adductor add controlled work for the muscles around your hips and inner thighs.",
+        "If you stretch after the workout, keep it gentle and pain-free."
       ]
     },
     {
       "id": "push-day",
       "name": "Push Day (Chest + Shoulders + Triceps)",
-      "description": "This workout focuses on all the muscles you use when pushing: chest, shoulders, and triceps. It's designed as part of a push/pull/legs split, hitting these muscle groups with enough volume to drive real growth. Best suited for people who have a few months of gym experience.",
+      "description": "This workout focuses on all the muscles you use when pushing: chest, shoulders, and triceps. It's designed as part of a push/pull/legs split and provides a moderate amount of training volume. Best suited for people who already have some gym experience.",
       "difficulty": "intermediate",
       "duration": "45-55 min",
       "frequency": "1-2x per week",
@@ -233,14 +233,14 @@
       "tips": [
         "Start with the heavier compound lifts (chest press, shoulder press) while your energy is highest.",
         "If your shoulders feel fatigued from chest work, consider lowering the weight on shoulder press slightly.",
-        "Keep your core tight during overhead pressing to protect your lower back.",
+        "Keep your core braced and avoid excessive lower-back arching during overhead pressing.",
         "Pair this workout with pull day and leg day for a well-rounded weekly split."
       ]
     },
     {
       "id": "pull-day",
       "name": "Pull Day (Back + Biceps)",
-      "description": "This workout targets the muscles used in pulling motions: your entire back and biceps. It pairs perfectly with push day in a push/pull/legs rotation. Building a strong back improves your posture, protects your spine, and makes every other lift feel easier.",
+      "description": "This workout targets the muscles used in pulling motions: your back and biceps. It pairs with push day in a push/pull/legs rotation, adding pulling work to balance pressing movements.",
       "difficulty": "intermediate",
       "duration": "45-55 min",
       "frequency": "1-2x per week",
@@ -309,7 +309,7 @@
         "Focus on squeezing your back muscles rather than just pulling with your arms — this is the most common beginner mistake.",
         "Use lifting straps if your grip gives out before your back does.",
         "Save bicep work for the end of the session so your arms don't fatigue before your back exercises.",
-        "A strong back is the foundation of good posture — this workout pays off all day, not just in the gym."
+        "Controlled back training can complement upright posture and everyday pulling tasks."
       ]
     },
     {
@@ -390,7 +390,7 @@
     {
       "id": "core-and-cardio",
       "name": "Core & Cardio",
-      "description": "A lighter session that combines core strengthening with cardio to build endurance and tighten your midsection. This is a great workout to slot in between heavier lifting days. It keeps you moving without beating up your joints or muscles.",
+      "description": "A lighter session that combines core movements with cardio to practice endurance at a manageable pace. Use it between heavier lifting days only when you feel recovered enough for more activity.",
       "difficulty": "beginner",
       "duration": "35-45 min",
       "frequency": "2-3x per week",
@@ -451,7 +451,7 @@
       "tips": [
         "Do the core exercises first while your abs are fresh, then finish with cardio.",
         "Breathe out on the effort — exhale as you crunch, twist, or lift.",
-        "This workout pairs well with upper-body or full-body days as an active recovery session.",
+        "Pair this with upper-body or full-body days only if the added activity fits your recovery.",
         "If 10 minutes of cardio feels easy, gradually increase the duration or intensity over time."
       ]
     },
@@ -519,7 +519,7 @@
     {
       "id": "strength-builder",
       "name": "Strength Builder",
-      "description": "Build foundational strength with compound movements and lower rep ranges. This workout teaches proper form on the basics while progressively making you stronger. Perfect for beginners who want to focus on getting strong rather than just going through the motions.",
+      "description": "A lower-rep routine for practicing foundational compound movements. Increase the load gradually only while your form stays controlled.",
       "difficulty": "beginner",
       "duration": "45-50 minutes",
       "frequency": "3x per week",
@@ -576,16 +576,16 @@
         }
       ],
       "tips": [
-        "Focus on perfect form over heavy weight — strength will come with consistency",
+        "Keep your form controlled before increasing the load",
         "Rest the full 2 minutes between sets — this isn't cardio, it's strength training",
         "Track your weights each session and aim to add 5-10 lbs when you can complete all sets with good form",
-        "Eat enough protein (0.8-1g per pound of body weight) to support strength gains"
+        "Consistent meals with adequate protein can support training; individual needs vary."
       ]
     },
     {
       "id": "hypertrophy-upper",
       "name": "Hypertrophy Upper Body",
-      "description": "A muscle-building focused upper body routine with higher volume and moderate rep ranges. This workout is designed to maximize muscle growth in your chest, back, shoulders, and arms. Expect to be sore the next day — that's the pump working.",
+      "description": "A higher-volume upper-body routine using moderate rep ranges for people focused on muscle development. Soreness is not required for a workout to be effective; reduce the volume or load if recovery is difficult.",
       "difficulty": "intermediate",
       "duration": "50-60 minutes",
       "frequency": "2x per week",
@@ -638,14 +638,14 @@
           "sets": 4,
           "reps": "10-12",
           "restSeconds": 75,
-          "notes": "Press with control — shoulders are injury-prone, so focus on form"
+          "notes": "Press with control and stop the set if you feel shoulder pain or pinching"
         },
         {
           "machineId": "cable-bicep-curl",
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60,
-          "notes": "Slow negatives (3 seconds down) create more muscle damage and growth"
+          "notes": "Lower for about 3 seconds while keeping the movement controlled"
         },
         {
           "machineId": "tricep-pushdown",
@@ -658,8 +658,8 @@
       "tips": [
         "Time under tension matters — don't rush through reps just to finish the set",
         "If you can't feel the target muscle working, lower the weight and focus on the mind-muscle connection",
-        "Eat in a slight calorie surplus (200-300 calories above maintenance) to maximize muscle growth",
-        "Sleep 7-9 hours per night — that's when your muscles actually grow"
+        "Consistent meals with enough energy and protein can support training; individual needs vary.",
+        "A consistent sleep routine can support recovery between sessions."
       ]
     },
     {
@@ -731,8 +731,8 @@
       "tips": [
         "Alternate Upper/Lower days with at least one rest day between each session",
         "Example weekly schedule: Monday Upper, Wednesday Lower, Friday Upper, Sunday Lower",
-        "This split allows for higher frequency (hitting each muscle 2x per week) which drives faster progress",
-        "Track your lifts and aim for progressive overload — add weight or reps every 1-2 weeks"
+        "This split schedules each muscle group up to twice per week; reduce the frequency if recovery suffers.",
+        "Track your lifts and increase weight or reps gradually when every set stays controlled."
       ]
     },
     {
@@ -763,7 +763,7 @@
           "sets": 4,
           "reps": "10-12",
           "restSeconds": 90,
-          "notes": "Balance quad work with equal hamstring volume to prevent imbalances"
+          "notes": "Include both quad and hamstring work for a balanced lower-body session"
         },
         {
           "machineId": "leg-extension",
@@ -784,14 +784,14 @@
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60,
-          "notes": "Strengthens outer hips and glutes — important for knee stability"
+          "notes": "Use controlled reps to train the outer hips and glutes"
         },
         {
           "machineId": "hip-adductor",
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60,
-          "notes": "Don't skip this — strong adductors prevent groin strains"
+          "notes": "Use a manageable load to train the inner thighs with control"
         },
         {
           "machineId": "ab-crunch-machine",
@@ -803,15 +803,15 @@
       ],
       "tips": [
         "Warm up with 5-10 minutes of light cardio before hitting the heavy leg work",
-        "Leg DOMS (delayed onset muscle soreness) is real — expect to be sore for 2-3 days after your first few sessions",
+        "Some soreness can occur after a new routine, but soreness is not a measure of effectiveness.",
         "Stay hydrated and get extra carbs on lower days to fuel the big muscle groups",
-        "Stretch your quads, hamstrings, and hip flexors post-workout to aid recovery"
+        "If you stretch after the workout, keep each movement gentle and pain-free."
       ]
     },
     {
       "id": "back-biceps-focus",
       "name": "Back & Biceps Focus",
-      "description": "A dedicated back development workout that targets every angle of your back muscles plus biceps. Building a thick, strong back improves posture, prevents injury, and creates that V-taper look. This routine goes deeper than a standard pull day.",
+      "description": "A focused back and biceps workout that uses several pulling angles. This routine adds more back-specific volume than the standard pull day.",
       "difficulty": "intermediate",
       "duration": "45-55 minutes",
       "frequency": "1-2x per week",
@@ -885,7 +885,7 @@
     {
       "id": "chest-triceps-focus",
       "name": "Chest & Triceps Focus",
-      "description": "A chest specialization workout that hits every angle — upper, middle, lower, and inner chest — plus triceps for complete pushing muscle development. Perfect if you want to build a bigger, more defined chest.",
+      "description": "A chest and triceps workout using several machine angles. Choose only the setups that feel comfortable through a controlled range of motion.",
       "difficulty": "intermediate",
       "duration": "45-55 minutes",
       "frequency": "1-2x per week",
@@ -925,7 +925,7 @@
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60,
-          "notes": "Inner chest — squeeze the pads together and hold for a second"
+          "notes": "Bring the pads together smoothly and hold for a second"
         },
         {
           "machineId": "cable-crossover",
@@ -950,16 +950,16 @@
         }
       ],
       "tips": [
-        "Chest grows best with a mix of heavy compound work and higher rep isolation",
-        "Don't ego lift on chest day — torn pecs happen when form breaks down under heavy weight",
-        "If you feel shoulder pain, reduce the weight and check your form — shoulders should stay retracted",
-        "Triceps make up 2/3 of your arm mass — don't neglect them if you want bigger arms"
+        "Use compound and isolation movements only when both suit your goals and feel comfortable.",
+        "Choose a load you can control, and stop the set if your form breaks down or you feel pain.",
+        "If you feel shoulder pain, stop the set and reassess the load, setup, and form before continuing.",
+        "Keep triceps work controlled because pressing movements have already trained them."
       ]
     },
     {
       "id": "shoulders-arms",
       "name": "Shoulders & Arms",
-      "description": "The ultimate upper body aesthetics workout — big shoulders, peaked biceps, and horseshoe triceps. This routine is pure arm and shoulder volume for people who want to look good in a T-shirt. Function meets form.",
+      "description": "A higher-volume arms and shoulders session for people already comfortable with isolation movements. Reduce the sets if form or recovery declines.",
       "difficulty": "intermediate",
       "duration": "40-50 minutes",
       "frequency": "1-2x per week",
@@ -1021,7 +1021,7 @@
           "sets": 4,
           "reps": "10-12",
           "restSeconds": 60,
-          "notes": "Classic tricep builder — your arms will feel like they're going to explode"
+          "notes": "Use controlled reps and reduce the load if your elbows or wrists feel uncomfortable"
         },
         {
           "machineId": "cable-tricep-extension",
@@ -1032,16 +1032,16 @@
         }
       ],
       "tips": [
-        "Shoulders are complex joints — always warm them up thoroughly before heavy lifting",
+        "Warm up with light, controlled shoulder movements before heavier lifting",
         "If you feel any pinching or clicking in your shoulders, stop immediately and reassess your form",
-        "Biceps and triceps recover quickly — you can train arms 2x per week if you're eating and sleeping well",
-        "Flex your arms between sets (seriously) — the mind-muscle connection helps them grow"
+        "Recovery needs vary; leave enough time for soreness and fatigue to settle before training arms hard again.",
+        "Use slow, controlled reps and pay attention to the target muscles."
       ]
     },
     {
       "id": "athletic-conditioning",
       "name": "Athletic Conditioning",
-      "description": "A high-energy conditioning workout that builds endurance, burns calories, and improves your work capacity. This isn't about lifting heavy — it's about moving well, getting your heart rate up, and building the engine that powers everything else. Perfect for active recovery days.",
+      "description": "A higher-energy conditioning workout that combines steady movement with lighter resistance. The focus is movement quality and endurance rather than maximal strength.",
       "difficulty": "beginner",
       "duration": "35-45 minutes",
       "frequency": "2-3x per week",
@@ -1068,7 +1068,7 @@
           "sets": 2,
           "reps": "3 minutes",
           "restSeconds": 45,
-          "notes": "Keep a steady pace — this burns more calories than most realize"
+          "notes": "Keep a steady pace you can sustain with controlled breathing"
         },
         {
           "machineId": "leg-press",
@@ -1102,7 +1102,7 @@
       "tips": [
         "Keep rest periods short (45-60 seconds) to maintain elevated heart rate",
         "This is about movement quality and endurance, not maximal strength",
-        "Perfect for days between heavy lifting — you'll recover faster by moving, not sitting",
+        "Use it between heavy sessions only if you feel recovered enough for more activity.",
         "Stay hydrated — conditioning work makes you sweat more than heavy lifting"
       ]
     },
@@ -1167,17 +1167,17 @@
         }
       ],
       "tips": [
-        "Rest the full 2-3 minutes between sets — strength requires full ATP recovery",
+        "Take the full 2-3 minutes so you can approach the next set with control.",
         "Use a spotter or safety catches on heavy compound lifts",
-        "Track every single weight and rep — progressive overload is non-negotiable for strength gains",
-        "Don't train to failure on every set — leave 1-2 reps in the tank to avoid CNS fatigue",
-        "Deload every 4-6 weeks (reduce weight by 40-50%) to prevent overtraining and injury"
+        "Track the load and reps so increases stay gradual.",
+        "Avoid training to failure on every set; leaving 1-2 reps in reserve can help keep technique consistent.",
+        "If performance or recovery declines, reduce the load or volume and allow more recovery time."
       ]
     },
     {
       "id": "advanced-ppl-push",
       "name": "Advanced PPL - Push Day",
-      "description": "High-volume advanced push day designed for experienced lifters who can handle serious training stress. This is the most demanding chest, shoulder, and tricep workout in the library. Expect to be completely exhausted by the end. Only attempt this if you've been training consistently for 6+ months.",
+      "description": "A high-volume push day for experienced lifters who already tolerate similar training. Reduce the sets if technique or recovery declines; training history alone does not determine readiness.",
       "difficulty": "advanced",
       "duration": "60-75 minutes",
       "frequency": "1-2x per week",
@@ -1226,7 +1226,7 @@
           "sets": 3,
           "reps": "15-20",
           "restSeconds": 60,
-          "notes": "High rep finisher — chase the pump and feel your chest fill with blood"
+          "notes": "High-rep finisher — use a lighter load you can control"
         },
         {
           "machineId": "shoulder-press",
@@ -1247,7 +1247,7 @@
           "sets": 4,
           "reps": "10-12",
           "restSeconds": 60,
-          "notes": "Triceps are fried from pressing — push through the burn"
+          "notes": "Triceps are already fatigued from pressing — reduce the load to keep the movement controlled"
         },
         {
           "machineId": "cable-tricep-extension",
@@ -1259,16 +1259,16 @@
       ],
       "tips": [
         "This is a 60-75 minute workout — don't attempt this if you're short on time or energy",
-        "Eat a proper meal 1-2 hours before training and bring intra-workout carbs (like Gatorade)",
+        "Follow your usual food and hydration routine rather than trying something new during a demanding session.",
         "If you can't recover from this volume, reduce sets by 20-30% or increase rest days",
-        "Advanced lifters need to eat more — aim for a slight surplus to support this training volume",
-        "Listen to your body — if joints hurt, back off the weight and focus on contraction quality"
+        "Individual nutrition needs vary; ask a qualified professional if you need a personal plan.",
+        "If a joint hurts, stop the set and reassess the load, setup, and form before continuing."
       ]
     },
     {
       "id": "road-to-30kg-curl",
       "name": "Road to 30kg Curl",
-      "description": "A focused program to build progressive bicep strength toward the goal of a 30kg single-arm dumbbell curl. Combines heavy compound pulling, strict bicep isolation, and brachialis work — the three pillars for increasing your maximum curl.",
+      "description": "A focused biceps routine that combines compound pulling, isolation, and gradual load progression. A 30kg single-arm curl is a goal, not an expected outcome.",
       "difficulty": "intermediate",
       "duration": "50-65 min",
       "frequency": "2x per week",
@@ -1288,51 +1288,51 @@
           "sets": 4,
           "reps": "6-8",
           "restSeconds": 120,
-          "notes": "Use supinated grip (palms facing you) — this is a chin-up, the strongest compound bicep exercise. Add weight as you get stronger. Target: unassisted reps with bodyweight before progressing."
+          "notes": "Use a supinated grip (palms facing you). Choose enough assistance to keep every rep controlled, and reduce assistance gradually before considering added weight."
         },
         {
           "machineId": "lat-pulldown-close",
           "sets": 4,
           "reps": "8-10",
           "restSeconds": 90,
-          "notes": "Close supinated grip. Pull to upper chest, squeeze shoulder blades. Your biceps work as a secondary mover here under heavy load — this builds the foundation for heavier curls."
+          "notes": "Use a close supinated grip, pull toward your upper chest, and squeeze your shoulder blades. Choose a load that keeps the movement controlled."
         },
         {
           "machineId": "cable-bicep-curl",
           "sets": 4,
           "reps": "8-12",
           "restSeconds": 90,
-          "notes": "Cable keeps constant tension through the full range. Keep elbows pinned at your sides. Progressive overload rule: once you hit 12 reps on all 4 sets, increase the weight by 2.5kg next session."
+          "notes": "Keep your elbows pinned at your sides through the full range. Once all sets stay controlled at the top of the rep range, use the smallest available weight increase."
         },
         {
           "machineId": "preacher-curl",
           "sets": 3,
           "reps": "10-12",
           "restSeconds": 90,
-          "notes": "The preacher machine eliminates all cheating — you can't swing or use momentum. This is where you build strict bicep strength. Lower slowly (3 seconds down). If you can't control the descent, the weight is too heavy."
+          "notes": "Keep your upper arms supported by the pad and avoid swinging. Lower for about 3 seconds; reduce the load if you cannot control the descent."
         },
         {
           "machineId": "elevated-biceps-curl",
           "sets": 3,
           "reps": "10-12",
           "restSeconds": 75,
-          "notes": "The elevated angle puts your bicep in a stretched position — this is where the most muscle fiber recruitment happens. Squeeze hard at the top and hold for 1 second."
+          "notes": "The elevated angle starts your biceps in a stretched position. Use a manageable load, control the full range, and hold briefly at the top."
         },
         {
           "machineId": "cable-hammer-curl",
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60,
-          "notes": "Neutral grip trains the brachialis — the muscle underneath your bicep. A stronger brachialis directly increases how much weight you can curl. This is your secret weapon for reaching 30kg."
+          "notes": "A neutral grip also trains the brachialis, the muscle underneath your biceps. Keep the movement controlled and progress the load gradually."
         }
       ],
       "tips": [
-        "Progressive overload is everything: track your weights every session. If you lifted 15kg for 3x12 last week, your goal this week is 3x12 at 15kg or 3x10 at 17.5kg",
+        "Track your weights and add load only when the current weight stays controlled across every set.",
         "At the start of each session, do 1-2 warm-up sets at 50% of your working weight before your first exercise",
-        "Never sacrifice form for ego — a strict 20kg curl builds more strength than a sloppy 25kg swing",
-        "Rest and nutrition matter as much as training: biceps grow during recovery, not during the workout. Get 7-9 hours of sleep and 1.6-2g of protein per kg of bodyweight",
-        "Test your single-arm dumbbell curl max every 6-8 weeks to track your progress toward the 30kg goal",
-        "When you can curl 25kg for 3 sets of 8 strict reps, you are within reach of your 30kg goal — focus on Phase 3 strength work at that point"
+        "Choose the heaviest load you can control without swinging.",
+        "Recovery needs vary; consistent sleep and adequate nutrition support training. Ask a qualified professional for individual nutrition advice.",
+        "If you test a single-arm dumbbell curl maximum, use a safe setup, controlled form, and enough recovery between attempts.",
+        "Treat 25kg for controlled sets as a checkpoint, not a guarantee of a 30kg single."
       ]
     }
   ]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title description">
+  <title id="title">Machine image unavailable</title>
+  <desc id="description">A simple placeholder illustration of exercise equipment.</desc>
+  <rect width="800" height="600" fill="#e5e7eb"/>
+  <g fill="none" stroke="#64748b" stroke-linecap="round" stroke-linejoin="round" stroke-width="24">
+    <path d="M250 430V190h300v240M250 250h300M320 250v180M480 250v180"/>
+    <path d="M180 430h440M360 330h80M400 290v80"/>
+  </g>
+</svg>

@@ -5,6 +5,7 @@ import YouTubeEmbed from '../components/YouTubeEmbed';
 import StepList from '../components/StepList';
 import MuscleDiagram from '../components/MuscleDiagram';
 import { useWorkoutBuilder } from '../context/WorkoutBuilderContext';
+import { handleImageError } from '../utils/imageFallback';
 import './MachineDetailPage.css';
 
 function MachineDetailPage() {
@@ -34,6 +35,7 @@ function MachineDetailPage() {
             src={machine.thumbnail}
             alt={machine.name}
             className="detail-page__hero-img"
+            onError={handleImageError}
           />
           <div className="detail-page__hero-overlay" />
         </div>

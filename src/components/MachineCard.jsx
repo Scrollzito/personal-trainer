@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import DifficultyBadge from './DifficultyBadge';
+import { handleImageError } from '../utils/imageFallback';
 import './MachineCard.css';
 
 function MachineCard({ machine }) {
@@ -10,6 +11,7 @@ function MachineCard({ machine }) {
           src={machine.thumbnail}
           alt={machine.name}
           loading="lazy"
+          onError={handleImageError}
         />
         <div className="machine-card__overlay" />
         <div className="machine-card__footer">

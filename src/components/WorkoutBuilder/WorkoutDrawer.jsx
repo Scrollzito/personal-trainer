@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useWorkoutBuilder } from '../../context/WorkoutBuilderContext';
 import machineData from '../../data/machines.json';
+import { createWorkoutSession, loadWorkoutSession, saveWorkoutSession } from '../../utils/localStorage';
 import ExportPDFButton from './ExportPDFButton';
 import SavedPlansList from './SavedPlansList';
 import './WorkoutDrawer.css';
@@ -11,6 +13,7 @@ const clampInteger = (value, min, max, fallback) => {
 };
 
 export default function WorkoutDrawer() {
+  const navigate = useNavigate();
   const { currentPlan, removeExercise, savePlan, setCurrentPlan, updateExercise, reorderExercises, clearPlan } = useWorkoutBuilder();
   const [isExpanded, setIsExpanded] = useState(false);
   const [showSavedPlans, setShowSavedPlans] = useState(false);
@@ -54,6 +57,34 @@ export default function WorkoutDrawer() {
         plan: currentPlan
       });
     }
+  };
+
+  const handleStartWorkout = () => {
+    const existingSession = loadWorkoutSession();
+
+    if (existingSession && JSON.stringify(existingSession.plan) === JSON.stringify(currentPlan)) {
+      navigate('/workout-session');
+      return;
+    }
+
+    if (existingSession && !window.confirm(
+      'A different workout is already in progress. Choose OK to replace it, or Cancel to resume it.'
+    )) {
+      navigate('/workout-session');
+      return;
+    }
+
+    const session = createWorkoutSession(currentPlan);
+    if (!session || !saveWorkoutSession(session)) {
+      setFeedback({
+        type: 'error',
+        message: 'Could not start this workout because progress could not be saved on this device.',
+        plan: currentPlan
+      });
+      return;
+    }
+
+    navigate('/workout-session');
   };
 
   return (
@@ -216,6 +247,14 @@ export default function WorkoutDrawer() {
 
           {/* Action Buttons */}
           <div className="workout-drawer__actions">
+            <button
+              type="button"
+              className="workout-drawer__btn workout-drawer__btn--start"
+              onClick={handleStartWorkout}
+              disabled={currentPlan.exercises.length === 0}
+            >
+              Start Workout
+            </button>
             <button
               type="button"
               className="workout-drawer__btn workout-drawer__btn--save"
